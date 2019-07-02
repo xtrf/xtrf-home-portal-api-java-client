@@ -63,7 +63,7 @@ public class TasksClassicApi {
     /**
      * Build call for addFile
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -135,7 +135,7 @@ public class TasksClassicApi {
      * Adds files to a given task.
      * Adds files to a given task.
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void addFile(FileDTO body, String taskId) throws ApiException {
@@ -146,7 +146,7 @@ public class TasksClassicApi {
      * Adds files to a given task.
      * Adds files to a given task.
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -159,7 +159,7 @@ public class TasksClassicApi {
      * Adds files to a given task. (asynchronously)
      * Adds files to a given task.
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -191,7 +191,7 @@ public class TasksClassicApi {
     }
     /**
      * Build call for delete5
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param removeFilesFromDisc remove files from disc (optional)
      * @param removeExternalProjects remove external projects (ie. from CAT Tool) (optional)
      * @param forceJobsRemoval force jobs removal (ie. started or ready) (optional)
@@ -267,7 +267,7 @@ public class TasksClassicApi {
     /**
      * Removes a task.
      * Removes a task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param removeFilesFromDisc remove files from disc (optional)
      * @param removeExternalProjects remove external projects (ie. from CAT Tool) (optional)
      * @param forceJobsRemoval force jobs removal (ie. started or ready) (optional)
@@ -280,7 +280,7 @@ public class TasksClassicApi {
     /**
      * Removes a task.
      * Removes a task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param removeFilesFromDisc remove files from disc (optional)
      * @param removeExternalProjects remove external projects (ie. from CAT Tool) (optional)
      * @param forceJobsRemoval force jobs removal (ie. started or ready) (optional)
@@ -295,7 +295,7 @@ public class TasksClassicApi {
     /**
      * Removes a task. (asynchronously)
      * Removes a task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param removeFilesFromDisc remove files from disc (optional)
      * @param removeExternalProjects remove external projects (ie. from CAT Tool) (optional)
      * @param forceJobsRemoval force jobs removal (ie. started or ready) (optional)
@@ -330,7 +330,7 @@ public class TasksClassicApi {
     }
     /**
      * Build call for getContacts1
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -397,7 +397,7 @@ public class TasksClassicApi {
     /**
      * Returns contacts of a given task.
      * Returns contacts of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -409,7 +409,7 @@ public class TasksClassicApi {
     /**
      * Returns contacts of a given task.
      * Returns contacts of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;ContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -422,7 +422,7 @@ public class TasksClassicApi {
     /**
      * Returns contacts of a given task. (asynchronously)
      * Returns contacts of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -455,7 +455,7 @@ public class TasksClassicApi {
     }
     /**
      * Build call for getCustomFields7
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -522,7 +522,7 @@ public class TasksClassicApi {
     /**
      * Returns custom fields of a given task.
      * Returns custom fields of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -534,7 +534,7 @@ public class TasksClassicApi {
     /**
      * Returns custom fields of a given task.
      * Returns custom fields of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -547,7 +547,7 @@ public class TasksClassicApi {
     /**
      * Returns custom fields of a given task. (asynchronously)
      * Returns custom fields of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -580,7 +580,7 @@ public class TasksClassicApi {
     }
     /**
      * Build call for getDates3
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -647,7 +647,7 @@ public class TasksClassicApi {
     /**
      * Returns dates of a given task.
      * Returns dates of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ProjectDatesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -659,7 +659,7 @@ public class TasksClassicApi {
     /**
      * Returns dates of a given task.
      * Returns dates of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;ProjectDatesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -672,7 +672,7 @@ public class TasksClassicApi {
     /**
      * Returns dates of a given task. (asynchronously)
      * Returns dates of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -705,7 +705,7 @@ public class TasksClassicApi {
     }
     /**
      * Build call for getInstructions1
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -772,7 +772,7 @@ public class TasksClassicApi {
     /**
      * Returns instructions of a given task.
      * Returns instructions of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return InstructionsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -784,7 +784,7 @@ public class TasksClassicApi {
     /**
      * Returns instructions of a given task.
      * Returns instructions of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;InstructionsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -797,7 +797,7 @@ public class TasksClassicApi {
     /**
      * Returns instructions of a given task. (asynchronously)
      * Returns instructions of a given task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -830,7 +830,7 @@ public class TasksClassicApi {
     }
     /**
      * Build call for getProgress
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -896,8 +896,8 @@ public class TasksClassicApi {
 
     /**
      * Returns progress of a given task.
-     * Returns progress of a given task. Progress contains information about task&#x27;s status (ie. opened or ready) and current phase (ie. translation). Workflow phase is defined as the first one which contains not ready jobs (ie. opened or started). When no such job exists then workflow phase is not included.
-     * @param taskId task&#x27;s internal identifier (required)
+     * Returns progress of a given task. Progress contains information about tasks status (ie. opened or ready) and current phase (ie. translation). Workflow phase is defined as the first one which contains not ready jobs (ie. opened or started). When no such job exists then workflow phase is not included.
+     * @param taskId tasks internal identifier (required)
      * @return TaskProgressDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -908,8 +908,8 @@ public class TasksClassicApi {
 
     /**
      * Returns progress of a given task.
-     * Returns progress of a given task. Progress contains information about task&#x27;s status (ie. opened or ready) and current phase (ie. translation). Workflow phase is defined as the first one which contains not ready jobs (ie. opened or started). When no such job exists then workflow phase is not included.
-     * @param taskId task&#x27;s internal identifier (required)
+     * Returns progress of a given task. Progress contains information about tasks status (ie. opened or ready) and current phase (ie. translation). Workflow phase is defined as the first one which contains not ready jobs (ie. opened or started). When no such job exists then workflow phase is not included.
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;TaskProgressDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -921,8 +921,8 @@ public class TasksClassicApi {
 
     /**
      * Returns progress of a given task. (asynchronously)
-     * Returns progress of a given task. Progress contains information about task&#x27;s status (ie. opened or ready) and current phase (ie. translation). Workflow phase is defined as the first one which contains not ready jobs (ie. opened or started). When no such job exists then workflow phase is not included.
-     * @param taskId task&#x27;s internal identifier (required)
+     * Returns progress of a given task. Progress contains information about tasks status (ie. opened or ready) and current phase (ie. translation). Workflow phase is defined as the first one which contains not ready jobs (ie. opened or started). When no such job exists then workflow phase is not included.
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -955,7 +955,7 @@ public class TasksClassicApi {
     }
     /**
      * Build call for start1
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1022,7 +1022,7 @@ public class TasksClassicApi {
     /**
      * Starts a task.
      * Starts a task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void start1(String taskId) throws ApiException {
@@ -1032,7 +1032,7 @@ public class TasksClassicApi {
     /**
      * Starts a task.
      * Starts a task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1044,7 +1044,7 @@ public class TasksClassicApi {
     /**
      * Starts a task. (asynchronously)
      * Starts a task.
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1077,7 +1077,7 @@ public class TasksClassicApi {
     /**
      * Build call for updateClientTaskPONumber
      * @param body Updated Client Task PO Number of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1149,7 +1149,7 @@ public class TasksClassicApi {
      * Updates Client Task PO Number of a given task.
      * Updates Client Task PO Number of a given task.
      * @param body Updated Client Task PO Number of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return StringDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1162,7 +1162,7 @@ public class TasksClassicApi {
      * Updates Client Task PO Number of a given task.
      * Updates Client Task PO Number of a given task.
      * @param body Updated Client Task PO Number of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;StringDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1176,7 +1176,7 @@ public class TasksClassicApi {
      * Updates Client Task PO Number of a given task. (asynchronously)
      * Updates Client Task PO Number of a given task.
      * @param body Updated Client Task PO Number of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1210,7 +1210,7 @@ public class TasksClassicApi {
     /**
      * Build call for updateContacts
      * @param body Updated contacts of given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1282,7 +1282,7 @@ public class TasksClassicApi {
      * Updates contacts of a given task.
      * Updates contacts of a given task.
      * @param body Updated contacts of given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1295,7 +1295,7 @@ public class TasksClassicApi {
      * Updates contacts of a given task.
      * Updates contacts of a given task.
      * @param body Updated contacts of given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;ContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1309,7 +1309,7 @@ public class TasksClassicApi {
      * Updates contacts of a given task. (asynchronously)
      * Updates contacts of a given task.
      * @param body Updated contacts of given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1343,7 +1343,7 @@ public class TasksClassicApi {
     /**
      * Build call for updateCustomFields
      * @param body Updated custom fields (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1415,7 +1415,7 @@ public class TasksClassicApi {
      * Updates custom fields of a given task.
      * Updates custom fields of a given task.
      * @param body Updated custom fields (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1428,7 +1428,7 @@ public class TasksClassicApi {
      * Updates custom fields of a given task.
      * Updates custom fields of a given task.
      * @param body Updated custom fields (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1442,7 +1442,7 @@ public class TasksClassicApi {
      * Updates custom fields of a given task. (asynchronously)
      * Updates custom fields of a given task.
      * @param body Updated custom fields (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1476,7 +1476,7 @@ public class TasksClassicApi {
     /**
      * Build call for updateDates
      * @param body Updated dates of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1548,7 +1548,7 @@ public class TasksClassicApi {
      * Updates dates of a given task.
      * Updates dates of a given task.
      * @param body Updated dates of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ProjectDatesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1561,7 +1561,7 @@ public class TasksClassicApi {
      * Updates dates of a given task.
      * Updates dates of a given task.
      * @param body Updated dates of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;ProjectDatesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1575,7 +1575,7 @@ public class TasksClassicApi {
      * Updates dates of a given task. (asynchronously)
      * Updates dates of a given task.
      * @param body Updated dates of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1609,7 +1609,7 @@ public class TasksClassicApi {
     /**
      * Build call for updateInstructions
      * @param body Updated instructions of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1681,7 +1681,7 @@ public class TasksClassicApi {
      * Updates instructions of a given task.
      * Updates instructions of a given task.
      * @param body Updated instructions of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return InstructionsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1694,7 +1694,7 @@ public class TasksClassicApi {
      * Updates instructions of a given task.
      * Updates instructions of a given task.
      * @param body Updated instructions of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;InstructionsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1708,7 +1708,7 @@ public class TasksClassicApi {
      * Updates instructions of a given task. (asynchronously)
      * Updates instructions of a given task.
      * @param body Updated instructions of a given task. (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1742,7 +1742,7 @@ public class TasksClassicApi {
     /**
      * Build call for updateName
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1814,7 +1814,7 @@ public class TasksClassicApi {
      * Updates name of a given task.
      * Updates name of a given task.
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return StringDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1827,7 +1827,7 @@ public class TasksClassicApi {
      * Updates name of a given task.
      * Updates name of a given task.
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @return ApiResponse&lt;StringDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1841,7 +1841,7 @@ public class TasksClassicApi {
      * Updates name of a given task. (asynchronously)
      * Updates name of a given task.
      * @param body  (required)
-     * @param taskId task&#x27;s internal identifier (required)
+     * @param taskId tasks internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

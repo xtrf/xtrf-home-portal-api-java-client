@@ -25,7 +25,7 @@ import java.io.IOException;
  * ActiveSubscriptionDTO
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class ActiveSubscriptionDTO {
   @SerializedName("url")
   private String url = null;
@@ -84,7 +84,7 @@ public class ActiveSubscriptionDTO {
   }
 
    /**
-   * filter expression in the form &#x27;attribute&#x3D;value&#x27;
+   * filter expression in the form attribute&#x3D;value
    * @return filter
   **/
   @Schema(description = "filter expression in the form 'attribute=value'")

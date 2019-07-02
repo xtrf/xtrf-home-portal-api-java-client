@@ -28,7 +28,7 @@ import java.util.List;
  * ContactDTO
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class ContactDTO {
   @SerializedName("phones")
   private List<String> phones = null;
@@ -59,7 +59,7 @@ public class ContactDTO {
   }
 
    /**
-   * phones&#x27; numbers
+   * phones numbers
    * @return phones
   **/
   @Schema(description = "phones' numbers")

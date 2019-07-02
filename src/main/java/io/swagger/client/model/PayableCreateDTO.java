@@ -28,7 +28,7 @@ import java.math.BigDecimal;
  * PayableCreateDTO
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class PayableCreateDTO {
   @SerializedName("id")
   private Long id = null;

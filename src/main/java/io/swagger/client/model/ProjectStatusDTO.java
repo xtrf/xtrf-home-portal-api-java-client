@@ -25,7 +25,7 @@ import java.io.IOException;
  * ProjectStatusDTO
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class ProjectStatusDTO {
   @SerializedName("status")
   private String status = null;

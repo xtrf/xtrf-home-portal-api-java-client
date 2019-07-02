@@ -26,7 +26,7 @@ import java.io.IOException;
  * UploadedFileInfo
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class UploadedFileInfo {
   @SerializedName("file")
   private File file = null;
@@ -57,7 +57,20 @@ public class UploadedFileInfo {
     return this;
   }
 
-   /**
+  public boolean equals(Object object) {
+    if (this == object) return true;
+    if (object == null || getClass() != object.getClass()) return false;
+    if (!super.equals(object)) return false;
+    UploadedFileInfo that = (UploadedFileInfo) object;
+    return java.util.Objects.equals(file, that.file) &&
+            java.util.Objects.equals(fileName, that.fileName);
+  }
+
+  public int hashCode() {
+    return Objects.hash(super.hashCode(), file, fileName);
+  }
+
+  /**
    * Get fileName
    * @return fileName
   **/
@@ -68,25 +81,6 @@ public class UploadedFileInfo {
 
   public void setFileName(String fileName) {
     this.fileName = fileName;
-  }
-
-
-  @Override
-  public boolean equals(java.lang.Object o) {
-    if (this == o) {
-      return true;
-    }
-    if (o == null || getClass() != o.getClass()) {
-      return false;
-    }
-    UploadedFileInfo uploadedFileInfo = (UploadedFileInfo) o;
-    return Arrays.equals(this.file, uploadedFileInfo.file) &&
-        Objects.equals(this.fileName, uploadedFileInfo.fileName);
-  }
-
-  @Override
-  public int hashCode() {
-    return Objects.hash(Arrays.hashCode(file), fileName);
   }
 
 

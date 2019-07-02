@@ -29,7 +29,7 @@ import java.util.List;
  * CustomerPerson
  */
 @Schema(description = "CustomerPerson")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class CustomerPersonDTO {
   @SerializedName("id")
   private Long id = null;

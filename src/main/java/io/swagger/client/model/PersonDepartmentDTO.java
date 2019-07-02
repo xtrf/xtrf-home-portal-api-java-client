@@ -22,10 +22,10 @@ import com.google.gson.stream.JsonWriter;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.io.IOException;
 /**
- * person&#x27;s department (ie. human resources)
+ * persons department (ie. human resources)
  */
 @Schema(description = "person's department (ie. human resources)")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class PersonDepartmentDTO {
   @SerializedName("id")
   private Long id = null;
@@ -66,7 +66,7 @@ public class PersonDepartmentDTO {
   }
 
    /**
-   * localised name (formatted in the current user&#x27;s locale)
+   * localised name (formatted in the current users locale)
    * @return name
   **/
   @Schema(description = "localised name (formatted in the current user's locale)")

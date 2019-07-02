@@ -189,7 +189,7 @@ public class ClientInvoicesApi {
     /**
      * Build call for createPayment
      * @param body New payment. (required)
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -261,7 +261,7 @@ public class ClientInvoicesApi {
      * Adds a new payment to the client invoice. The invoice payment status (Not Paid, Partially Paid, Fully Paid) is automatically recalculated.
      * Adds a new payment to the client invoice. The invoice payment status (Not Paid, Partially Paid, Fully Paid) is automatically recalculated.
      * @param body New payment. (required)
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void createPayment(PaymentDTO body, Long invoiceId) throws ApiException {
@@ -272,7 +272,7 @@ public class ClientInvoicesApi {
      * Adds a new payment to the client invoice. The invoice payment status (Not Paid, Partially Paid, Fully Paid) is automatically recalculated.
      * Adds a new payment to the client invoice. The invoice payment status (Not Paid, Partially Paid, Fully Paid) is automatically recalculated.
      * @param body New payment. (required)
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -285,7 +285,7 @@ public class ClientInvoicesApi {
      * Adds a new payment to the client invoice. The invoice payment status (Not Paid, Partially Paid, Fully Paid) is automatically recalculated. (asynchronously)
      * Adds a new payment to the client invoice. The invoice payment status (Not Paid, Partially Paid, Fully Paid) is automatically recalculated.
      * @param body New payment. (required)
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -317,7 +317,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for delete
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -384,7 +384,7 @@ public class ClientInvoicesApi {
     /**
      * Removes a client invoice.
      * Removes a client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete(Long invoiceId) throws ApiException {
@@ -394,7 +394,7 @@ public class ClientInvoicesApi {
     /**
      * Removes a client invoice.
      * Removes a client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -406,7 +406,7 @@ public class ClientInvoicesApi {
     /**
      * Removes a client invoice. (asynchronously)
      * Removes a client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -438,7 +438,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for delete_0
-     * @param paymentId customer payment&#x27;s internal identifier (required)
+     * @param paymentId customer payments internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -505,7 +505,7 @@ public class ClientInvoicesApi {
     /**
      * Removes a customer payment.
      * Removes a customer payment.
-     * @param paymentId customer payment&#x27;s internal identifier (required)
+     * @param paymentId customer payments internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete_0(Long paymentId) throws ApiException {
@@ -515,7 +515,7 @@ public class ClientInvoicesApi {
     /**
      * Removes a customer payment.
      * Removes a customer payment.
-     * @param paymentId customer payment&#x27;s internal identifier (required)
+     * @param paymentId customer payments internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -527,7 +527,7 @@ public class ClientInvoicesApi {
     /**
      * Removes a customer payment. (asynchronously)
      * Removes a customer payment.
-     * @param paymentId customer payment&#x27;s internal identifier (required)
+     * @param paymentId customer payments internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -623,8 +623,8 @@ public class ClientInvoicesApi {
     }
 
     /**
-     * Generates client invoices&#x27; documents.
-     * Generates client invoices&#x27; documents.
+     * Generates client invoices documents.
+     * Generates client invoices documents.
      * @param body Generated client invoices documents. (required)
      * @return UrlResultDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -635,8 +635,8 @@ public class ClientInvoicesApi {
     }
 
     /**
-     * Generates client invoices&#x27; documents.
-     * Generates client invoices&#x27; documents.
+     * Generates client invoices documents.
+     * Generates client invoices documents.
      * @param body Generated client invoices documents. (required)
      * @return ApiResponse&lt;UrlResultDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -648,8 +648,8 @@ public class ClientInvoicesApi {
     }
 
     /**
-     * Generates client invoices&#x27; documents. (asynchronously)
-     * Generates client invoices&#x27; documents.
+     * Generates client invoices documents. (asynchronously)
+     * Generates client invoices documents.
      * @param body Generated client invoices documents. (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -683,7 +683,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for duplicate
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -750,7 +750,7 @@ public class ClientInvoicesApi {
     /**
      * Duplicate client invoice.
      * Duplicate client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return CustomerInvoiceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -762,7 +762,7 @@ public class ClientInvoicesApi {
     /**
      * Duplicate client invoice.
      * Duplicate client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;CustomerInvoiceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -775,7 +775,7 @@ public class ClientInvoicesApi {
     /**
      * Duplicate client invoice. (asynchronously)
      * Duplicate client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -808,7 +808,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for duplicateAsProForma
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -875,7 +875,7 @@ public class ClientInvoicesApi {
     /**
      * Duplicate client invoice as pro forma.
      * Duplicate client invoice as pro forma.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return CustomerInvoiceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -887,7 +887,7 @@ public class ClientInvoicesApi {
     /**
      * Duplicate client invoice as pro forma.
      * Duplicate client invoice as pro forma.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;CustomerInvoiceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -900,7 +900,7 @@ public class ClientInvoicesApi {
     /**
      * Duplicate client invoice as pro forma. (asynchronously)
      * Duplicate client invoice as pro forma.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1117,8 +1117,8 @@ public class ClientInvoicesApi {
     }
 
     /**
-     * Returns client invoices&#x27; internal identifiers.
-     * Returns client invoices&#x27; internal identifiers.
+     * Returns client invoices internal identifiers.
+     * Returns client invoices internal identifiers.
      * @param updatedSince only client invoices modified since this timestamp (optional)
      * @return List&lt;Integer&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1129,8 +1129,8 @@ public class ClientInvoicesApi {
     }
 
     /**
-     * Returns client invoices&#x27; internal identifiers.
-     * Returns client invoices&#x27; internal identifiers.
+     * Returns client invoices internal identifiers.
+     * Returns client invoices internal identifiers.
      * @param updatedSince only client invoices modified since this timestamp (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1142,8 +1142,8 @@ public class ClientInvoicesApi {
     }
 
     /**
-     * Returns client invoices&#x27; internal identifiers. (asynchronously)
-     * Returns client invoices&#x27; internal identifiers.
+     * Returns client invoices internal identifiers. (asynchronously)
+     * Returns client invoices internal identifiers.
      * @param updatedSince only client invoices modified since this timestamp (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -1177,7 +1177,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for getById
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
@@ -1247,7 +1247,7 @@ public class ClientInvoicesApi {
     /**
      * Returns client invoice details.
      * Returns client invoice details.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @return CustomerInvoiceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1260,7 +1260,7 @@ public class ClientInvoicesApi {
     /**
      * Returns client invoice details.
      * Returns client invoice details.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @return ApiResponse&lt;CustomerInvoiceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1274,7 +1274,7 @@ public class ClientInvoicesApi {
     /**
      * Returns client invoice details. (asynchronously)
      * Returns client invoice details.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -1308,7 +1308,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for getDates
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1375,7 +1375,7 @@ public class ClientInvoicesApi {
     /**
      * Returns dates of a given client invoice.
      * Returns dates of a given client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return CustomerInvoiceDatesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1387,7 +1387,7 @@ public class ClientInvoicesApi {
     /**
      * Returns dates of a given client invoice.
      * Returns dates of a given client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;CustomerInvoiceDatesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1400,7 +1400,7 @@ public class ClientInvoicesApi {
     /**
      * Returns dates of a given client invoice. (asynchronously)
      * Returns dates of a given client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1433,7 +1433,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for getDocument
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1500,7 +1500,7 @@ public class ClientInvoicesApi {
     /**
      * Generates client invoice document (PDF).
      * Generates client invoice document (PDF).
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return UrlResultDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1512,7 +1512,7 @@ public class ClientInvoicesApi {
     /**
      * Generates client invoice document (PDF).
      * Generates client invoice document (PDF).
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;UrlResultDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1525,7 +1525,7 @@ public class ClientInvoicesApi {
     /**
      * Generates client invoice document (PDF). (asynchronously)
      * Generates client invoice document (PDF).
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1558,7 +1558,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for getPaymentTerms
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1625,7 +1625,7 @@ public class ClientInvoicesApi {
     /**
      * Returns payment terms of a given client invoice.
      * Returns payment terms of a given client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return PaymentTermsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1637,7 +1637,7 @@ public class ClientInvoicesApi {
     /**
      * Returns payment terms of a given client invoice.
      * Returns payment terms of a given client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;PaymentTermsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1650,7 +1650,7 @@ public class ClientInvoicesApi {
     /**
      * Returns payment terms of a given client invoice. (asynchronously)
      * Returns payment terms of a given client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1683,7 +1683,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for getPayments
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1750,7 +1750,7 @@ public class ClientInvoicesApi {
     /**
      * Returns all payments for the client invoice.
      * Returns all payments for the client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return List&lt;PaymentDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1762,7 +1762,7 @@ public class ClientInvoicesApi {
     /**
      * Returns all payments for the client invoice.
      * Returns all payments for the client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;List&lt;PaymentDTO&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1775,7 +1775,7 @@ public class ClientInvoicesApi {
     /**
      * Returns all payments for the client invoice. (asynchronously)
      * Returns all payments for the client invoice.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1808,7 +1808,7 @@ public class ClientInvoicesApi {
     }
     /**
      * Build call for sendReminder
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1875,7 +1875,7 @@ public class ClientInvoicesApi {
     /**
      * Sends reminder.
      * Sends reminder.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void sendReminder(Long invoiceId) throws ApiException {
@@ -1885,7 +1885,7 @@ public class ClientInvoicesApi {
     /**
      * Sends reminder.
      * Sends reminder.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1897,7 +1897,7 @@ public class ClientInvoicesApi {
     /**
      * Sends reminder. (asynchronously)
      * Sends reminder.
-     * @param invoiceId client invoice&#x27;s internal identifier (required)
+     * @param invoiceId client invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

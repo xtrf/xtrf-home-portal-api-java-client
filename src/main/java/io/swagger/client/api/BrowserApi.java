@@ -65,7 +65,7 @@ public class BrowserApi {
 
     /**
      * Build call for browseCSV
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param separator csv field separator (optional)
      * @param additionalOrder  (optional)
      * @param progressListener Progress listener
@@ -135,7 +135,7 @@ public class BrowserApi {
     /**
      * Searches for data (ie. customer, task, etc) and returns it in a CSV form.
      * Searches for data (ie. customer, task, etc) and returns it in a CSV form.
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param separator csv field separator (optional)
      * @param additionalOrder  (optional)
      * @return Object
@@ -149,7 +149,7 @@ public class BrowserApi {
     /**
      * Searches for data (ie. customer, task, etc) and returns it in a CSV form.
      * Searches for data (ie. customer, task, etc) and returns it in a CSV form.
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param separator csv field separator (optional)
      * @param additionalOrder  (optional)
      * @return ApiResponse&lt;Object&gt;
@@ -164,7 +164,7 @@ public class BrowserApi {
     /**
      * Searches for data (ie. customer, task, etc) and returns it in a CSV form. (asynchronously)
      * Searches for data (ie. customer, task, etc) and returns it in a CSV form.
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param separator csv field separator (optional)
      * @param additionalOrder  (optional)
      * @param callback The callback to be executed when the API call finishes
@@ -199,11 +199,11 @@ public class BrowserApi {
     }
     /**
      * Build call for browseJSON
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param page  (optional)
      * @param additionalOrder  (optional)
      * @param useDeferredColumns  (optional)
-     * @param maxRows overrides view&#x27;s default rows limit, supported values 10 to 1000 (optional)
+     * @param maxRows overrides views default rows limit, supported values 10 to 1000 (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -275,11 +275,11 @@ public class BrowserApi {
     /**
      * Searches for data (ie. customer, task, etc) and returns it in a tabular form.
      * Searches for data (ie. customer, task, etc) and returns it in a tabular form.
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param page  (optional)
      * @param additionalOrder  (optional)
      * @param useDeferredColumns  (optional)
-     * @param maxRows overrides view&#x27;s default rows limit, supported values 10 to 1000 (optional)
+     * @param maxRows overrides views default rows limit, supported values 10 to 1000 (optional)
      * @return Object
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -291,11 +291,11 @@ public class BrowserApi {
     /**
      * Searches for data (ie. customer, task, etc) and returns it in a tabular form.
      * Searches for data (ie. customer, task, etc) and returns it in a tabular form.
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param page  (optional)
      * @param additionalOrder  (optional)
      * @param useDeferredColumns  (optional)
-     * @param maxRows overrides view&#x27;s default rows limit, supported values 10 to 1000 (optional)
+     * @param maxRows overrides views default rows limit, supported values 10 to 1000 (optional)
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -308,11 +308,11 @@ public class BrowserApi {
     /**
      * Searches for data (ie. customer, task, etc) and returns it in a tabular form. (asynchronously)
      * Searches for data (ie. customer, task, etc) and returns it in a tabular form.
-     * @param viewId view&#x27;s identifier (optional)
+     * @param viewId views identifier (optional)
      * @param page  (optional)
      * @param additionalOrder  (optional)
      * @param useDeferredColumns  (optional)
-     * @param maxRows overrides view&#x27;s default rows limit, supported values 10 to 1000 (optional)
+     * @param maxRows overrides views default rows limit, supported values 10 to 1000 (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -346,7 +346,7 @@ public class BrowserApi {
     /**
      * Build call for create
      * @param body Created view for given class. (required)
-     * @param className view&#x27;s class name (required)
+     * @param className views class name (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -418,7 +418,7 @@ public class BrowserApi {
      * Creates view for given class.
      * Creates view for given class.
      * @param body Created view for given class. (required)
-     * @param className view&#x27;s class name (required)
+     * @param className views class name (required)
      * @return ViewWithIdDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -431,7 +431,7 @@ public class BrowserApi {
      * Creates view for given class.
      * Creates view for given class.
      * @param body Created view for given class. (required)
-     * @param className view&#x27;s class name (required)
+     * @param className views class name (required)
      * @return ApiResponse&lt;ViewWithIdDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -445,7 +445,7 @@ public class BrowserApi {
      * Creates view for given class. (asynchronously)
      * Creates view for given class.
      * @param body Created view for given class. (required)
-     * @param className view&#x27;s class name (required)
+     * @param className views class name (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -478,7 +478,7 @@ public class BrowserApi {
     }
     /**
      * Build call for delete
-     * @param viewId view&#x27;s internal identifier (required)
+     * @param viewId views internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -545,7 +545,7 @@ public class BrowserApi {
     /**
      * Removes a view.
      * Removes a view. No content is returned upon success (204).
-     * @param viewId view&#x27;s internal identifier (required)
+     * @param viewId views internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete(Long viewId) throws ApiException {
@@ -555,7 +555,7 @@ public class BrowserApi {
     /**
      * Removes a view.
      * Removes a view. No content is returned upon success (204).
-     * @param viewId view&#x27;s internal identifier (required)
+     * @param viewId views internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -567,7 +567,7 @@ public class BrowserApi {
     /**
      * Removes a view. (asynchronously)
      * Removes a view. No content is returned upon success (204).
-     * @param viewId view&#x27;s internal identifier (required)
+     * @param viewId views internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -599,8 +599,8 @@ public class BrowserApi {
     }
     /**
      * Build call for deleteColumn
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -672,8 +672,8 @@ public class BrowserApi {
     /**
      * Deletes a single column from view.
      * Deletes a single column from view.
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @return List&lt;ColumnDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -685,8 +685,8 @@ public class BrowserApi {
     /**
      * Deletes a single column from view.
      * Deletes a single column from view.
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @return ApiResponse&lt;List&lt;ColumnDTO&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -699,8 +699,8 @@ public class BrowserApi {
     /**
      * Deletes a single column from view. (asynchronously)
      * Deletes a single column from view.
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -733,7 +733,7 @@ public class BrowserApi {
     }
     /**
      * Build call for get
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -798,9 +798,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns all view&#x27;s information.
-     * Returns all view&#x27;s information (ie. name, columns, filters, etc).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns all views information.
+     * Returns all views information (ie. name, columns, filters, etc).
+     * @param viewId views identifier (required)
      * @return ViewDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -810,9 +810,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns all view&#x27;s information.
-     * Returns all view&#x27;s information (ie. name, columns, filters, etc).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns all views information.
+     * Returns all views information (ie. name, columns, filters, etc).
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;ViewDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -823,9 +823,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns all view&#x27;s information. (asynchronously)
-     * Returns all view&#x27;s information (ie. name, columns, filters, etc).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns all views information. (asynchronously)
+     * Returns all views information (ie. name, columns, filters, etc).
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -858,8 +858,8 @@ public class BrowserApi {
     }
     /**
      * Build call for getColumnSettings
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -929,10 +929,10 @@ public class BrowserApi {
     }
 
     /**
-     * Returns column&#x27;s specific settings.
-     * Returns column&#x27;s specific settings. For example when column describes money amount we can decide whether it should display currency or not.
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * Returns columns specific settings.
+     * Returns columns specific settings. For example when column describes money amount we can decide whether it should display currency or not.
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @return Object
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -942,10 +942,10 @@ public class BrowserApi {
     }
 
     /**
-     * Returns column&#x27;s specific settings.
-     * Returns column&#x27;s specific settings. For example when column describes money amount we can decide whether it should display currency or not.
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * Returns columns specific settings.
+     * Returns columns specific settings. For example when column describes money amount we can decide whether it should display currency or not.
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -956,10 +956,10 @@ public class BrowserApi {
     }
 
     /**
-     * Returns column&#x27;s specific settings. (asynchronously)
-     * Returns column&#x27;s specific settings. For example when column describes money amount we can decide whether it should display currency or not.
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * Returns columns specific settings. (asynchronously)
+     * Returns columns specific settings. For example when column describes money amount we can decide whether it should display currency or not.
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -992,7 +992,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getColumns
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1059,7 +1059,7 @@ public class BrowserApi {
     /**
      * Returns columns defined in view.
      * Returns columns defined in view.
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @return List&lt;ColumnDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1071,7 +1071,7 @@ public class BrowserApi {
     /**
      * Returns columns defined in view.
      * Returns columns defined in view.
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;List&lt;ColumnDTO&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1084,7 +1084,7 @@ public class BrowserApi {
     /**
      * Returns columns defined in view. (asynchronously)
      * Returns columns defined in view.
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1117,7 +1117,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getCurrentViewDetails
-     * @param className views&#x27; class name (required)
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
@@ -1185,9 +1185,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns current view&#x27;s detailed information, suitable for browser.
-     * Returns current view&#x27;s detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * Returns current views detailed information, suitable for browser.
+     * Returns current views detailed information, suitable for browser.
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @return ViewDetailsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1198,9 +1198,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns current view&#x27;s detailed information, suitable for browser.
-     * Returns current view&#x27;s detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * Returns current views detailed information, suitable for browser.
+     * Returns current views detailed information, suitable for browser.
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @return ApiResponse&lt;ViewDetailsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1212,9 +1212,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns current view&#x27;s detailed information, suitable for browser. (asynchronously)
-     * Returns current view&#x27;s detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * Returns current views detailed information, suitable for browser. (asynchronously)
+     * Returns current views detailed information, suitable for browser.
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -1248,7 +1248,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getFilter
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1313,9 +1313,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s filter.
-     * Returns view&#x27;s filter.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views filter.
+     * Returns views filter.
+     * @param viewId views identifier (required)
      * @return FilterDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1325,9 +1325,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s filter.
-     * Returns view&#x27;s filter.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views filter.
+     * Returns views filter.
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;FilterDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1338,9 +1338,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s filter. (asynchronously)
-     * Returns view&#x27;s filter.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views filter. (asynchronously)
+     * Returns views filter.
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1373,7 +1373,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getLocalSettings
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1438,9 +1438,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s local settings (for current user).
-     * Returns view&#x27;s local settings (for current user).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views local settings (for current user).
+     * Returns views local settings (for current user).
+     * @param viewId views identifier (required)
      * @return LocalSettingsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1450,9 +1450,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s local settings (for current user).
-     * Returns view&#x27;s local settings (for current user).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views local settings (for current user).
+     * Returns views local settings (for current user).
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;LocalSettingsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1463,9 +1463,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s local settings (for current user). (asynchronously)
-     * Returns view&#x27;s local settings (for current user).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views local settings (for current user). (asynchronously)
+     * Returns views local settings (for current user).
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1498,7 +1498,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getOrder
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1563,9 +1563,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s order settings.
-     * Returns view&#x27;s order settings.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views order settings.
+     * Returns views order settings.
+     * @param viewId views identifier (required)
      * @return OrderDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1575,9 +1575,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s order settings.
-     * Returns view&#x27;s order settings.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views order settings.
+     * Returns views order settings.
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;OrderDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1588,9 +1588,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s order settings. (asynchronously)
-     * Returns view&#x27;s order settings.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views order settings. (asynchronously)
+     * Returns views order settings.
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1623,7 +1623,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getPermissions
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1688,9 +1688,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s permissions.
-     * Returns view&#x27;s permissions.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views permissions.
+     * Returns views permissions.
+     * @param viewId views identifier (required)
      * @return PermissionsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1700,9 +1700,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s permissions.
-     * Returns view&#x27;s permissions.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views permissions.
+     * Returns views permissions.
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;PermissionsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1713,9 +1713,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s permissions. (asynchronously)
-     * Returns view&#x27;s permissions.
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views permissions. (asynchronously)
+     * Returns views permissions.
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1748,7 +1748,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getSettings
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1813,9 +1813,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s settings.
-     * Returns view&#x27;s settings (ie. name).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views settings.
+     * Returns views settings (ie. name).
+     * @param viewId views identifier (required)
      * @return SettingsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1825,9 +1825,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s settings.
-     * Returns view&#x27;s settings (ie. name).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views settings.
+     * Returns views settings (ie. name).
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;SettingsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1838,9 +1838,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s settings. (asynchronously)
-     * Returns view&#x27;s settings (ie. name).
-     * @param viewId view&#x27;s identifier (required)
+     * Returns views settings. (asynchronously)
+     * Returns views settings (ie. name).
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1873,7 +1873,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getViewDetails
-     * @param className views&#x27; class name (required)
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @param progressListener Progress listener
@@ -1947,9 +1947,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s detailed information, suitable for browser.
-     * Returns view&#x27;s detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * Returns views detailed information, suitable for browser.
+     * Returns views detailed information, suitable for browser.
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @return ViewDetailsDTO
@@ -1961,9 +1961,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s detailed information, suitable for browser.
-     * Returns view&#x27;s detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * Returns views detailed information, suitable for browser.
+     * Returns views detailed information, suitable for browser.
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @return ApiResponse&lt;ViewDetailsDTO&gt;
@@ -1976,9 +1976,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns view&#x27;s detailed information, suitable for browser. (asynchronously)
-     * Returns view&#x27;s detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * Returns views detailed information, suitable for browser. (asynchronously)
+     * Returns views detailed information, suitable for browser.
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @param callback The callback to be executed when the API call finishes
@@ -2013,7 +2013,7 @@ public class BrowserApi {
     }
     /**
      * Build call for getViewsBrief
-     * @param className views&#x27; class name (required)
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
@@ -2081,9 +2081,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns views&#x27; brief.
-     * Returns views&#x27; brief.
-     * @param className views&#x27; class name (required)
+     * Returns views brief.
+     * Returns views brief.
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @return ViewsBriefDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -2094,9 +2094,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns views&#x27; brief.
-     * Returns views&#x27; brief.
-     * @param className views&#x27; class name (required)
+     * Returns views brief.
+     * Returns views brief.
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @return ApiResponse&lt;ViewsBriefDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -2108,9 +2108,9 @@ public class BrowserApi {
     }
 
     /**
-     * Returns views&#x27; brief. (asynchronously)
-     * Returns views&#x27; brief.
-     * @param className views&#x27; class name (required)
+     * Returns views brief. (asynchronously)
+     * Returns views brief.
+     * @param className views class name (required)
      * @param placeName place name (denotes specific place in system with the table) (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -2144,7 +2144,7 @@ public class BrowserApi {
     }
     /**
      * Build call for selectViewAndGetItsDetails
-     * @param className views&#x27; class name (required)
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeNameDenotesSpecificPlaceInSystemWithTheTable  (optional)
      * @param progressListener Progress listener
@@ -2220,7 +2220,7 @@ public class BrowserApi {
     /**
      * Selects given view as current and returns its detailed information, suitable for browser.
      * Selects given view as current and returns its detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeNameDenotesSpecificPlaceInSystemWithTheTable  (optional)
      * @return ViewDetailsDTO
@@ -2234,7 +2234,7 @@ public class BrowserApi {
     /**
      * Selects given view as current and returns its detailed information, suitable for browser.
      * Selects given view as current and returns its detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeNameDenotesSpecificPlaceInSystemWithTheTable  (optional)
      * @return ApiResponse&lt;ViewDetailsDTO&gt;
@@ -2249,7 +2249,7 @@ public class BrowserApi {
     /**
      * Selects given view as current and returns its detailed information, suitable for browser. (asynchronously)
      * Selects given view as current and returns its detailed information, suitable for browser.
-     * @param className views&#x27; class name (required)
+     * @param className views class name (required)
      * @param viewId  (required)
      * @param placeNameDenotesSpecificPlaceInSystemWithTheTable  (optional)
      * @param callback The callback to be executed when the API call finishes
@@ -2284,8 +2284,8 @@ public class BrowserApi {
     }
     /**
      * Build call for update
-     * @param body Updated all view&#x27;s information. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param body Updated all views information. (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2354,10 +2354,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates all view&#x27;s information.
-     * Updates all view&#x27;s information (ie. name, columns, filters, etc).
-     * @param body Updated all view&#x27;s information. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates all views information.
+     * Updates all views information (ie. name, columns, filters, etc).
+     * @param body Updated all views information. (required)
+     * @param viewId views identifier (required)
      * @return ViewDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2367,10 +2367,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates all view&#x27;s information.
-     * Updates all view&#x27;s information (ie. name, columns, filters, etc).
-     * @param body Updated all view&#x27;s information. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates all views information.
+     * Updates all views information (ie. name, columns, filters, etc).
+     * @param body Updated all views information. (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;ViewDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2381,10 +2381,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates all view&#x27;s information. (asynchronously)
-     * Updates all view&#x27;s information (ie. name, columns, filters, etc).
-     * @param body Updated all view&#x27;s information. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates all views information. (asynchronously)
+     * Updates all views information (ie. name, columns, filters, etc).
+     * @param body Updated all views information. (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2417,9 +2417,9 @@ public class BrowserApi {
     }
     /**
      * Build call for updateColumnSettings
-     * @param body Updated column&#x27;s specific settings. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * @param body Updated columns specific settings. (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2493,11 +2493,11 @@ public class BrowserApi {
     }
 
     /**
-     * Updates column&#x27;s specific settings.
-     * Updates column&#x27;s specific settings. For example when column describes money amount we can decide whether it should display currency or not.
-     * @param body Updated column&#x27;s specific settings. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * Updates columns specific settings.
+     * Updates columns specific settings. For example when column describes money amount we can decide whether it should display currency or not.
+     * @param body Updated columns specific settings. (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @return Object
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2507,11 +2507,11 @@ public class BrowserApi {
     }
 
     /**
-     * Updates column&#x27;s specific settings.
-     * Updates column&#x27;s specific settings. For example when column describes money amount we can decide whether it should display currency or not.
-     * @param body Updated column&#x27;s specific settings. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * Updates columns specific settings.
+     * Updates columns specific settings. For example when column describes money amount we can decide whether it should display currency or not.
+     * @param body Updated columns specific settings. (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2522,11 +2522,11 @@ public class BrowserApi {
     }
 
     /**
-     * Updates column&#x27;s specific settings. (asynchronously)
-     * Updates column&#x27;s specific settings. For example when column describes money amount we can decide whether it should display currency or not.
-     * @param body Updated column&#x27;s specific settings. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param columnName column&#x27;s name (required)
+     * Updates columns specific settings. (asynchronously)
+     * Updates columns specific settings. For example when column describes money amount we can decide whether it should display currency or not.
+     * @param body Updated columns specific settings. (required)
+     * @param viewId views identifier (required)
+     * @param columnName columns name (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2560,7 +2560,7 @@ public class BrowserApi {
     /**
      * Build call for updateColumns
      * @param body Updated columns in view. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2632,7 +2632,7 @@ public class BrowserApi {
      * Updates columns in view.
      * Updates columns in view.
      * @param body Updated columns in view. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @return List&lt;ColumnDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2645,7 +2645,7 @@ public class BrowserApi {
      * Updates columns in view.
      * Updates columns in view.
      * @param body Updated columns in view. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;List&lt;ColumnDTO&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2659,7 +2659,7 @@ public class BrowserApi {
      * Updates columns in view. (asynchronously)
      * Updates columns in view.
      * @param body Updated columns in view. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2692,8 +2692,8 @@ public class BrowserApi {
     }
     /**
      * Build call for updateFilter
-     * @param body Updated view&#x27;s filter. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param body Updated views filter. (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2762,10 +2762,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s filter.
-     * Updates view&#x27;s filter.
-     * @param body Updated view&#x27;s filter. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views filter.
+     * Updates views filter.
+     * @param body Updated views filter. (required)
+     * @param viewId views identifier (required)
      * @return FilterDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2775,10 +2775,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s filter.
-     * Updates view&#x27;s filter.
-     * @param body Updated view&#x27;s filter. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views filter.
+     * Updates views filter.
+     * @param body Updated views filter. (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;FilterDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2789,10 +2789,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s filter. (asynchronously)
-     * Updates view&#x27;s filter.
-     * @param body Updated view&#x27;s filter. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views filter. (asynchronously)
+     * Updates views filter.
+     * @param body Updated views filter. (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2825,9 +2825,9 @@ public class BrowserApi {
     }
     /**
      * Build call for updateFilterProperty
-     * @param body Updated view&#x27;s filter property. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param filterProperty view&#x27;s filter property name (required)
+     * @param body Updated views filter property. (required)
+     * @param viewId views identifier (required)
+     * @param filterProperty views filter property name (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2901,11 +2901,11 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s filter property.
-     * Updates view&#x27;s filter property.
-     * @param body Updated view&#x27;s filter property. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param filterProperty view&#x27;s filter property name (required)
+     * Updates views filter property.
+     * Updates views filter property.
+     * @param body Updated views filter property. (required)
+     * @param viewId views identifier (required)
+     * @param filterProperty views filter property name (required)
      * @return Object
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2915,11 +2915,11 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s filter property.
-     * Updates view&#x27;s filter property.
-     * @param body Updated view&#x27;s filter property. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param filterProperty view&#x27;s filter property name (required)
+     * Updates views filter property.
+     * Updates views filter property.
+     * @param body Updated views filter property. (required)
+     * @param viewId views identifier (required)
+     * @param filterProperty views filter property name (required)
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2930,11 +2930,11 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s filter property. (asynchronously)
-     * Updates view&#x27;s filter property.
-     * @param body Updated view&#x27;s filter property. (required)
-     * @param viewId view&#x27;s identifier (required)
-     * @param filterProperty view&#x27;s filter property name (required)
+     * Updates views filter property. (asynchronously)
+     * Updates views filter property.
+     * @param body Updated views filter property. (required)
+     * @param viewId views identifier (required)
+     * @param filterProperty views filter property name (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2967,8 +2967,8 @@ public class BrowserApi {
     }
     /**
      * Build call for updateLocalSettings
-     * @param body Updated view&#x27;s local settings (for current user). (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param body Updated views local settings (for current user). (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3037,10 +3037,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s local settings (for current user).
-     * Updates view&#x27;s local settings (for current user).
-     * @param body Updated view&#x27;s local settings (for current user). (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views local settings (for current user).
+     * Updates views local settings (for current user).
+     * @param body Updated views local settings (for current user). (required)
+     * @param viewId views identifier (required)
      * @return LocalSettingsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3050,10 +3050,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s local settings (for current user).
-     * Updates view&#x27;s local settings (for current user).
-     * @param body Updated view&#x27;s local settings (for current user). (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views local settings (for current user).
+     * Updates views local settings (for current user).
+     * @param body Updated views local settings (for current user). (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;LocalSettingsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3064,10 +3064,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s local settings (for current user). (asynchronously)
-     * Updates view&#x27;s local settings (for current user).
-     * @param body Updated view&#x27;s local settings (for current user). (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views local settings (for current user). (asynchronously)
+     * Updates views local settings (for current user).
+     * @param body Updated views local settings (for current user). (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3100,8 +3100,8 @@ public class BrowserApi {
     }
     /**
      * Build call for updateOrder
-     * @param body Updated view&#x27;s order settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param body Updated views order settings. (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3170,10 +3170,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s order settings.
-     * Updates view&#x27;s order settings.
-     * @param body Updated view&#x27;s order settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views order settings.
+     * Updates views order settings.
+     * @param body Updated views order settings. (required)
+     * @param viewId views identifier (required)
      * @return OrderDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3183,10 +3183,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s order settings.
-     * Updates view&#x27;s order settings.
-     * @param body Updated view&#x27;s order settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views order settings.
+     * Updates views order settings.
+     * @param body Updated views order settings. (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;OrderDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3197,10 +3197,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s order settings. (asynchronously)
-     * Updates view&#x27;s order settings.
-     * @param body Updated view&#x27;s order settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views order settings. (asynchronously)
+     * Updates views order settings.
+     * @param body Updated views order settings. (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3233,8 +3233,8 @@ public class BrowserApi {
     }
     /**
      * Build call for updatePermissions
-     * @param body Updated view&#x27;s permissions. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param body Updated views permissions. (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3303,10 +3303,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s permissions.
-     * Updates view&#x27;s permissions.
-     * @param body Updated view&#x27;s permissions. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views permissions.
+     * Updates views permissions.
+     * @param body Updated views permissions. (required)
+     * @param viewId views identifier (required)
      * @return PermissionsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3316,10 +3316,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s permissions.
-     * Updates view&#x27;s permissions.
-     * @param body Updated view&#x27;s permissions. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views permissions.
+     * Updates views permissions.
+     * @param body Updated views permissions. (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;PermissionsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3330,10 +3330,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s permissions. (asynchronously)
-     * Updates view&#x27;s permissions.
-     * @param body Updated view&#x27;s permissions. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views permissions. (asynchronously)
+     * Updates views permissions.
+     * @param body Updated views permissions. (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3366,8 +3366,8 @@ public class BrowserApi {
     }
     /**
      * Build call for updateSettings
-     * @param body Updated view&#x27;s settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * @param body Updated views settings. (required)
+     * @param viewId views identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3436,10 +3436,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s settings.
-     * Updates view&#x27;s settings.
-     * @param body Updated view&#x27;s settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views settings.
+     * Updates views settings.
+     * @param body Updated views settings. (required)
+     * @param viewId views identifier (required)
      * @return SettingsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3449,10 +3449,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s settings.
-     * Updates view&#x27;s settings.
-     * @param body Updated view&#x27;s settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views settings.
+     * Updates views settings.
+     * @param body Updated views settings. (required)
+     * @param viewId views identifier (required)
      * @return ApiResponse&lt;SettingsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3463,10 +3463,10 @@ public class BrowserApi {
     }
 
     /**
-     * Updates view&#x27;s settings. (asynchronously)
-     * Updates view&#x27;s settings.
-     * @param body Updated view&#x27;s settings. (required)
-     * @param viewId view&#x27;s identifier (required)
+     * Updates views settings. (asynchronously)
+     * Updates views settings.
+     * @param body Updated views settings. (required)
+     * @param viewId views identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

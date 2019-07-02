@@ -64,7 +64,7 @@ public class JobsSmartV2Api {
     /**
      * Build call for addFiles
      * @param body Added files to the project as delivered in the job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -136,7 +136,7 @@ public class JobsSmartV2Api {
      * Adds files to the project as delivered in the job.
      * Adds files to the project as delivered in the job. The files have to be uploaded beforehand (see \&quot;POST /jobs/{jobId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the project as delivered in the job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void addFiles(FileCategorizationsDto body, String jobId) throws ApiException {
@@ -147,7 +147,7 @@ public class JobsSmartV2Api {
      * Adds files to the project as delivered in the job.
      * Adds files to the project as delivered in the job. The files have to be uploaded beforehand (see \&quot;POST /jobs/{jobId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the project as delivered in the job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -160,7 +160,7 @@ public class JobsSmartV2Api {
      * Adds files to the project as delivered in the job. (asynchronously)
      * Adds files to the project as delivered in the job. The files have to be uploaded beforehand (see \&quot;POST /jobs/{jobId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the project as delivered in the job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -193,7 +193,7 @@ public class JobsSmartV2Api {
     /**
      * Build call for assignVendor
      * @param body Assigned vendor to a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -265,7 +265,7 @@ public class JobsSmartV2Api {
      * Assigns vendor to a job in a project.
      * Assigns vendor to a job in a project.
      * @param body Assigned vendor to a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void assignVendor(VendorPriceProfileDTO body, String jobId) throws ApiException {
@@ -276,7 +276,7 @@ public class JobsSmartV2Api {
      * Assigns vendor to a job in a project.
      * Assigns vendor to a job in a project.
      * @param body Assigned vendor to a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -289,7 +289,7 @@ public class JobsSmartV2Api {
      * Assigns vendor to a job in a project. (asynchronously)
      * Assigns vendor to a job in a project.
      * @param body Assigned vendor to a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -322,7 +322,7 @@ public class JobsSmartV2Api {
     /**
      * Build call for changeStatus
      * @param body Changed job status. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -394,7 +394,7 @@ public class JobsSmartV2Api {
      * Changes job status if possible (400 Bad Request is returned otherwise).
      * Changes job status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys:&lt;ul&gt;&lt;li&gt;OPEN – available when the job has one of the following statuses: ACCEPTED, CANCELED&lt;/li&gt;&lt;li&gt;ACCEPTED – available when the job has one of the following statuses: OPEN (Vendor and dates have to be set before calling the operation), STARTED&lt;/li&gt;&lt;li&gt;STARTED – available when the job has one of the following statuses: ACCEPTED, READY&lt;/li&gt;&lt;li&gt;READY – available when the job has one of the following statuses: STARTED&lt;/li&gt;&lt;li&gt;CANCELLED – available when the job has one of the following statuses: OPEN, ACCEPTED, STARTED, OFFERS_SENT&lt;/li&gt;&lt;li&gt;OFFERS_SENT – not available as a target status for this operation&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed job status. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void changeStatus(JobStatusDTO body, String jobId) throws ApiException {
@@ -405,7 +405,7 @@ public class JobsSmartV2Api {
      * Changes job status if possible (400 Bad Request is returned otherwise).
      * Changes job status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys:&lt;ul&gt;&lt;li&gt;OPEN – available when the job has one of the following statuses: ACCEPTED, CANCELED&lt;/li&gt;&lt;li&gt;ACCEPTED – available when the job has one of the following statuses: OPEN (Vendor and dates have to be set before calling the operation), STARTED&lt;/li&gt;&lt;li&gt;STARTED – available when the job has one of the following statuses: ACCEPTED, READY&lt;/li&gt;&lt;li&gt;READY – available when the job has one of the following statuses: STARTED&lt;/li&gt;&lt;li&gt;CANCELLED – available when the job has one of the following statuses: OPEN, ACCEPTED, STARTED, OFFERS_SENT&lt;/li&gt;&lt;li&gt;OFFERS_SENT – not available as a target status for this operation&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed job status. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -418,7 +418,7 @@ public class JobsSmartV2Api {
      * Changes job status if possible (400 Bad Request is returned otherwise). (asynchronously)
      * Changes job status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys:&lt;ul&gt;&lt;li&gt;OPEN – available when the job has one of the following statuses: ACCEPTED, CANCELED&lt;/li&gt;&lt;li&gt;ACCEPTED – available when the job has one of the following statuses: OPEN (Vendor and dates have to be set before calling the operation), STARTED&lt;/li&gt;&lt;li&gt;STARTED – available when the job has one of the following statuses: ACCEPTED, READY&lt;/li&gt;&lt;li&gt;READY – available when the job has one of the following statuses: STARTED&lt;/li&gt;&lt;li&gt;CANCELLED – available when the job has one of the following statuses: OPEN, ACCEPTED, STARTED, OFFERS_SENT&lt;/li&gt;&lt;li&gt;OFFERS_SENT – not available as a target status for this operation&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed job status. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -450,7 +450,7 @@ public class JobsSmartV2Api {
     }
     /**
      * Build call for getDeliveredFiles
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -517,7 +517,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files delivered in the job.
      * Returns list of files delivered in the job.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return List&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -529,7 +529,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files delivered in the job.
      * Returns list of files delivered in the job.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;List&lt;ProjectFileDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -542,7 +542,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files delivered in the job. (asynchronously)
      * Returns list of files delivered in the job.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -575,7 +575,7 @@ public class JobsSmartV2Api {
     }
     /**
      * Build call for getFileById
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -642,7 +642,7 @@ public class JobsSmartV2Api {
     /**
      * Returns details for a job.
      * Returns details for a job.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ProjectFileDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -654,7 +654,7 @@ public class JobsSmartV2Api {
     /**
      * Returns details for a job.
      * Returns details for a job.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -667,7 +667,7 @@ public class JobsSmartV2Api {
     /**
      * Returns details for a job. (asynchronously)
      * Returns details for a job.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -700,7 +700,7 @@ public class JobsSmartV2Api {
     }
     /**
      * Build call for getSharedReferenceFiles
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -767,7 +767,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files shared with the job as Reference Files.
      * Returns list of files shared with the job as Reference Files.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return List&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -779,7 +779,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files shared with the job as Reference Files.
      * Returns list of files shared with the job as Reference Files.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;List&lt;ProjectFileDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -792,7 +792,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files shared with the job as Reference Files. (asynchronously)
      * Returns list of files shared with the job as Reference Files.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -825,7 +825,7 @@ public class JobsSmartV2Api {
     }
     /**
      * Build call for getSharedWorkFiles
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -892,7 +892,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files shared with the job as Work Files.
      * Returns list of files shared with the job as Work Files.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return List&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -904,7 +904,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files shared with the job as Work Files.
      * Returns list of files shared with the job as Work Files.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;List&lt;ProjectFileDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -917,7 +917,7 @@ public class JobsSmartV2Api {
     /**
      * Returns list of files shared with the job as Work Files. (asynchronously)
      * Returns list of files shared with the job as Work Files.
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -951,7 +951,7 @@ public class JobsSmartV2Api {
     /**
      * Build call for shareAsReferenceFiles
      * @param body Shared selected files as Reference Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1023,7 +1023,7 @@ public class JobsSmartV2Api {
      * Shares selected files as Reference Files with a job in a project.
      * Shares selected files as Reference Files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were already shared with the job. If a file was shared with the job as Work File, it will now be shared as Reference File (and not as Work File).
      * @param body Shared selected files as Reference Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return FilesShareStatusDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1036,7 +1036,7 @@ public class JobsSmartV2Api {
      * Shares selected files as Reference Files with a job in a project.
      * Shares selected files as Reference Files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were already shared with the job. If a file was shared with the job as Work File, it will now be shared as Reference File (and not as Work File).
      * @param body Shared selected files as Reference Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;FilesShareStatusDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1050,7 +1050,7 @@ public class JobsSmartV2Api {
      * Shares selected files as Reference Files with a job in a project. (asynchronously)
      * Shares selected files as Reference Files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were already shared with the job. If a file was shared with the job as Work File, it will now be shared as Reference File (and not as Work File).
      * @param body Shared selected files as Reference Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1084,7 +1084,7 @@ public class JobsSmartV2Api {
     /**
      * Build call for shareAsWorkFiles
      * @param body Shared selected files as Work Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1156,7 +1156,7 @@ public class JobsSmartV2Api {
      * Shares selected files as Work Files with a job in a project.
      * Shares selected files as Work Files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were already shared with the job. If a file was shared with the job as Reference File, it will now be shared as Work File (and not as Reference File).
      * @param body Shared selected files as Work Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return FilesShareStatusDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1169,7 +1169,7 @@ public class JobsSmartV2Api {
      * Shares selected files as Work Files with a job in a project.
      * Shares selected files as Work Files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were already shared with the job. If a file was shared with the job as Reference File, it will now be shared as Work File (and not as Reference File).
      * @param body Shared selected files as Work Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;FilesShareStatusDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1183,7 +1183,7 @@ public class JobsSmartV2Api {
      * Shares selected files as Work Files with a job in a project. (asynchronously)
      * Shares selected files as Work Files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were already shared with the job. If a file was shared with the job as Reference File, it will now be shared as Work File (and not as Reference File).
      * @param body Shared selected files as Work Files with a job in a project. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1217,7 +1217,7 @@ public class JobsSmartV2Api {
     /**
      * Build call for stopSharing
      * @param body File sharing stopped for a project task. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1289,7 +1289,7 @@ public class JobsSmartV2Api {
      * Stops sharing selected files with a job in a project.
      * Stops sharing selected files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were not shared with the job.
      * @param body File sharing stopped for a project task. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return FilesShareStatusDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1302,7 +1302,7 @@ public class JobsSmartV2Api {
      * Stops sharing selected files with a job in a project.
      * Stops sharing selected files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were not shared with the job.
      * @param body File sharing stopped for a project task. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;FilesShareStatusDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1316,7 +1316,7 @@ public class JobsSmartV2Api {
      * Stops sharing selected files with a job in a project. (asynchronously)
      * Stops sharing selected files with a job in a project. The files and the job have to be part of the same project. The operation is finished successfully even if some of the selected files were not shared with the job.
      * @param body File sharing stopped for a project task. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1350,7 +1350,7 @@ public class JobsSmartV2Api {
     /**
      * Build call for updateInstructions
      * @param body Updated instructions for a job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1422,7 +1422,7 @@ public class JobsSmartV2Api {
      * Updates instructions for a job.
      * Updates instructions for a job. See also \&quot;PUT /projects/{projectId}/vendorInstructions\&quot; and \&quot;PUT /quotes/{quoteId}/vendorInstructions\&quot; for updating instructions for all jobs in a project or quote.
      * @param body Updated instructions for a job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateInstructions(StringDTO body, String jobId) throws ApiException {
@@ -1433,7 +1433,7 @@ public class JobsSmartV2Api {
      * Updates instructions for a job.
      * Updates instructions for a job. See also \&quot;PUT /projects/{projectId}/vendorInstructions\&quot; and \&quot;PUT /quotes/{quoteId}/vendorInstructions\&quot; for updating instructions for all jobs in a project or quote.
      * @param body Updated instructions for a job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1446,7 +1446,7 @@ public class JobsSmartV2Api {
      * Updates instructions for a job. (asynchronously)
      * Updates instructions for a job. See also \&quot;PUT /projects/{projectId}/vendorInstructions\&quot; and \&quot;PUT /quotes/{quoteId}/vendorInstructions\&quot; for updating instructions for all jobs in a project or quote.
      * @param body Updated instructions for a job. (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1480,7 +1480,7 @@ public class JobsSmartV2Api {
      * Build call for uploadFile1
      * @param file  (required)
      * @param fileName  (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1561,7 +1561,7 @@ public class JobsSmartV2Api {
      * Uploads file to the project as a file delivered in the job. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /jobs/{jobId}/files/add\&quot; operation).
      * @param file  (required)
      * @param fileName  (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return FileDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1575,7 +1575,7 @@ public class JobsSmartV2Api {
      * Uploads file to the project as a file delivered in the job. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /jobs/{jobId}/files/add\&quot; operation).
      * @param file  (required)
      * @param fileName  (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @return ApiResponse&lt;FileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1590,7 +1590,7 @@ public class JobsSmartV2Api {
      * Uploads file to the project as a file delivered in the job. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /jobs/{jobId}/files/add\&quot; operation).
      * @param file  (required)
      * @param fileName  (required)
-     * @param jobId job&#x27;s internal identifier (required)
+     * @param jobId jobs internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

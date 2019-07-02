@@ -31,7 +31,7 @@ import java.util.List;
  * ViewWithIdDTO
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class ViewWithIdDTO {
   @SerializedName("columns")
   private List<ColumnDTO> columns = null;

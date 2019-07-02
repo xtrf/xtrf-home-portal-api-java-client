@@ -25,7 +25,7 @@ import java.io.IOException;
  * industry related with translation (ie. biotechnology)
  */
 @Schema(description = "industry related with translation (ie. biotechnology)")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class IndustryDTO {
   @SerializedName("id")
   private Long id = null;
@@ -66,7 +66,7 @@ public class IndustryDTO {
   }
 
    /**
-   * localised name (formatted in the current user&#x27;s locale)
+   * localised name (formatted in the current users locale)
    * @return name
   **/
   @Schema(description = "localised name (formatted in the current user's locale)")

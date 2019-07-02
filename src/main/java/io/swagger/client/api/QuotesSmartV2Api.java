@@ -78,7 +78,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for addFiles2
      * @param body Added files to the quote as added by PM. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -150,7 +150,7 @@ public class QuotesSmartV2Api {
      * Adds files to the quote as added by PM.
      * Adds files to the quote as added by PM. The files have to be uploaded beforehand (see \&quot;POST v2/quotes/{quoteId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the quote as added by PM. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void addFiles2(TimeDTO body, String quoteId) throws ApiException {
@@ -161,7 +161,7 @@ public class QuotesSmartV2Api {
      * Adds files to the quote as added by PM.
      * Adds files to the quote as added by PM. The files have to be uploaded beforehand (see \&quot;POST v2/quotes/{quoteId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the quote as added by PM. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -174,7 +174,7 @@ public class QuotesSmartV2Api {
      * Adds files to the quote as added by PM. (asynchronously)
      * Adds files to the quote as added by PM. The files have to be uploaded beforehand (see \&quot;POST v2/quotes/{quoteId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the quote as added by PM. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -331,7 +331,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for changeStatus2
      * @param body Changed Quote status. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -403,7 +403,7 @@ public class QuotesSmartV2Api {
      * Changes quote status if possible (400 Bad Request is returned otherwise).
      * Changes quote status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys: &lt;ul&gt;&lt;li&gt;PENDING – available when the job has one of the following statuses: REQUESTED, REJECTED&lt;/li&gt;&lt;li&gt;SENT – available when the job has one of the following statuses: PENDING&lt;/li&gt;&lt;li&gt;APPROVED – available when the job has one of the following statuses: REQUESTED, PENDING, SENT, APPROVED_BY_CLIENT&lt;/li&gt;&lt;li&gt;REJECTED – available when the job has one of the following statuses: REQUESTED, PENDING, SENT&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed Quote status. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void changeStatus2(ProjectStatusDTO body, String quoteId) throws ApiException {
@@ -414,7 +414,7 @@ public class QuotesSmartV2Api {
      * Changes quote status if possible (400 Bad Request is returned otherwise).
      * Changes quote status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys: &lt;ul&gt;&lt;li&gt;PENDING – available when the job has one of the following statuses: REQUESTED, REJECTED&lt;/li&gt;&lt;li&gt;SENT – available when the job has one of the following statuses: PENDING&lt;/li&gt;&lt;li&gt;APPROVED – available when the job has one of the following statuses: REQUESTED, PENDING, SENT, APPROVED_BY_CLIENT&lt;/li&gt;&lt;li&gt;REJECTED – available when the job has one of the following statuses: REQUESTED, PENDING, SENT&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed Quote status. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -427,7 +427,7 @@ public class QuotesSmartV2Api {
      * Changes quote status if possible (400 Bad Request is returned otherwise). (asynchronously)
      * Changes quote status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys: &lt;ul&gt;&lt;li&gt;PENDING – available when the job has one of the following statuses: REQUESTED, REJECTED&lt;/li&gt;&lt;li&gt;SENT – available when the job has one of the following statuses: PENDING&lt;/li&gt;&lt;li&gt;APPROVED – available when the job has one of the following statuses: REQUESTED, PENDING, SENT, APPROVED_BY_CLIENT&lt;/li&gt;&lt;li&gt;REJECTED – available when the job has one of the following statuses: REQUESTED, PENDING, SENT&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed Quote status. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -580,18 +580,18 @@ public class QuotesSmartV2Api {
     /**
      * Build call for createPayable1
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      */
-    public com.squareup.okhttp.Call createPayable1Call(PayableCreateDTO body, String quote&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    public com.squareup.okhttp.Call createPayable1Call(PayableCreateDTO body, String quotesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         Object localVarPostBody = body;
         
         // create path and map variables
         String localVarPath = "/v2/quotes/{quoteId}/finance/payables"
-            .replaceAll("\\{" + "quote&#x27;s internal identifier" + "\\}", apiClient.escapeString(quote'sInternalIdentifier.toString()));
+            .replaceAll("\\{" + "quotes internal identifier" + "\\}", apiClient.escapeString(quotesInternalIdentifier.toString()));
 
         List<Pair> localVarQueryParams = new ArrayList<Pair>();
         List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
@@ -629,17 +629,17 @@ public class QuotesSmartV2Api {
     }
     
     @SuppressWarnings("rawtypes")
-    private com.squareup.okhttp.Call createPayable1ValidateBeforeCall(PayableCreateDTO body, String quote&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    private com.squareup.okhttp.Call createPayable1ValidateBeforeCall(PayableCreateDTO body, String quotesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         // verify the required parameter 'body' is set
         if (body == null) {
             throw new ApiException("Missing the required parameter 'body' when calling createPayable1(Async)");
         }
-        // verify the required parameter 'quote&#x27;sInternalIdentifier' is set
-        if (quote&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'quote&#x27;sInternalIdentifier' when calling createPayable1(Async)");
+        // verify the required parameter 'quotesInternalIdentifier' is set
+        if (quotesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'quotesInternalIdentifier' when calling createPayable1(Async)");
         }
         
-        com.squareup.okhttp.Call call = createPayable1Call(body, quote&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = createPayable1Call(body, quotesInternalIdentifier, progressListener, progressRequestListener);
         return call;
 
         
@@ -652,12 +652,12 @@ public class QuotesSmartV2Api {
      * Adds a payable to a quote.
      * Adds a payable to a quote.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @return PayableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public PayableDTO createPayable1(PayableCreateDTO body, String quote&#x27;sInternalIdentifier) throws ApiException {
-        ApiResponse<PayableDTO> resp = createPayable1WithHttpInfo(body, quote&#x27;sInternalIdentifier);
+    public PayableDTO createPayable1(PayableCreateDTO body, String quotesInternalIdentifier) throws ApiException {
+        ApiResponse<PayableDTO> resp = createPayable1WithHttpInfo(body, quotesInternalIdentifier);
         return resp.getData();
     }
 
@@ -665,12 +665,12 @@ public class QuotesSmartV2Api {
      * Adds a payable to a quote.
      * Adds a payable to a quote.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @return ApiResponse&lt;PayableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<PayableDTO> createPayable1WithHttpInfo(PayableCreateDTO body, String quote&#x27;sInternalIdentifier) throws ApiException {
-        com.squareup.okhttp.Call call = createPayable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, null, null);
+    public ApiResponse<PayableDTO> createPayable1WithHttpInfo(PayableCreateDTO body, String quotesInternalIdentifier) throws ApiException {
+        com.squareup.okhttp.Call call = createPayable1ValidateBeforeCall(body, quotesInternalIdentifier, null, null);
         Type localVarReturnType = new TypeToken<PayableDTO>(){}.getType();
         return apiClient.execute(call, localVarReturnType);
     }
@@ -679,12 +679,12 @@ public class QuotesSmartV2Api {
      * Adds a payable to a quote. (asynchronously)
      * Adds a payable to a quote.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call createPayable1Async(PayableCreateDTO body, String quote&#x27;sInternalIdentifier, final ApiCallback<PayableDTO> callback) throws ApiException {
+    public com.squareup.okhttp.Call createPayable1Async(PayableCreateDTO body, String quotesInternalIdentifier, final ApiCallback<PayableDTO> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;
@@ -705,7 +705,7 @@ public class QuotesSmartV2Api {
             };
         }
 
-        com.squareup.okhttp.Call call = createPayable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = createPayable1ValidateBeforeCall(body, quotesInternalIdentifier, progressListener, progressRequestListener);
         Type localVarReturnType = new TypeToken<PayableDTO>(){}.getType();
         apiClient.executeAsync(call, localVarReturnType, callback);
         return call;
@@ -713,18 +713,18 @@ public class QuotesSmartV2Api {
     /**
      * Build call for createReceivable1
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      */
-    public com.squareup.okhttp.Call createReceivable1Call(ReceivableCreateDTO body, String quote&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    public com.squareup.okhttp.Call createReceivable1Call(ReceivableCreateDTO body, String quotesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         Object localVarPostBody = body;
         
         // create path and map variables
         String localVarPath = "/v2/quotes/{quoteId}/finance/receivables"
-            .replaceAll("\\{" + "quote&#x27;s internal identifier" + "\\}", apiClient.escapeString(quote'sInternalIdentifier.toString()));
+            .replaceAll("\\{" + "quotes internal identifier" + "\\}", apiClient.escapeString(quotesInternalIdentifier.toString()));
 
         List<Pair> localVarQueryParams = new ArrayList<Pair>();
         List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
@@ -762,17 +762,17 @@ public class QuotesSmartV2Api {
     }
     
     @SuppressWarnings("rawtypes")
-    private com.squareup.okhttp.Call createReceivable1ValidateBeforeCall(ReceivableCreateDTO body, String quote&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    private com.squareup.okhttp.Call createReceivable1ValidateBeforeCall(ReceivableCreateDTO body, String quotesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         // verify the required parameter 'body' is set
         if (body == null) {
             throw new ApiException("Missing the required parameter 'body' when calling createReceivable1(Async)");
         }
-        // verify the required parameter 'quote&#x27;sInternalIdentifier' is set
-        if (quote&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'quote&#x27;sInternalIdentifier' when calling createReceivable1(Async)");
+        // verify the required parameter 'quotesInternalIdentifier' is set
+        if (quotesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'quotesInternalIdentifier' when calling createReceivable1(Async)");
         }
         
-        com.squareup.okhttp.Call call = createReceivable1Call(body, quote&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = createReceivable1Call(body, quotesInternalIdentifier, progressListener, progressRequestListener);
         return call;
 
         
@@ -785,12 +785,12 @@ public class QuotesSmartV2Api {
      * Adds a receivable to a quote.
      * Adds a receivable to a quote.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @return ReceivableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ReceivableDTO createReceivable1(ReceivableCreateDTO body, String quote&#x27;sInternalIdentifier) throws ApiException {
-        ApiResponse<ReceivableDTO> resp = createReceivable1WithHttpInfo(body, quote&#x27;sInternalIdentifier);
+    public ReceivableDTO createReceivable1(ReceivableCreateDTO body, String quotesInternalIdentifier) throws ApiException {
+        ApiResponse<ReceivableDTO> resp = createReceivable1WithHttpInfo(body, quotesInternalIdentifier);
         return resp.getData();
     }
 
@@ -798,12 +798,12 @@ public class QuotesSmartV2Api {
      * Adds a receivable to a quote.
      * Adds a receivable to a quote.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @return ApiResponse&lt;ReceivableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<ReceivableDTO> createReceivable1WithHttpInfo(ReceivableCreateDTO body, String quote&#x27;sInternalIdentifier) throws ApiException {
-        com.squareup.okhttp.Call call = createReceivable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, null, null);
+    public ApiResponse<ReceivableDTO> createReceivable1WithHttpInfo(ReceivableCreateDTO body, String quotesInternalIdentifier) throws ApiException {
+        com.squareup.okhttp.Call call = createReceivable1ValidateBeforeCall(body, quotesInternalIdentifier, null, null);
         Type localVarReturnType = new TypeToken<ReceivableDTO>(){}.getType();
         return apiClient.execute(call, localVarReturnType);
     }
@@ -812,12 +812,12 @@ public class QuotesSmartV2Api {
      * Adds a receivable to a quote. (asynchronously)
      * Adds a receivable to a quote.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call createReceivable1Async(ReceivableCreateDTO body, String quote&#x27;sInternalIdentifier, final ApiCallback<ReceivableDTO> callback) throws ApiException {
+    public com.squareup.okhttp.Call createReceivable1Async(ReceivableCreateDTO body, String quotesInternalIdentifier, final ApiCallback<ReceivableDTO> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;
@@ -838,27 +838,27 @@ public class QuotesSmartV2Api {
             };
         }
 
-        com.squareup.okhttp.Call call = createReceivable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = createReceivable1ValidateBeforeCall(body, quotesInternalIdentifier, progressListener, progressRequestListener);
         Type localVarReturnType = new TypeToken<ReceivableDTO>(){}.getType();
         apiClient.executeAsync(call, localVarReturnType, callback);
         return call;
     }
     /**
      * Build call for deletePayable
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      */
-    public com.squareup.okhttp.Call deletePayableCall(String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    public com.squareup.okhttp.Call deletePayableCall(String quotesInternalIdentifier, Long payablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         Object localVarPostBody = null;
         
         // create path and map variables
         String localVarPath = "/v2/quotes/{quoteId}/finance/payables/{payableId}"
-            .replaceAll("\\{" + "quote&#x27;s internal identifier" + "\\}", apiClient.escapeString(quote'sInternalIdentifier.toString()))
-            .replaceAll("\\{" + "payable&#x27;s internal identifier" + "\\}", apiClient.escapeString(payable'sInternalIdentifier.toString()));
+            .replaceAll("\\{" + "quotes internal identifier" + "\\}", apiClient.escapeString(quotesInternalIdentifier.toString()))
+            .replaceAll("\\{" + "payables internal identifier" + "\\}", apiClient.escapeString(payablesInternalIdentifier.toString()));
 
         List<Pair> localVarQueryParams = new ArrayList<Pair>();
         List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
@@ -896,17 +896,17 @@ public class QuotesSmartV2Api {
     }
     
     @SuppressWarnings("rawtypes")
-    private com.squareup.okhttp.Call deletePayableValidateBeforeCall(String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
-        // verify the required parameter 'quote&#x27;sInternalIdentifier' is set
-        if (quote&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'quote&#x27;sInternalIdentifier' when calling deletePayable(Async)");
+    private com.squareup.okhttp.Call deletePayableValidateBeforeCall(String quotesInternalIdentifier, Long payablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+        // verify the required parameter 'quotesInternalIdentifier' is set
+        if (quotesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'quotesInternalIdentifier' when calling deletePayable(Async)");
         }
-        // verify the required parameter 'payable&#x27;sInternalIdentifier' is set
-        if (payable&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'payable&#x27;sInternalIdentifier' when calling deletePayable(Async)");
+        // verify the required parameter 'payablesInternalIdentifier' is set
+        if (payablesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'payablesInternalIdentifier' when calling deletePayable(Async)");
         }
         
-        com.squareup.okhttp.Call call = deletePayableCall(quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = deletePayableCall(quotesInternalIdentifier, payablesInternalIdentifier, progressListener, progressRequestListener);
         return call;
 
         
@@ -918,37 +918,37 @@ public class QuotesSmartV2Api {
     /**
      * Deletes a payable.
      * Deletes a payable.
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public void deletePayable(String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier) throws ApiException {
-        deletePayableWithHttpInfo(quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier);
+    public void deletePayable(String quotesInternalIdentifier, Long payablesInternalIdentifier) throws ApiException {
+        deletePayableWithHttpInfo(quotesInternalIdentifier, payablesInternalIdentifier);
     }
 
     /**
      * Deletes a payable.
      * Deletes a payable.
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<Void> deletePayableWithHttpInfo(String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier) throws ApiException {
-        com.squareup.okhttp.Call call = deletePayableValidateBeforeCall(quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier, null, null);
+    public ApiResponse<Void> deletePayableWithHttpInfo(String quotesInternalIdentifier, Long payablesInternalIdentifier) throws ApiException {
+        com.squareup.okhttp.Call call = deletePayableValidateBeforeCall(quotesInternalIdentifier, payablesInternalIdentifier, null, null);
         return apiClient.execute(call);
     }
 
     /**
      * Deletes a payable. (asynchronously)
      * Deletes a payable.
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call deletePayableAsync(String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier, final ApiCallback<Void> callback) throws ApiException {
+    public com.squareup.okhttp.Call deletePayableAsync(String quotesInternalIdentifier, Long payablesInternalIdentifier, final ApiCallback<Void> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;
@@ -969,26 +969,26 @@ public class QuotesSmartV2Api {
             };
         }
 
-        com.squareup.okhttp.Call call = deletePayableValidateBeforeCall(quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = deletePayableValidateBeforeCall(quotesInternalIdentifier, payablesInternalIdentifier, progressListener, progressRequestListener);
         apiClient.executeAsync(call, callback);
         return call;
     }
     /**
      * Build call for deleteReceivable
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      */
-    public com.squareup.okhttp.Call deleteReceivableCall(String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    public com.squareup.okhttp.Call deleteReceivableCall(String quotesInternalIdentifier, Long receivablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         Object localVarPostBody = null;
         
         // create path and map variables
         String localVarPath = "/v2/quotes/{quoteId}/finance/receivables/{receivableId}"
-            .replaceAll("\\{" + "quote&#x27;s internal identifier" + "\\}", apiClient.escapeString(quote'sInternalIdentifier.toString()))
-            .replaceAll("\\{" + "receivable&#x27;s internal identifier" + "\\}", apiClient.escapeString(receivable'sInternalIdentifier.toString()));
+            .replaceAll("\\{" + "quotes internal identifier" + "\\}", apiClient.escapeString(quotesInternalIdentifier.toString()))
+            .replaceAll("\\{" + "receivables internal identifier" + "\\}", apiClient.escapeString(receivablesInternalIdentifier.toString()));
 
         List<Pair> localVarQueryParams = new ArrayList<Pair>();
         List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
@@ -1026,17 +1026,17 @@ public class QuotesSmartV2Api {
     }
     
     @SuppressWarnings("rawtypes")
-    private com.squareup.okhttp.Call deleteReceivableValidateBeforeCall(String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
-        // verify the required parameter 'quote&#x27;sInternalIdentifier' is set
-        if (quote&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'quote&#x27;sInternalIdentifier' when calling deleteReceivable(Async)");
+    private com.squareup.okhttp.Call deleteReceivableValidateBeforeCall(String quotesInternalIdentifier, Long receivablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+        // verify the required parameter 'quotesInternalIdentifier' is set
+        if (quotesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'quotesInternalIdentifier' when calling deleteReceivable(Async)");
         }
-        // verify the required parameter 'receivable&#x27;sInternalIdentifier' is set
-        if (receivable&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'receivable&#x27;sInternalIdentifier' when calling deleteReceivable(Async)");
+        // verify the required parameter 'receivablesInternalIdentifier' is set
+        if (receivablesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'receivablesInternalIdentifier' when calling deleteReceivable(Async)");
         }
         
-        com.squareup.okhttp.Call call = deleteReceivableCall(quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = deleteReceivableCall(quotesInternalIdentifier, receivablesInternalIdentifier, progressListener, progressRequestListener);
         return call;
 
         
@@ -1048,37 +1048,37 @@ public class QuotesSmartV2Api {
     /**
      * Deletes a receivable.
      * Deletes a receivable.
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public void deleteReceivable(String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier) throws ApiException {
-        deleteReceivableWithHttpInfo(quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier);
+    public void deleteReceivable(String quotesInternalIdentifier, Long receivablesInternalIdentifier) throws ApiException {
+        deleteReceivableWithHttpInfo(quotesInternalIdentifier, receivablesInternalIdentifier);
     }
 
     /**
      * Deletes a receivable.
      * Deletes a receivable.
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<Void> deleteReceivableWithHttpInfo(String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier) throws ApiException {
-        com.squareup.okhttp.Call call = deleteReceivableValidateBeforeCall(quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier, null, null);
+    public ApiResponse<Void> deleteReceivableWithHttpInfo(String quotesInternalIdentifier, Long receivablesInternalIdentifier) throws ApiException {
+        com.squareup.okhttp.Call call = deleteReceivableValidateBeforeCall(quotesInternalIdentifier, receivablesInternalIdentifier, null, null);
         return apiClient.execute(call);
     }
 
     /**
      * Deletes a receivable. (asynchronously)
      * Deletes a receivable.
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call deleteReceivableAsync(String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier, final ApiCallback<Void> callback) throws ApiException {
+    public com.squareup.okhttp.Call deleteReceivableAsync(String quotesInternalIdentifier, Long receivablesInternalIdentifier, final ApiCallback<Void> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;
@@ -1099,13 +1099,13 @@ public class QuotesSmartV2Api {
             };
         }
 
-        com.squareup.okhttp.Call call = deleteReceivableValidateBeforeCall(quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = deleteReceivableValidateBeforeCall(quotesInternalIdentifier, receivablesInternalIdentifier, progressListener, progressRequestListener);
         apiClient.executeAsync(call, callback);
         return call;
     }
     /**
      * Build call for getById10
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1172,7 +1172,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns quote details.
      * Returns quote details. If the specified quote ID refers to Classic Quote, 400 Bad Request is returned instead.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return QuoteDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1184,7 +1184,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns quote details.
      * Returns quote details. If the specified quote ID refers to Classic Quote, 400 Bad Request is returned instead.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;QuoteDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1197,7 +1197,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns quote details. (asynchronously)
      * Returns quote details. If the specified quote ID refers to Classic Quote, 400 Bad Request is returned instead.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1230,7 +1230,7 @@ public class QuotesSmartV2Api {
     }
     /**
      * Build call for getContacts3
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1297,7 +1297,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns Client Contacts information for a quote.
      * Returns Client Contacts information for a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return SmartContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1309,7 +1309,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns Client Contacts information for a quote.
      * Returns Client Contacts information for a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;SmartContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1322,7 +1322,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns Client Contacts information for a quote. (asynchronously)
      * Returns Client Contacts information for a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1355,7 +1355,7 @@ public class QuotesSmartV2Api {
     }
     /**
      * Build call for getCustomFields9
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1422,7 +1422,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns a list of custom field keys and values for a project.
      * Returns a list of custom field keys and values for a project.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1434,7 +1434,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns a list of custom field keys and values for a project.
      * Returns a list of custom field keys and values for a project.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1447,7 +1447,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns a list of custom field keys and values for a project. (asynchronously)
      * Returns a list of custom field keys and values for a project.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1480,7 +1480,7 @@ public class QuotesSmartV2Api {
     }
     /**
      * Build call for getFileById2
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1547,7 +1547,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns details of a file.
      * Returns details of a file.
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @return ProjectFileDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1559,7 +1559,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns details of a file.
      * Returns details of a file.
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @return ApiResponse&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1572,7 +1572,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns details of a file. (asynchronously)
      * Returns details of a file.
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1605,8 +1605,8 @@ public class QuotesSmartV2Api {
     }
     /**
      * Build call for getFileContentById1
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1678,8 +1678,8 @@ public class QuotesSmartV2Api {
     /**
      * Downloads a file content.
      * Downloads a file content.
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void getFileContentById1(String fileId, String fileName) throws ApiException {
@@ -1689,8 +1689,8 @@ public class QuotesSmartV2Api {
     /**
      * Downloads a file content.
      * Downloads a file content.
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1702,8 +1702,8 @@ public class QuotesSmartV2Api {
     /**
      * Downloads a file content. (asynchronously)
      * Downloads a file content.
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1735,7 +1735,7 @@ public class QuotesSmartV2Api {
     }
     /**
      * Build call for getFiles1
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1802,7 +1802,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns list of files in a quote.
      * Returns list of files in a quote. Only files added to the quote (i.e. files that have assigned category and languages) are listed.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return List&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1814,7 +1814,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns list of files in a quote.
      * Returns list of files in a quote. Only files added to the quote (i.e. files that have assigned category and languages) are listed.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;List&lt;ProjectFileDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1827,7 +1827,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns list of files in a quote. (asynchronously)
      * Returns list of files in a quote. Only files added to the quote (i.e. files that have assigned category and languages) are listed.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1860,7 +1860,7 @@ public class QuotesSmartV2Api {
     }
     /**
      * Build call for getFinance3
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1927,7 +1927,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns finance information for a quote.
      * Returns finance information for a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return FinanceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1939,7 +1939,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns finance information for a quote.
      * Returns finance information for a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;FinanceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1952,7 +1952,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns finance information for a quote. (asynchronously)
      * Returns finance information for a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1985,7 +1985,7 @@ public class QuotesSmartV2Api {
     }
     /**
      * Build call for getJobs1
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2052,7 +2052,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns list of jobs in a quote.
      * Returns list of jobs in a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return List&lt;JobDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2064,7 +2064,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns list of jobs in a quote.
      * Returns list of jobs in a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;List&lt;JobDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2077,7 +2077,7 @@ public class QuotesSmartV2Api {
     /**
      * Returns list of jobs in a quote. (asynchronously)
      * Returns list of jobs in a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2111,7 +2111,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateBusinessDays
      * @param body Updated Business Days for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2183,7 +2183,7 @@ public class QuotesSmartV2Api {
      * Updates Business Days for a quote.
      * Updates Business Days for a quote.
      * @param body Updated Business Days for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateBusinessDays(Integer body, String quoteId) throws ApiException {
@@ -2194,7 +2194,7 @@ public class QuotesSmartV2Api {
      * Updates Business Days for a quote.
      * Updates Business Days for a quote.
      * @param body Updated Business Days for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2207,7 +2207,7 @@ public class QuotesSmartV2Api {
      * Updates Business Days for a quote. (asynchronously)
      * Updates Business Days for a quote.
      * @param body Updated Business Days for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2240,7 +2240,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateClientNotes1
      * @param body Updated Client Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2312,7 +2312,7 @@ public class QuotesSmartV2Api {
      * Updates Client Notes for a quote.
      * Updates Client Notes for a quote.
      * @param body Updated Client Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateClientNotes1(StringDTO body, String quoteId) throws ApiException {
@@ -2323,7 +2323,7 @@ public class QuotesSmartV2Api {
      * Updates Client Notes for a quote.
      * Updates Client Notes for a quote.
      * @param body Updated Client Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2336,7 +2336,7 @@ public class QuotesSmartV2Api {
      * Updates Client Notes for a quote. (asynchronously)
      * Updates Client Notes for a quote.
      * @param body Updated Client Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2369,7 +2369,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateClientReferenceNumber1
      * @param body Updated Client Reference Number for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2441,7 +2441,7 @@ public class QuotesSmartV2Api {
      * Updates Client Reference Number for a quote.
      * Updates Client Reference Number for a quote.
      * @param body Updated Client Reference Number for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateClientReferenceNumber1(StringDTO body, String quoteId) throws ApiException {
@@ -2452,7 +2452,7 @@ public class QuotesSmartV2Api {
      * Updates Client Reference Number for a quote.
      * Updates Client Reference Number for a quote.
      * @param body Updated Client Reference Number for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2465,7 +2465,7 @@ public class QuotesSmartV2Api {
      * Updates Client Reference Number for a quote. (asynchronously)
      * Updates Client Reference Number for a quote.
      * @param body Updated Client Reference Number for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2498,7 +2498,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateContacts
      * @param body Updated Client Contacts for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2570,7 +2570,7 @@ public class QuotesSmartV2Api {
      * Updates Client Contacts for a quote.
      * Updates Client Contacts for a quote.
      * @param body Updated Client Contacts for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return SmartContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2583,7 +2583,7 @@ public class QuotesSmartV2Api {
      * Updates Client Contacts for a quote.
      * Updates Client Contacts for a quote.
      * @param body Updated Client Contacts for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;SmartContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2597,7 +2597,7 @@ public class QuotesSmartV2Api {
      * Updates Client Contacts for a quote. (asynchronously)
      * Updates Client Contacts for a quote.
      * @param body Updated Client Contacts for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2631,8 +2631,8 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateCustomField1
      * @param body Updated custom field with a specified key in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param quoteId quotes internal identifier (required)
+     * @param key custom fields key (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2709,8 +2709,8 @@ public class QuotesSmartV2Api {
      * Updates a custom field with a specified key in a quote.
      * Updates a custom field with a specified key in a quote.
      * @param body Updated custom field with a specified key in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param quoteId quotes internal identifier (required)
+     * @param key custom fields key (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateCustomField1(SmartCustomFieldDTO body, String quoteId, String key) throws ApiException {
@@ -2721,8 +2721,8 @@ public class QuotesSmartV2Api {
      * Updates a custom field with a specified key in a quote.
      * Updates a custom field with a specified key in a quote.
      * @param body Updated custom field with a specified key in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param quoteId quotes internal identifier (required)
+     * @param key custom fields key (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2735,8 +2735,8 @@ public class QuotesSmartV2Api {
      * Updates a custom field with a specified key in a quote. (asynchronously)
      * Updates a custom field with a specified key in a quote.
      * @param body Updated custom field with a specified key in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param quoteId quotes internal identifier (required)
+     * @param key custom fields key (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2769,7 +2769,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateExpectedDeliveryDate
      * @param body Updated Expected Delivery Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2841,7 +2841,7 @@ public class QuotesSmartV2Api {
      * Updates Expected Delivery Date for a quote.
      * Updates Expected Delivery Date for a quote.
      * @param body Updated Expected Delivery Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateExpectedDeliveryDate(TimeDTO body, String quoteId) throws ApiException {
@@ -2852,7 +2852,7 @@ public class QuotesSmartV2Api {
      * Updates Expected Delivery Date for a quote.
      * Updates Expected Delivery Date for a quote.
      * @param body Updated Expected Delivery Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2865,7 +2865,7 @@ public class QuotesSmartV2Api {
      * Updates Expected Delivery Date for a quote. (asynchronously)
      * Updates Expected Delivery Date for a quote.
      * @param body Updated Expected Delivery Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2898,7 +2898,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateInternalNotes1
      * @param body Updated Internal Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2970,7 +2970,7 @@ public class QuotesSmartV2Api {
      * Updates Internal Notes for a quote.
      * Updates Internal Notes for a quote.
      * @param body Updated Internal Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateInternalNotes1(StringDTO body, String quoteId) throws ApiException {
@@ -2981,7 +2981,7 @@ public class QuotesSmartV2Api {
      * Updates Internal Notes for a quote.
      * Updates Internal Notes for a quote.
      * @param body Updated Internal Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2994,7 +2994,7 @@ public class QuotesSmartV2Api {
      * Updates Internal Notes for a quote. (asynchronously)
      * Updates Internal Notes for a quote.
      * @param body Updated Internal Notes for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3027,20 +3027,20 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updatePayable1
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      */
-    public com.squareup.okhttp.Call updatePayable1Call(PayableDTO body, String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    public com.squareup.okhttp.Call updatePayable1Call(PayableDTO body, String quotesInternalIdentifier, Long payablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         Object localVarPostBody = body;
         
         // create path and map variables
         String localVarPath = "/v2/quotes/{quoteId}/finance/payables/{payableId}"
-            .replaceAll("\\{" + "quote&#x27;s internal identifier" + "\\}", apiClient.escapeString(quote'sInternalIdentifier.toString()))
-            .replaceAll("\\{" + "payable&#x27;s internal identifier" + "\\}", apiClient.escapeString(payable'sInternalIdentifier.toString()));
+            .replaceAll("\\{" + "quotes internal identifier" + "\\}", apiClient.escapeString(quotesInternalIdentifier.toString()))
+            .replaceAll("\\{" + "payables internal identifier" + "\\}", apiClient.escapeString(payablesInternalIdentifier.toString()));
 
         List<Pair> localVarQueryParams = new ArrayList<Pair>();
         List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
@@ -3078,21 +3078,21 @@ public class QuotesSmartV2Api {
     }
     
     @SuppressWarnings("rawtypes")
-    private com.squareup.okhttp.Call updatePayable1ValidateBeforeCall(PayableDTO body, String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    private com.squareup.okhttp.Call updatePayable1ValidateBeforeCall(PayableDTO body, String quotesInternalIdentifier, Long payablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         // verify the required parameter 'body' is set
         if (body == null) {
             throw new ApiException("Missing the required parameter 'body' when calling updatePayable1(Async)");
         }
-        // verify the required parameter 'quote&#x27;sInternalIdentifier' is set
-        if (quote&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'quote&#x27;sInternalIdentifier' when calling updatePayable1(Async)");
+        // verify the required parameter 'quotesInternalIdentifier' is set
+        if (quotesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'quotesInternalIdentifier' when calling updatePayable1(Async)");
         }
-        // verify the required parameter 'payable&#x27;sInternalIdentifier' is set
-        if (payable&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'payable&#x27;sInternalIdentifier' when calling updatePayable1(Async)");
+        // verify the required parameter 'payablesInternalIdentifier' is set
+        if (payablesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'payablesInternalIdentifier' when calling updatePayable1(Async)");
         }
         
-        com.squareup.okhttp.Call call = updatePayable1Call(body, quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = updatePayable1Call(body, quotesInternalIdentifier, payablesInternalIdentifier, progressListener, progressRequestListener);
         return call;
 
         
@@ -3105,13 +3105,13 @@ public class QuotesSmartV2Api {
      * Updates a payable.
      * Updates a payable.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @return PayableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public PayableDTO updatePayable1(PayableDTO body, String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier) throws ApiException {
-        ApiResponse<PayableDTO> resp = updatePayable1WithHttpInfo(body, quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier);
+    public PayableDTO updatePayable1(PayableDTO body, String quotesInternalIdentifier, Long payablesInternalIdentifier) throws ApiException {
+        ApiResponse<PayableDTO> resp = updatePayable1WithHttpInfo(body, quotesInternalIdentifier, payablesInternalIdentifier);
         return resp.getData();
     }
 
@@ -3119,13 +3119,13 @@ public class QuotesSmartV2Api {
      * Updates a payable.
      * Updates a payable.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @return ApiResponse&lt;PayableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<PayableDTO> updatePayable1WithHttpInfo(PayableDTO body, String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier) throws ApiException {
-        com.squareup.okhttp.Call call = updatePayable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier, null, null);
+    public ApiResponse<PayableDTO> updatePayable1WithHttpInfo(PayableDTO body, String quotesInternalIdentifier, Long payablesInternalIdentifier) throws ApiException {
+        com.squareup.okhttp.Call call = updatePayable1ValidateBeforeCall(body, quotesInternalIdentifier, payablesInternalIdentifier, null, null);
         Type localVarReturnType = new TypeToken<PayableDTO>(){}.getType();
         return apiClient.execute(call, localVarReturnType);
     }
@@ -3134,13 +3134,13 @@ public class QuotesSmartV2Api {
      * Updates a payable. (asynchronously)
      * Updates a payable.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param payable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param payablesInternalIdentifier  (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call updatePayable1Async(PayableDTO body, String quote&#x27;sInternalIdentifier, Long payable&#x27;sInternalIdentifier, final ApiCallback<PayableDTO> callback) throws ApiException {
+    public com.squareup.okhttp.Call updatePayable1Async(PayableDTO body, String quotesInternalIdentifier, Long payablesInternalIdentifier, final ApiCallback<PayableDTO> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;
@@ -3161,7 +3161,7 @@ public class QuotesSmartV2Api {
             };
         }
 
-        com.squareup.okhttp.Call call = updatePayable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = updatePayable1ValidateBeforeCall(body, quotesInternalIdentifier, payablesInternalIdentifier, progressListener, progressRequestListener);
         Type localVarReturnType = new TypeToken<PayableDTO>(){}.getType();
         apiClient.executeAsync(call, localVarReturnType, callback);
         return call;
@@ -3169,7 +3169,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateQuoteExpiry
      * @param body Updated Quote Expiry Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3241,7 +3241,7 @@ public class QuotesSmartV2Api {
      * Updates Quote Expiry Date for a quote.
      * Updates Quote Expiry Date for a quote.
      * @param body Updated Quote Expiry Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateQuoteExpiry(TimeDTO body, String quoteId) throws ApiException {
@@ -3252,7 +3252,7 @@ public class QuotesSmartV2Api {
      * Updates Quote Expiry Date for a quote.
      * Updates Quote Expiry Date for a quote.
      * @param body Updated Quote Expiry Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3265,7 +3265,7 @@ public class QuotesSmartV2Api {
      * Updates Quote Expiry Date for a quote. (asynchronously)
      * Updates Quote Expiry Date for a quote.
      * @param body Updated Quote Expiry Date for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3298,20 +3298,20 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateReceivable1
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      */
-    public com.squareup.okhttp.Call updateReceivable1Call(ReceivableDTO body, String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    public com.squareup.okhttp.Call updateReceivable1Call(ReceivableDTO body, String quotesInternalIdentifier, Long receivablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         Object localVarPostBody = body;
         
         // create path and map variables
         String localVarPath = "/v2/quotes/{quoteId}/finance/receivables/{receivableId}"
-            .replaceAll("\\{" + "quote&#x27;s internal identifier" + "\\}", apiClient.escapeString(quote'sInternalIdentifier.toString()))
-            .replaceAll("\\{" + "receivable&#x27;s internal identifier" + "\\}", apiClient.escapeString(receivable'sInternalIdentifier.toString()));
+            .replaceAll("\\{" + "quotes internal identifier" + "\\}", apiClient.escapeString(quotesInternalIdentifier.toString()))
+            .replaceAll("\\{" + "receivables internal identifier" + "\\}", apiClient.escapeString(receivablesInternalIdentifier.toString()));
 
         List<Pair> localVarQueryParams = new ArrayList<Pair>();
         List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
@@ -3349,21 +3349,21 @@ public class QuotesSmartV2Api {
     }
     
     @SuppressWarnings("rawtypes")
-    private com.squareup.okhttp.Call updateReceivable1ValidateBeforeCall(ReceivableDTO body, String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    private com.squareup.okhttp.Call updateReceivable1ValidateBeforeCall(ReceivableDTO body, String quotesInternalIdentifier, Long receivablesInternalIdentifier, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         // verify the required parameter 'body' is set
         if (body == null) {
             throw new ApiException("Missing the required parameter 'body' when calling updateReceivable1(Async)");
         }
-        // verify the required parameter 'quote&#x27;sInternalIdentifier' is set
-        if (quote&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'quote&#x27;sInternalIdentifier' when calling updateReceivable1(Async)");
+        // verify the required parameter 'quotesInternalIdentifier' is set
+        if (quotesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'quotesInternalIdentifier' when calling updateReceivable1(Async)");
         }
-        // verify the required parameter 'receivable&#x27;sInternalIdentifier' is set
-        if (receivable&#x27;sInternalIdentifier == null) {
-            throw new ApiException("Missing the required parameter 'receivable&#x27;sInternalIdentifier' when calling updateReceivable1(Async)");
+        // verify the required parameter 'receivablesInternalIdentifier' is set
+        if (receivablesInternalIdentifier == null) {
+            throw new ApiException("Missing the required parameter 'receivablesInternalIdentifier' when calling updateReceivable1(Async)");
         }
         
-        com.squareup.okhttp.Call call = updateReceivable1Call(body, quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = updateReceivable1Call(body, quotesInternalIdentifier, receivablesInternalIdentifier, progressListener, progressRequestListener);
         return call;
 
         
@@ -3376,13 +3376,13 @@ public class QuotesSmartV2Api {
      * Updates a receivable.
      * Updates a receivable.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @return ReceivableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ReceivableDTO updateReceivable1(ReceivableDTO body, String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier) throws ApiException {
-        ApiResponse<ReceivableDTO> resp = updateReceivable1WithHttpInfo(body, quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier);
+    public ReceivableDTO updateReceivable1(ReceivableDTO body, String quotesInternalIdentifier, Long receivablesInternalIdentifier) throws ApiException {
+        ApiResponse<ReceivableDTO> resp = updateReceivable1WithHttpInfo(body, quotesInternalIdentifier, receivablesInternalIdentifier);
         return resp.getData();
     }
 
@@ -3390,13 +3390,13 @@ public class QuotesSmartV2Api {
      * Updates a receivable.
      * Updates a receivable.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @return ApiResponse&lt;ReceivableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<ReceivableDTO> updateReceivable1WithHttpInfo(ReceivableDTO body, String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier) throws ApiException {
-        com.squareup.okhttp.Call call = updateReceivable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier, null, null);
+    public ApiResponse<ReceivableDTO> updateReceivable1WithHttpInfo(ReceivableDTO body, String quotesInternalIdentifier, Long receivablesInternalIdentifier) throws ApiException {
+        com.squareup.okhttp.Call call = updateReceivable1ValidateBeforeCall(body, quotesInternalIdentifier, receivablesInternalIdentifier, null, null);
         Type localVarReturnType = new TypeToken<ReceivableDTO>(){}.getType();
         return apiClient.execute(call, localVarReturnType);
     }
@@ -3405,13 +3405,13 @@ public class QuotesSmartV2Api {
      * Updates a receivable. (asynchronously)
      * Updates a receivable.
      * @param body  (required)
-     * @param quote&#x27;sInternalIdentifier  (required)
-     * @param receivable&#x27;sInternalIdentifier  (required)
+     * @param quotesInternalIdentifier  (required)
+     * @param receivablesInternalIdentifier  (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call updateReceivable1Async(ReceivableDTO body, String quote&#x27;sInternalIdentifier, Long receivable&#x27;sInternalIdentifier, final ApiCallback<ReceivableDTO> callback) throws ApiException {
+    public com.squareup.okhttp.Call updateReceivable1Async(ReceivableDTO body, String quotesInternalIdentifier, Long receivablesInternalIdentifier, final ApiCallback<ReceivableDTO> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;
@@ -3432,7 +3432,7 @@ public class QuotesSmartV2Api {
             };
         }
 
-        com.squareup.okhttp.Call call = updateReceivable1ValidateBeforeCall(body, quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier, progressListener, progressRequestListener);
+        com.squareup.okhttp.Call call = updateReceivable1ValidateBeforeCall(body, quotesInternalIdentifier, receivablesInternalIdentifier, progressListener, progressRequestListener);
         Type localVarReturnType = new TypeToken<ReceivableDTO>(){}.getType();
         apiClient.executeAsync(call, localVarReturnType, callback);
         return call;
@@ -3440,7 +3440,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateSourceLanguage1
      * @param body Updated source language for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3512,7 +3512,7 @@ public class QuotesSmartV2Api {
      * Updates source language for a quote.
      * Updates source language for a quote.
      * @param body Updated source language for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateSourceLanguage1(SourceLanguageDTO body, String quoteId) throws ApiException {
@@ -3523,7 +3523,7 @@ public class QuotesSmartV2Api {
      * Updates source language for a quote.
      * Updates source language for a quote.
      * @param body Updated source language for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3536,7 +3536,7 @@ public class QuotesSmartV2Api {
      * Updates source language for a quote. (asynchronously)
      * Updates source language for a quote.
      * @param body Updated source language for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3569,7 +3569,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateSpecialization1
      * @param body Updated specialization for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3641,7 +3641,7 @@ public class QuotesSmartV2Api {
      * Updates specialization for a quote.
      * Updates specialization for a quote.
      * @param body Updated specialization for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateSpecialization1(SpecializationDTO body, String quoteId) throws ApiException {
@@ -3652,7 +3652,7 @@ public class QuotesSmartV2Api {
      * Updates specialization for a quote.
      * Updates specialization for a quote.
      * @param body Updated specialization for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3665,7 +3665,7 @@ public class QuotesSmartV2Api {
      * Updates specialization for a quote. (asynchronously)
      * Updates specialization for a quote.
      * @param body Updated specialization for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3698,7 +3698,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateTargetLanguages1
      * @param body Updated target languages for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3770,7 +3770,7 @@ public class QuotesSmartV2Api {
      * Updates target languages for a quote.
      * Updates target languages for a quote.
      * @param body Updated target languages for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateTargetLanguages1(TargetLanguagesDTO body, String quoteId) throws ApiException {
@@ -3781,7 +3781,7 @@ public class QuotesSmartV2Api {
      * Updates target languages for a quote.
      * Updates target languages for a quote.
      * @param body Updated target languages for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3794,7 +3794,7 @@ public class QuotesSmartV2Api {
      * Updates target languages for a quote. (asynchronously)
      * Updates target languages for a quote.
      * @param body Updated target languages for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3827,7 +3827,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateVendorInstructions1
      * @param body Updated instructions for all vendors performing the jobs in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3899,7 +3899,7 @@ public class QuotesSmartV2Api {
      * Updates instructions for all vendors performing the jobs in a quote.
      * Updates instructions for all vendors performing the jobs in a quote. See also \&quot;PUT /jobs/{jobId}/instructions\&quot; for updating instructions for a specific job in a project or quote.
      * @param body Updated instructions for all vendors performing the jobs in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateVendorInstructions1(StringDTO body, String quoteId) throws ApiException {
@@ -3910,7 +3910,7 @@ public class QuotesSmartV2Api {
      * Updates instructions for all vendors performing the jobs in a quote.
      * Updates instructions for all vendors performing the jobs in a quote. See also \&quot;PUT /jobs/{jobId}/instructions\&quot; for updating instructions for a specific job in a project or quote.
      * @param body Updated instructions for all vendors performing the jobs in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3923,7 +3923,7 @@ public class QuotesSmartV2Api {
      * Updates instructions for all vendors performing the jobs in a quote. (asynchronously)
      * Updates instructions for all vendors performing the jobs in a quote. See also \&quot;PUT /jobs/{jobId}/instructions\&quot; for updating instructions for a specific job in a project or quote.
      * @param body Updated instructions for all vendors performing the jobs in a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3956,7 +3956,7 @@ public class QuotesSmartV2Api {
     /**
      * Build call for updateVolume1
      * @param body Updated volume for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -4028,7 +4028,7 @@ public class QuotesSmartV2Api {
      * Updates volume for a quote.
      * Updates volume for a quote.
      * @param body Updated volume for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateVolume1(BigDecimalDTO body, String quoteId) throws ApiException {
@@ -4039,7 +4039,7 @@ public class QuotesSmartV2Api {
      * Updates volume for a quote.
      * Updates volume for a quote.
      * @param body Updated volume for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4052,7 +4052,7 @@ public class QuotesSmartV2Api {
      * Updates volume for a quote. (asynchronously)
      * Updates volume for a quote.
      * @param body Updated volume for a quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -4086,7 +4086,7 @@ public class QuotesSmartV2Api {
      * Build call for uploadFile3
      * @param file  (required)
      * @param fileName  (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -4167,7 +4167,7 @@ public class QuotesSmartV2Api {
      * Uploads file to the quote as a file uploaded by PM. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /v2/quotes/{quoteId}/files/add\&quot; operation).
      * @param file  (required)
      * @param fileName  (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return FileDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4181,7 +4181,7 @@ public class QuotesSmartV2Api {
      * Uploads file to the quote as a file uploaded by PM. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /v2/quotes/{quoteId}/files/add\&quot; operation).
      * @param file  (required)
      * @param fileName  (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;FileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4196,7 +4196,7 @@ public class QuotesSmartV2Api {
      * Uploads file to the quote as a file uploaded by PM. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /v2/quotes/{quoteId}/files/add\&quot; operation).
      * @param file  (required)
      * @param fileName  (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

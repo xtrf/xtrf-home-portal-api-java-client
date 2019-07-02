@@ -62,7 +62,7 @@ public class QuotesClassicApi {
     /**
      * Build call for createLanguageCombination1
      * @param body Created a new language combination for a given quote without creating a task. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -134,7 +134,7 @@ public class QuotesClassicApi {
      * Creates a new language combination for a given quote without creating a task.
      * Creates a new language combination for a given quote without creating a task.
      * @param body Created a new language combination for a given quote without creating a task. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return LanguageCombinationDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -147,7 +147,7 @@ public class QuotesClassicApi {
      * Creates a new language combination for a given quote without creating a task.
      * Creates a new language combination for a given quote without creating a task.
      * @param body Created a new language combination for a given quote without creating a task. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;LanguageCombinationDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -161,7 +161,7 @@ public class QuotesClassicApi {
      * Creates a new language combination for a given quote without creating a task. (asynchronously)
      * Creates a new language combination for a given quote without creating a task.
      * @param body Created a new language combination for a given quote without creating a task. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -195,7 +195,7 @@ public class QuotesClassicApi {
     /**
      * Build call for createTask1
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -267,7 +267,7 @@ public class QuotesClassicApi {
      * Creates a new task for a given quote.
      * Creates a new task for a given quote. Required fields are presented in the example.
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return TaskDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -280,7 +280,7 @@ public class QuotesClassicApi {
      * Creates a new task for a given quote.
      * Creates a new task for a given quote. Required fields are presented in the example.
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;TaskDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -294,7 +294,7 @@ public class QuotesClassicApi {
      * Creates a new task for a given quote. (asynchronously)
      * Creates a new task for a given quote. Required fields are presented in the example.
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -327,7 +327,7 @@ public class QuotesClassicApi {
     }
     /**
      * Build call for delete5
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -394,7 +394,7 @@ public class QuotesClassicApi {
     /**
      * Removes a quote.
      * Removes a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete5(String quoteId) throws ApiException {
@@ -404,7 +404,7 @@ public class QuotesClassicApi {
     /**
      * Removes a quote.
      * Removes a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -416,7 +416,7 @@ public class QuotesClassicApi {
     /**
      * Removes a quote. (asynchronously)
      * Removes a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -510,8 +510,8 @@ public class QuotesClassicApi {
     }
 
     /**
-     * Returns quotes&#x27; internal identifiers.
-     * Returns quotes&#x27; internal identifiers.
+     * Returns quotes internal identifiers.
+     * Returns quotes internal identifiers.
      * @param updatedSince only quotes modified since this timestamp (optional)
      * @return List&lt;Integer&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -522,8 +522,8 @@ public class QuotesClassicApi {
     }
 
     /**
-     * Returns quotes&#x27; internal identifiers.
-     * Returns quotes&#x27; internal identifiers.
+     * Returns quotes internal identifiers.
+     * Returns quotes internal identifiers.
      * @param updatedSince only quotes modified since this timestamp (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -535,8 +535,8 @@ public class QuotesClassicApi {
     }
 
     /**
-     * Returns quotes&#x27; internal identifiers. (asynchronously)
-     * Returns quotes&#x27; internal identifiers.
+     * Returns quotes internal identifiers. (asynchronously)
+     * Returns quotes internal identifiers.
      * @param updatedSince only quotes modified since this timestamp (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -570,7 +570,7 @@ public class QuotesClassicApi {
     }
     /**
      * Build call for getById8
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
@@ -640,7 +640,7 @@ public class QuotesClassicApi {
     /**
      * Returns quote details.
      * Returns quote details. If the specified quote ID refers to Smart Quote, 400 Bad Request is returned instead.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @return QuoteDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -653,7 +653,7 @@ public class QuotesClassicApi {
     /**
      * Returns quote details.
      * Returns quote details. If the specified quote ID refers to Smart Quote, 400 Bad Request is returned instead.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @return ApiResponse&lt;QuoteDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -667,7 +667,7 @@ public class QuotesClassicApi {
     /**
      * Returns quote details. (asynchronously)
      * Returns quote details. If the specified quote ID refers to Smart Quote, 400 Bad Request is returned instead.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -701,7 +701,7 @@ public class QuotesClassicApi {
     }
     /**
      * Build call for getCustomFields6
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -768,7 +768,7 @@ public class QuotesClassicApi {
     /**
      * Returns custom fields of a given quote.
      * Returns custom fields of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -780,7 +780,7 @@ public class QuotesClassicApi {
     /**
      * Returns custom fields of a given quote.
      * Returns custom fields of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -793,7 +793,7 @@ public class QuotesClassicApi {
     /**
      * Returns custom fields of a given quote. (asynchronously)
      * Returns custom fields of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -826,7 +826,7 @@ public class QuotesClassicApi {
     }
     /**
      * Build call for getDates2
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -893,7 +893,7 @@ public class QuotesClassicApi {
     /**
      * Returns dates of a given quote.
      * Returns dates of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return QuoteDatesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -905,7 +905,7 @@ public class QuotesClassicApi {
     /**
      * Returns dates of a given quote.
      * Returns dates of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;QuoteDatesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -918,7 +918,7 @@ public class QuotesClassicApi {
     /**
      * Returns dates of a given quote. (asynchronously)
      * Returns dates of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -951,7 +951,7 @@ public class QuotesClassicApi {
     }
     /**
      * Build call for getFinance1
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1018,7 +1018,7 @@ public class QuotesClassicApi {
     /**
      * Returns finance of a given quote.
      * Returns finance of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return FinanceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1030,7 +1030,7 @@ public class QuotesClassicApi {
     /**
      * Returns finance of a given quote.
      * Returns finance of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;FinanceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1043,7 +1043,7 @@ public class QuotesClassicApi {
     /**
      * Returns finance of a given quote. (asynchronously)
      * Returns finance of a given quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1076,7 +1076,7 @@ public class QuotesClassicApi {
     }
     /**
      * Build call for send1
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1143,7 +1143,7 @@ public class QuotesClassicApi {
     /**
      * Sends a quote for customer confirmation.
      * Sends a quote for customer confirmation. Quote status is changed to SENT and a document is sent to the customer.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void send1(String quoteId) throws ApiException {
@@ -1153,7 +1153,7 @@ public class QuotesClassicApi {
     /**
      * Sends a quote for customer confirmation.
      * Sends a quote for customer confirmation. Quote status is changed to SENT and a document is sent to the customer.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1165,7 +1165,7 @@ public class QuotesClassicApi {
     /**
      * Sends a quote for customer confirmation. (asynchronously)
      * Sends a quote for customer confirmation. Quote status is changed to SENT and a document is sent to the customer.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1197,7 +1197,7 @@ public class QuotesClassicApi {
     }
     /**
      * Build call for start
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1264,7 +1264,7 @@ public class QuotesClassicApi {
     /**
      * Starts a quote.
      * Starts a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void start(String quoteId) throws ApiException {
@@ -1274,7 +1274,7 @@ public class QuotesClassicApi {
     /**
      * Starts a quote.
      * Starts a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1286,7 +1286,7 @@ public class QuotesClassicApi {
     /**
      * Starts a quote. (asynchronously)
      * Starts a quote.
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1319,7 +1319,7 @@ public class QuotesClassicApi {
     /**
      * Build call for updateCustomFields
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1391,7 +1391,7 @@ public class QuotesClassicApi {
      * Updates custom fields of a given quote.
      * Updates custom fields of a given quote.
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1404,7 +1404,7 @@ public class QuotesClassicApi {
      * Updates custom fields of a given quote.
      * Updates custom fields of a given quote.
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1418,7 +1418,7 @@ public class QuotesClassicApi {
      * Updates custom fields of a given quote. (asynchronously)
      * Updates custom fields of a given quote.
      * @param body Updated custom fields of a given quote. (required)
-     * @param quoteId quote&#x27;s internal identifier (required)
+     * @param quoteId quotes internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

@@ -25,7 +25,7 @@ import java.io.IOException;
  * describes files; remember that either url, content or token should be filled
  */
 @Schema(description = "describes files; remember that either url, content or token should be filled")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class TaskFileDTO {
   @SerializedName("name")
   private String name = null;

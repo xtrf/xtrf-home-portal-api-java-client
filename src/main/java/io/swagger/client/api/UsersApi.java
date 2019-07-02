@@ -58,7 +58,7 @@ public class UsersApi {
 
     /**
      * Build call for changePassword
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param oldPassword  (optional)
      * @param newPassword  (optional)
      * @param progressListener Progress listener
@@ -129,9 +129,9 @@ public class UsersApi {
     }
 
     /**
-     * Sets user&#x27;s password to a new value.
-     * Sets user&#x27;s password to a new value.
-     * @param userId user&#x27;s internal identifier (required)
+     * Sets users password to a new value.
+     * Sets users password to a new value.
+     * @param userId users internal identifier (required)
      * @param oldPassword  (optional)
      * @param newPassword  (optional)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -141,9 +141,9 @@ public class UsersApi {
     }
 
     /**
-     * Sets user&#x27;s password to a new value.
-     * Sets user&#x27;s password to a new value.
-     * @param userId user&#x27;s internal identifier (required)
+     * Sets users password to a new value.
+     * Sets users password to a new value.
+     * @param userId users internal identifier (required)
      * @param oldPassword  (optional)
      * @param newPassword  (optional)
      * @return ApiResponse&lt;Void&gt;
@@ -155,9 +155,9 @@ public class UsersApi {
     }
 
     /**
-     * Sets user&#x27;s password to a new value. (asynchronously)
-     * Sets user&#x27;s password to a new value.
-     * @param userId user&#x27;s internal identifier (required)
+     * Sets users password to a new value. (asynchronously)
+     * Sets users password to a new value.
+     * @param userId users internal identifier (required)
      * @param oldPassword  (optional)
      * @param newPassword  (optional)
      * @param callback The callback to be executed when the API call finishes
@@ -307,7 +307,7 @@ public class UsersApi {
     }
     /**
      * Build call for getById6
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -374,7 +374,7 @@ public class UsersApi {
     /**
      * Returns user details.
      * Returns user details.
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return UserDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -386,7 +386,7 @@ public class UsersApi {
     /**
      * Returns user details.
      * Returns user details.
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return ApiResponse&lt;UserDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -399,7 +399,7 @@ public class UsersApi {
     /**
      * Returns user details. (asynchronously)
      * Returns user details.
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -432,8 +432,8 @@ public class UsersApi {
     }
     /**
      * Build call for getCustomField1
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -505,8 +505,8 @@ public class UsersApi {
     /**
      * Returns custom field of a given user.
      * Returns custom field of a given user.
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return CustomFieldDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -518,8 +518,8 @@ public class UsersApi {
     /**
      * Returns custom field of a given user.
      * Returns custom field of a given user.
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return ApiResponse&lt;CustomFieldDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -532,8 +532,8 @@ public class UsersApi {
     /**
      * Returns custom field of a given user. (asynchronously)
      * Returns custom field of a given user.
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -566,7 +566,7 @@ public class UsersApi {
     }
     /**
      * Build call for getCustomFields4
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -633,7 +633,7 @@ public class UsersApi {
     /**
      * Returns custom fields of a given user.
      * Returns custom fields of a given user.
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -645,7 +645,7 @@ public class UsersApi {
     /**
      * Returns custom fields of a given user.
      * Returns custom fields of a given user.
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -658,7 +658,7 @@ public class UsersApi {
     /**
      * Returns custom fields of a given user. (asynchronously)
      * Returns custom fields of a given user.
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -808,7 +808,7 @@ public class UsersApi {
     /**
      * Build call for update
      * @param body Updated existing user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -880,7 +880,7 @@ public class UsersApi {
      * Updates an existing user.
      * Updates an existing user.
      * @param body Updated existing user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return UserDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -893,7 +893,7 @@ public class UsersApi {
      * Updates an existing user.
      * Updates an existing user.
      * @param body Updated existing user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return ApiResponse&lt;UserDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -907,7 +907,7 @@ public class UsersApi {
      * Updates an existing user. (asynchronously)
      * Updates an existing user.
      * @param body Updated existing user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -941,8 +941,8 @@ public class UsersApi {
     /**
      * Build call for updateCustomField
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1019,8 +1019,8 @@ public class UsersApi {
      * Updates given custom field of a given user.
      * Updates given custom field of a given user.
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return CustomFieldDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1033,8 +1033,8 @@ public class UsersApi {
      * Updates given custom field of a given user.
      * Updates given custom field of a given user.
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return ApiResponse&lt;CustomFieldDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1048,8 +1048,8 @@ public class UsersApi {
      * Updates given custom field of a given user. (asynchronously)
      * Updates given custom field of a given user.
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param userId users internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1083,7 +1083,7 @@ public class UsersApi {
     /**
      * Build call for updateCustomFields
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1155,7 +1155,7 @@ public class UsersApi {
      * Updates custom fields of a given user.
      * Updates custom fields of a given user.
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1168,7 +1168,7 @@ public class UsersApi {
      * Updates custom fields of a given user.
      * Updates custom fields of a given user.
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1182,7 +1182,7 @@ public class UsersApi {
      * Updates custom fields of a given user. (asynchronously)
      * Updates custom fields of a given user.
      * @param body Updated custom fields of a given user. (required)
-     * @param userId user&#x27;s internal identifier (required)
+     * @param userId users internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

@@ -125,8 +125,8 @@ public class QuotesSmartV2ApiTest {
     @Test
     public void createPayable1Test() throws ApiException {
         PayableCreateDTO body = null;
-        String quote&#x27;sInternalIdentifier = null;
-        PayableDTO response = api.createPayable1(body, quote&#x27;sInternalIdentifier);
+        String quotesInternalIdentifier = null;
+        PayableDTO response = api.createPayable1(body, quotesInternalIdentifier);
 
         // TODO: test validations
     }
@@ -141,8 +141,8 @@ public class QuotesSmartV2ApiTest {
     @Test
     public void createReceivable1Test() throws ApiException {
         ReceivableCreateDTO body = null;
-        String quote&#x27;sInternalIdentifier = null;
-        ReceivableDTO response = api.createReceivable1(body, quote&#x27;sInternalIdentifier);
+        String quotesInternalIdentifier = null;
+        ReceivableDTO response = api.createReceivable1(body, quotesInternalIdentifier);
 
         // TODO: test validations
     }
@@ -156,9 +156,9 @@ public class QuotesSmartV2ApiTest {
      */
     @Test
     public void deletePayableTest() throws ApiException {
-        String quote&#x27;sInternalIdentifier = null;
-        Long payable&#x27;sInternalIdentifier = null;
-        api.deletePayable(quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier);
+        String quotesInternalIdentifier = null;
+        Long payablesInternalIdentifier = null;
+        api.deletePayable(quotesInternalIdentifier, payablesInternalIdentifier);
 
         // TODO: test validations
     }
@@ -172,9 +172,9 @@ public class QuotesSmartV2ApiTest {
      */
     @Test
     public void deleteReceivableTest() throws ApiException {
-        String quote&#x27;sInternalIdentifier = null;
-        Long receivable&#x27;sInternalIdentifier = null;
-        api.deleteReceivable(quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier);
+        String quotesInternalIdentifier = null;
+        Long receivablesInternalIdentifier = null;
+        api.deleteReceivable(quotesInternalIdentifier, receivablesInternalIdentifier);
 
         // TODO: test validations
     }
@@ -423,9 +423,9 @@ public class QuotesSmartV2ApiTest {
     @Test
     public void updatePayable1Test() throws ApiException {
         PayableDTO body = null;
-        String quote&#x27;sInternalIdentifier = null;
-        Long payable&#x27;sInternalIdentifier = null;
-        PayableDTO response = api.updatePayable1(body, quote&#x27;sInternalIdentifier, payable&#x27;sInternalIdentifier);
+        String quotesInternalIdentifier = null;
+        Long payablesInternalIdentifier = null;
+        PayableDTO response = api.updatePayable1(body, quotesInternalIdentifier, payablesInternalIdentifier);
 
         // TODO: test validations
     }
@@ -456,9 +456,9 @@ public class QuotesSmartV2ApiTest {
     @Test
     public void updateReceivable1Test() throws ApiException {
         ReceivableDTO body = null;
-        String quote&#x27;sInternalIdentifier = null;
-        Long receivable&#x27;sInternalIdentifier = null;
-        ReceivableDTO response = api.updateReceivable1(body, quote&#x27;sInternalIdentifier, receivable&#x27;sInternalIdentifier);
+        String quotesInternalIdentifier = null;
+        Long receivablesInternalIdentifier = null;
+        ReceivableDTO response = api.updateReceivable1(body, quotesInternalIdentifier, receivablesInternalIdentifier);
 
         // TODO: test validations
     }

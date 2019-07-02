@@ -81,7 +81,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for addFileLinks
      * @param body Added file links to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -153,7 +153,7 @@ public class ProjectsSmartV2Api {
      * Adds file links to the project as added by PM.
      * Adds file links to the project as added by PM. The following properties can be specified for each file link:&lt;ul&gt;&lt;li&gt;url (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added file links to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return FilesDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -166,7 +166,7 @@ public class ProjectsSmartV2Api {
      * Adds file links to the project as added by PM.
      * Adds file links to the project as added by PM. The following properties can be specified for each file link:&lt;ul&gt;&lt;li&gt;url (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added file links to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;FilesDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -180,7 +180,7 @@ public class ProjectsSmartV2Api {
      * Adds file links to the project as added by PM. (asynchronously)
      * Adds file links to the project as added by PM. The following properties can be specified for each file link:&lt;ul&gt;&lt;li&gt;url (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added file links to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -214,7 +214,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for addFiles1
      * @param body Added files to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -286,7 +286,7 @@ public class ProjectsSmartV2Api {
      * Adds files to the project as added by PM.
      * Adds files to the project as added by PM. The files have to be uploaded beforehand (see \&quot;POST /v2/projects/{projectId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void addFiles1(FileCategorizationsDto body, String projectId) throws ApiException {
@@ -297,7 +297,7 @@ public class ProjectsSmartV2Api {
      * Adds files to the project as added by PM.
      * Adds files to the project as added by PM. The files have to be uploaded beforehand (see \&quot;POST /v2/projects/{projectId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -310,7 +310,7 @@ public class ProjectsSmartV2Api {
      * Adds files to the project as added by PM. (asynchronously)
      * Adds files to the project as added by PM. The files have to be uploaded beforehand (see \&quot;POST /v2/projects/{projectId}/files/upload\&quot; operation). The following properties can be specified for each file:&lt;ul&gt;&lt;li&gt;category (required, 400 Bad Request is returned otherwise)&lt;/li&gt;&lt;li&gt;languageIds – when the file category depends on a list of languages&lt;/li&gt;&lt;li&gt;languageCombinationIds – when the file category depends on a list of language combinations&lt;/li&gt;&lt;/ul&gt;
      * @param body Added files to the project as added by PM. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -467,7 +467,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for changeStatus1
      * @param body Changed project status. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -539,7 +539,7 @@ public class ProjectsSmartV2Api {
      * Changes project status if possible (400 Bad Request is returned otherwise).
      * Changes project status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys: &lt;ul&gt;&lt;li&gt;CANCELLED – available when the job has one of the following statuses: OPEN, STARTED&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed project status. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void changeStatus1(ProjectStatusDTO body, String projectId) throws ApiException {
@@ -550,7 +550,7 @@ public class ProjectsSmartV2Api {
      * Changes project status if possible (400 Bad Request is returned otherwise).
      * Changes project status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys: &lt;ul&gt;&lt;li&gt;CANCELLED – available when the job has one of the following statuses: OPEN, STARTED&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed project status. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -563,7 +563,7 @@ public class ProjectsSmartV2Api {
      * Changes project status if possible (400 Bad Request is returned otherwise). (asynchronously)
      * Changes project status if possible (400 Bad Request is returned otherwise). The status has to be specified using one of the following keys: &lt;ul&gt;&lt;li&gt;CANCELLED – available when the job has one of the following statuses: OPEN, STARTED&lt;/li&gt;&lt;/ul&gt;
      * @param body Changed project status. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -716,7 +716,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for createPayable
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -788,7 +788,7 @@ public class ProjectsSmartV2Api {
      * Adds a payable to a project.
      * Adds a payable to a project.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return PayableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -801,7 +801,7 @@ public class ProjectsSmartV2Api {
      * Adds a payable to a project.
      * Adds a payable to a project.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;PayableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -815,7 +815,7 @@ public class ProjectsSmartV2Api {
      * Adds a payable to a project. (asynchronously)
      * Adds a payable to a project.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -849,7 +849,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for createReceivable
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -921,7 +921,7 @@ public class ProjectsSmartV2Api {
      * Adds a receivable to a project.
      * Adds a receivable to a project.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ReceivableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -934,7 +934,7 @@ public class ProjectsSmartV2Api {
      * Adds a receivable to a project.
      * Adds a receivable to a project.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;ReceivableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -948,7 +948,7 @@ public class ProjectsSmartV2Api {
      * Adds a receivable to a project. (asynchronously)
      * Adds a receivable to a project.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -981,8 +981,8 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for deletePayable
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1054,8 +1054,8 @@ public class ProjectsSmartV2Api {
     /**
      * Deletes a payable.
      * Deletes a payable.
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void deletePayable(String projectId, Long payableId) throws ApiException {
@@ -1065,8 +1065,8 @@ public class ProjectsSmartV2Api {
     /**
      * Deletes a payable.
      * Deletes a payable.
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1078,8 +1078,8 @@ public class ProjectsSmartV2Api {
     /**
      * Deletes a payable. (asynchronously)
      * Deletes a payable.
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1111,8 +1111,8 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for deleteReceivable
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1184,8 +1184,8 @@ public class ProjectsSmartV2Api {
     /**
      * Deletes a receivable.
      * Deletes a receivable.
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void deleteReceivable(String projectId, Long receivableId) throws ApiException {
@@ -1195,8 +1195,8 @@ public class ProjectsSmartV2Api {
     /**
      * Deletes a receivable.
      * Deletes a receivable.
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1208,8 +1208,8 @@ public class ProjectsSmartV2Api {
     /**
      * Deletes a receivable. (asynchronously)
      * Deletes a receivable.
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1241,7 +1241,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getById9
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1308,7 +1308,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns project details.
      * Returns project details. If the specified project ID refers to Classic Project, 400 Bad Request is returned instead.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ProjectDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1320,7 +1320,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns project details.
      * Returns project details. If the specified project ID refers to Classic Project, 400 Bad Request is returned instead.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;ProjectDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1333,7 +1333,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns project details. (asynchronously)
      * Returns project details. If the specified project ID refers to Classic Project, 400 Bad Request is returned instead.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1491,7 +1491,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getContacts2
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1558,7 +1558,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns Client Contacts information for a project.
      * Returns Client Contacts information for a project
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return SmartContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1570,7 +1570,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns Client Contacts information for a project.
      * Returns Client Contacts information for a project
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;SmartContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1583,7 +1583,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns Client Contacts information for a project. (asynchronously)
      * Returns Client Contacts information for a project
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1616,7 +1616,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getCustomFields8
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1683,7 +1683,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns a list of custom field keys and values for a project.
      * Returns a list of custom field keys and values for a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1695,7 +1695,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns a list of custom field keys and values for a project.
      * Returns a list of custom field keys and values for a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1708,7 +1708,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns a list of custom field keys and values for a project. (asynchronously)
      * Returns a list of custom field keys and values for a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1741,7 +1741,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getDeliverableFiles
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1808,7 +1808,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of files in a project, that are ready to be delivered to client.
      * Returns list of files in a project, that are ready to be delivered to client. A file is considered deliverable to client when all of the following criteria are met:&lt;ul&gt;&lt;li&gt;the file was added to a job in the last step in the process&lt;/li&gt;&lt;li&gt;the file is marked as verified (if it was added in a verification step and the file is verifiable, according to its category)&lt;/li&gt;&lt;li&gt;the job is finished (has Ready status)&lt;/li&gt;&lt;/ul&gt;
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return List&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1820,7 +1820,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of files in a project, that are ready to be delivered to client.
      * Returns list of files in a project, that are ready to be delivered to client. A file is considered deliverable to client when all of the following criteria are met:&lt;ul&gt;&lt;li&gt;the file was added to a job in the last step in the process&lt;/li&gt;&lt;li&gt;the file is marked as verified (if it was added in a verification step and the file is verifiable, according to its category)&lt;/li&gt;&lt;li&gt;the job is finished (has Ready status)&lt;/li&gt;&lt;/ul&gt;
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;List&lt;ProjectFileDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1833,7 +1833,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of files in a project, that are ready to be delivered to client. (asynchronously)
      * Returns list of files in a project, that are ready to be delivered to client. A file is considered deliverable to client when all of the following criteria are met:&lt;ul&gt;&lt;li&gt;the file was added to a job in the last step in the process&lt;/li&gt;&lt;li&gt;the file is marked as verified (if it was added in a verification step and the file is verifiable, according to its category)&lt;/li&gt;&lt;li&gt;the job is finished (has Ready status)&lt;/li&gt;&lt;/ul&gt;
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1866,7 +1866,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getFileById1
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1933,7 +1933,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns details of a file.
      * Returns details of a file.
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @return ProjectFileDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1945,7 +1945,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns details of a file.
      * Returns details of a file.
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @return ApiResponse&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1958,7 +1958,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns details of a file. (asynchronously)
      * Returns details of a file.
-     * @param fileId file&#x27;s internal identifier (required)
+     * @param fileId files internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1991,8 +1991,8 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getFileContentById
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2064,8 +2064,8 @@ public class ProjectsSmartV2Api {
     /**
      * Downloads a file content.
      * Downloads a file content.
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void getFileContentById(String fileId, String fileName) throws ApiException {
@@ -2075,8 +2075,8 @@ public class ProjectsSmartV2Api {
     /**
      * Downloads a file content.
      * Downloads a file content.
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2088,8 +2088,8 @@ public class ProjectsSmartV2Api {
     /**
      * Downloads a file content. (asynchronously)
      * Downloads a file content.
-     * @param fileId file&#x27;s internal identifier (required)
-     * @param fileName file&#x27;s name (required)
+     * @param fileId files internal identifier (required)
+     * @param fileName files name (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2121,7 +2121,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getFiles
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2188,7 +2188,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of files in a project.
      * Returns list of files in a project. Only files added to the project (i.e. files that have assigned category and languages) are listed.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return List&lt;ProjectFileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2200,7 +2200,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of files in a project.
      * Returns list of files in a project. Only files added to the project (i.e. files that have assigned category and languages) are listed.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;List&lt;ProjectFileDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2213,7 +2213,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of files in a project. (asynchronously)
      * Returns list of files in a project. Only files added to the project (i.e. files that have assigned category and languages) are listed.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2246,7 +2246,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getFinance2
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2313,7 +2313,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns finance information for a project.
      * Returns finance information for a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return FinanceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2325,7 +2325,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns finance information for a project.
      * Returns finance information for a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;FinanceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2338,7 +2338,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns finance information for a project. (asynchronously)
      * Returns finance information for a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2371,7 +2371,7 @@ public class ProjectsSmartV2Api {
     }
     /**
      * Build call for getJobs
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2438,7 +2438,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of jobs in a project.
      * Returns list of jobs in a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return List&lt;JobDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2450,7 +2450,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of jobs in a project.
      * Returns list of jobs in a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;List&lt;JobDto&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2463,7 +2463,7 @@ public class ProjectsSmartV2Api {
     /**
      * Returns list of jobs in a project. (asynchronously)
      * Returns list of jobs in a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2497,7 +2497,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateClientDeadline
      * @param body Updated Client Deadline for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2569,7 +2569,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Deadline for a project.
      * Updates Client Deadline for a project.
      * @param body Updated Client Deadline for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateClientDeadline(TimeDTO body, String projectId) throws ApiException {
@@ -2580,7 +2580,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Deadline for a project.
      * Updates Client Deadline for a project.
      * @param body Updated Client Deadline for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2593,7 +2593,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Deadline for a project. (asynchronously)
      * Updates Client Deadline for a project.
      * @param body Updated Client Deadline for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2626,7 +2626,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateClientNotes
      * @param body Updated Client Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2698,7 +2698,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Notes for a project.
      * Updates Client Notes for a project.
      * @param body Updated Client Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateClientNotes(StringDTO body, String projectId) throws ApiException {
@@ -2709,7 +2709,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Notes for a project.
      * Updates Client Notes for a project.
      * @param body Updated Client Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2722,7 +2722,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Notes for a project. (asynchronously)
      * Updates Client Notes for a project.
      * @param body Updated Client Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2755,7 +2755,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateClientReferenceNumber
      * @param body Updated Client Reference Number for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2827,7 +2827,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Reference Number for a project.
      * Updates Client Reference Number for a project.
      * @param body Updated Client Reference Number for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateClientReferenceNumber(StringDTO body, String projectId) throws ApiException {
@@ -2838,7 +2838,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Reference Number for a project.
      * Updates Client Reference Number for a project.
      * @param body Updated Client Reference Number for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2851,7 +2851,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Reference Number for a project. (asynchronously)
      * Updates Client Reference Number for a project.
      * @param body Updated Client Reference Number for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2884,7 +2884,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateContacts
      * @param body Updated Client Contacts for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2956,7 +2956,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Contacts for a project.
      * Updates Client Contacts for a project.
      * @param body Updated Client Contacts for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return SmartContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2969,7 +2969,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Contacts for a project.
      * Updates Client Contacts for a project.
      * @param body Updated Client Contacts for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;SmartContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2983,7 +2983,7 @@ public class ProjectsSmartV2Api {
      * Updates Client Contacts for a project. (asynchronously)
      * Updates Client Contacts for a project.
      * @param body Updated Client Contacts for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3017,8 +3017,8 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateCustomField
      * @param body Updated custom field with a specified key in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param projectId projects internal identifier (required)
+     * @param key custom fields key (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3095,8 +3095,8 @@ public class ProjectsSmartV2Api {
      * Updates a custom field with a specified key in a project
      * Updates a custom field with a specified key in a project
      * @param body Updated custom field with a specified key in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param projectId projects internal identifier (required)
+     * @param key custom fields key (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateCustomField(SmartCustomFieldDTO body, String projectId, String key) throws ApiException {
@@ -3107,8 +3107,8 @@ public class ProjectsSmartV2Api {
      * Updates a custom field with a specified key in a project
      * Updates a custom field with a specified key in a project
      * @param body Updated custom field with a specified key in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param projectId projects internal identifier (required)
+     * @param key custom fields key (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3121,8 +3121,8 @@ public class ProjectsSmartV2Api {
      * Updates a custom field with a specified key in a project (asynchronously)
      * Updates a custom field with a specified key in a project
      * @param body Updated custom field with a specified key in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param key custom field&#x27;s key (required)
+     * @param projectId projects internal identifier (required)
+     * @param key custom fields key (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3155,7 +3155,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateInternalNotes
      * @param body Updated Internal Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3227,7 +3227,7 @@ public class ProjectsSmartV2Api {
      * Updates Internal Notes for a project.
      * Updates Internal Notes for a project.
      * @param body Updated Internal Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateInternalNotes(StringDTO body, String projectId) throws ApiException {
@@ -3238,7 +3238,7 @@ public class ProjectsSmartV2Api {
      * Updates Internal Notes for a project.
      * Updates Internal Notes for a project.
      * @param body Updated Internal Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3251,7 +3251,7 @@ public class ProjectsSmartV2Api {
      * Updates Internal Notes for a project. (asynchronously)
      * Updates Internal Notes for a project.
      * @param body Updated Internal Notes for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3284,7 +3284,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateOrderedOn
      * @param body Updated Order Date for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3356,7 +3356,7 @@ public class ProjectsSmartV2Api {
      * Updates Order Date for a project.
      * Updates Order Date for a project.
      * @param body Updated Order Date for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateOrderedOn(TimeDTO body, String projectId) throws ApiException {
@@ -3367,7 +3367,7 @@ public class ProjectsSmartV2Api {
      * Updates Order Date for a project.
      * Updates Order Date for a project.
      * @param body Updated Order Date for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3380,7 +3380,7 @@ public class ProjectsSmartV2Api {
      * Updates Order Date for a project. (asynchronously)
      * Updates Order Date for a project.
      * @param body Updated Order Date for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3413,8 +3413,8 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updatePayable
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3491,8 +3491,8 @@ public class ProjectsSmartV2Api {
      * Updates a payable.
      * Updates a payable.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @return PayableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3505,8 +3505,8 @@ public class ProjectsSmartV2Api {
      * Updates a payable.
      * Updates a payable.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @return ApiResponse&lt;PayableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3520,8 +3520,8 @@ public class ProjectsSmartV2Api {
      * Updates a payable. (asynchronously)
      * Updates a payable.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param payableId payable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param payableId payables internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3555,8 +3555,8 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateReceivable
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3633,8 +3633,8 @@ public class ProjectsSmartV2Api {
      * Updates a receivable.
      * Updates a receivable.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @return ReceivableDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3647,8 +3647,8 @@ public class ProjectsSmartV2Api {
      * Updates a receivable.
      * Updates a receivable.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @return ApiResponse&lt;ReceivableDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3662,8 +3662,8 @@ public class ProjectsSmartV2Api {
      * Updates a receivable. (asynchronously)
      * Updates a receivable.
      * @param body  (required)
-     * @param projectId project&#x27;s internal identifier (required)
-     * @param receivableId receivable&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
+     * @param receivableId receivables internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3697,7 +3697,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateSourceLanguage
      * @param body Updated source language for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3769,7 +3769,7 @@ public class ProjectsSmartV2Api {
      * Updates source language for a project.
      * Updates source language for a project.
      * @param body Updated source language for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateSourceLanguage(SourceLanguageDTO body, String projectId) throws ApiException {
@@ -3780,7 +3780,7 @@ public class ProjectsSmartV2Api {
      * Updates source language for a project.
      * Updates source language for a project.
      * @param body Updated source language for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3793,7 +3793,7 @@ public class ProjectsSmartV2Api {
      * Updates source language for a project. (asynchronously)
      * Updates source language for a project.
      * @param body Updated source language for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3826,7 +3826,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateSpecialization
      * @param body Updated specialization for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3898,7 +3898,7 @@ public class ProjectsSmartV2Api {
      * Updates specialization for a project.
      * Updates specialization for a project.
      * @param body Updated specialization for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateSpecialization(SpecializationDTO body, String projectId) throws ApiException {
@@ -3909,7 +3909,7 @@ public class ProjectsSmartV2Api {
      * Updates specialization for a project.
      * Updates specialization for a project.
      * @param body Updated specialization for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3922,7 +3922,7 @@ public class ProjectsSmartV2Api {
      * Updates specialization for a project. (asynchronously)
      * Updates specialization for a project.
      * @param body Updated specialization for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3955,7 +3955,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateTargetLanguages
      * @param body Updated target languages for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -4027,7 +4027,7 @@ public class ProjectsSmartV2Api {
      * Updates target languages for a project.
      * Updates target languages for a project.
      * @param body Updated target languages for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateTargetLanguages(TargetLanguagesDTO body, String projectId) throws ApiException {
@@ -4038,7 +4038,7 @@ public class ProjectsSmartV2Api {
      * Updates target languages for a project.
      * Updates target languages for a project.
      * @param body Updated target languages for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4051,7 +4051,7 @@ public class ProjectsSmartV2Api {
      * Updates target languages for a project. (asynchronously)
      * Updates target languages for a project.
      * @param body Updated target languages for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -4084,7 +4084,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateVendorInstructions
      * @param body Updated instructions for all vendors performing the jobs in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -4156,7 +4156,7 @@ public class ProjectsSmartV2Api {
      * Updates instructions for all vendors performing the jobs in a project.
      * Updates instructions for all vendors performing the jobs in a project. See also \&quot;PUT /jobs/{jobId}/instructions\&quot; for updating instructions for a specific job in a project or quote.
      * @param body Updated instructions for all vendors performing the jobs in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateVendorInstructions(StringDTO body, String projectId) throws ApiException {
@@ -4167,7 +4167,7 @@ public class ProjectsSmartV2Api {
      * Updates instructions for all vendors performing the jobs in a project.
      * Updates instructions for all vendors performing the jobs in a project. See also \&quot;PUT /jobs/{jobId}/instructions\&quot; for updating instructions for a specific job in a project or quote.
      * @param body Updated instructions for all vendors performing the jobs in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4180,7 +4180,7 @@ public class ProjectsSmartV2Api {
      * Updates instructions for all vendors performing the jobs in a project. (asynchronously)
      * Updates instructions for all vendors performing the jobs in a project. See also \&quot;PUT /jobs/{jobId}/instructions\&quot; for updating instructions for a specific job in a project or quote.
      * @param body Updated instructions for all vendors performing the jobs in a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -4213,7 +4213,7 @@ public class ProjectsSmartV2Api {
     /**
      * Build call for updateVolume
      * @param body Updated volume for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -4285,7 +4285,7 @@ public class ProjectsSmartV2Api {
      * Updates volume for a project.
      * Updates volume for a project.
      * @param body Updated volume for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void updateVolume(BigDecimalDTO body, String projectId) throws ApiException {
@@ -4296,7 +4296,7 @@ public class ProjectsSmartV2Api {
      * Updates volume for a project.
      * Updates volume for a project.
      * @param body Updated volume for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4309,7 +4309,7 @@ public class ProjectsSmartV2Api {
      * Updates volume for a project. (asynchronously)
      * Updates volume for a project.
      * @param body Updated volume for a project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -4343,7 +4343,7 @@ public class ProjectsSmartV2Api {
      * Build call for uploadFile2
      * @param file  (required)
      * @param fileName  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -4424,7 +4424,7 @@ public class ProjectsSmartV2Api {
      * Uploads file to the project as a file uploaded by PM. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /v2/projects/{projectId}/files/add\&quot; operation
      * @param file  (required)
      * @param fileName  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return FileDto
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4438,7 +4438,7 @@ public class ProjectsSmartV2Api {
      * Uploads file to the project as a file uploaded by PM. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /v2/projects/{projectId}/files/add\&quot; operation
      * @param file  (required)
      * @param fileName  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;FileDto&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4453,7 +4453,7 @@ public class ProjectsSmartV2Api {
      * Uploads file to the project as a file uploaded by PM. Only one file can be uploaded at once. When the upload is finished the file has to be added by specifying its category and languages (see \&quot;PUT /v2/projects/{projectId}/files/add\&quot; operation
      * @param file  (required)
      * @param fileName  (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

@@ -184,7 +184,7 @@ public class VendorInvoicesApi {
     /**
      * Build call for createPayment
      * @param body New payment. (required)
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -256,7 +256,7 @@ public class VendorInvoicesApi {
      * Creates a new payment on the vendor account and assigns the payment to the invoice.
      * Creates a new payment on the vendor account and assigns the payment to the invoice.
      * @param body New payment. (required)
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void createPayment(PaymentDTO body, Long invoiceId) throws ApiException {
@@ -267,7 +267,7 @@ public class VendorInvoicesApi {
      * Creates a new payment on the vendor account and assigns the payment to the invoice.
      * Creates a new payment on the vendor account and assigns the payment to the invoice.
      * @param body New payment. (required)
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -280,7 +280,7 @@ public class VendorInvoicesApi {
      * Creates a new payment on the vendor account and assigns the payment to the invoice. (asynchronously)
      * Creates a new payment on the vendor account and assigns the payment to the invoice.
      * @param body New payment. (required)
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -312,7 +312,7 @@ public class VendorInvoicesApi {
     }
     /**
      * Build call for delete2
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -379,7 +379,7 @@ public class VendorInvoicesApi {
     /**
      * Removes a provider invoice.
      * Removes a provider invoice.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete2(Long invoiceId) throws ApiException {
@@ -389,7 +389,7 @@ public class VendorInvoicesApi {
     /**
      * Removes a provider invoice.
      * Removes a provider invoice.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -401,7 +401,7 @@ public class VendorInvoicesApi {
     /**
      * Removes a provider invoice. (asynchronously)
      * Removes a provider invoice.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -433,7 +433,7 @@ public class VendorInvoicesApi {
     }
     /**
      * Build call for delete2_0
-     * @param paymentId provider payment&#x27;s internal identifier (required)
+     * @param paymentId provider payments internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -500,7 +500,7 @@ public class VendorInvoicesApi {
     /**
      * Removes a provider payment.
      * Removes a provider payment.
-     * @param paymentId provider payment&#x27;s internal identifier (required)
+     * @param paymentId provider payments internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete2_0(Long paymentId) throws ApiException {
@@ -510,7 +510,7 @@ public class VendorInvoicesApi {
     /**
      * Removes a provider payment.
      * Removes a provider payment.
-     * @param paymentId provider payment&#x27;s internal identifier (required)
+     * @param paymentId provider payments internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -522,7 +522,7 @@ public class VendorInvoicesApi {
     /**
      * Removes a provider payment. (asynchronously)
      * Removes a provider payment.
-     * @param paymentId provider payment&#x27;s internal identifier (required)
+     * @param paymentId provider payments internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -738,8 +738,8 @@ public class VendorInvoicesApi {
     }
 
     /**
-     * Returns vendor invoices&#x27; internal identifiers.
-     * Returns vendor invoices&#x27; internal identifiers.
+     * Returns vendor invoices internal identifiers.
+     * Returns vendor invoices internal identifiers.
      * @param updatedSince only vendor invoices modified since this timestamp (optional)
      * @return List&lt;Integer&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -750,8 +750,8 @@ public class VendorInvoicesApi {
     }
 
     /**
-     * Returns vendor invoices&#x27; internal identifiers.
-     * Returns vendor invoices&#x27; internal identifiers.
+     * Returns vendor invoices internal identifiers.
+     * Returns vendor invoices internal identifiers.
      * @param updatedSince only vendor invoices modified since this timestamp (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -763,8 +763,8 @@ public class VendorInvoicesApi {
     }
 
     /**
-     * Returns vendor invoices&#x27; internal identifiers. (asynchronously)
-     * Returns vendor invoices&#x27; internal identifiers.
+     * Returns vendor invoices internal identifiers. (asynchronously)
+     * Returns vendor invoices internal identifiers.
      * @param updatedSince only vendor invoices modified since this timestamp (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -798,7 +798,7 @@ public class VendorInvoicesApi {
     }
     /**
      * Build call for getById3
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -865,7 +865,7 @@ public class VendorInvoicesApi {
     /**
      * Returns provider invoice details.
      * Returns provider invoice details.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @return ProviderInvoiceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -877,7 +877,7 @@ public class VendorInvoicesApi {
     /**
      * Returns provider invoice details.
      * Returns provider invoice details.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @return ApiResponse&lt;ProviderInvoiceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -890,7 +890,7 @@ public class VendorInvoicesApi {
     /**
      * Returns provider invoice details. (asynchronously)
      * Returns provider invoice details.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -923,7 +923,7 @@ public class VendorInvoicesApi {
     }
     /**
      * Build call for getDocument1
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -990,7 +990,7 @@ public class VendorInvoicesApi {
     /**
      * Generates provider invoice document (PDF).
      * Generates provider invoice document (PDF).
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @return UrlResultDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1002,7 +1002,7 @@ public class VendorInvoicesApi {
     /**
      * Generates provider invoice document (PDF).
      * Generates provider invoice document (PDF).
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @return ApiResponse&lt;UrlResultDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1015,7 +1015,7 @@ public class VendorInvoicesApi {
     /**
      * Generates provider invoice document (PDF). (asynchronously)
      * Generates provider invoice document (PDF).
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1048,7 +1048,7 @@ public class VendorInvoicesApi {
     }
     /**
      * Build call for getPayments1
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1115,7 +1115,7 @@ public class VendorInvoicesApi {
     /**
      * Returns all payments for the vendor invoice.
      * Returns all payments for the vendor invoice.
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @return List&lt;PaymentDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1127,7 +1127,7 @@ public class VendorInvoicesApi {
     /**
      * Returns all payments for the vendor invoice.
      * Returns all payments for the vendor invoice.
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @return ApiResponse&lt;List&lt;PaymentDTO&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1140,7 +1140,7 @@ public class VendorInvoicesApi {
     /**
      * Returns all payments for the vendor invoice. (asynchronously)
      * Returns all payments for the vendor invoice.
-     * @param invoiceId vendor invoice&#x27;s internal identifier (required)
+     * @param invoiceId vendor invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1173,7 +1173,7 @@ public class VendorInvoicesApi {
     }
     /**
      * Build call for send
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1240,7 +1240,7 @@ public class VendorInvoicesApi {
     /**
      * Sends a provider invoice.
      * Sends a provider invoice.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void send(Long invoiceId) throws ApiException {
@@ -1250,7 +1250,7 @@ public class VendorInvoicesApi {
     /**
      * Sends a provider invoice.
      * Sends a provider invoice.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1262,7 +1262,7 @@ public class VendorInvoicesApi {
     /**
      * Sends a provider invoice. (asynchronously)
      * Sends a provider invoice.
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1295,7 +1295,7 @@ public class VendorInvoicesApi {
     /**
      * Build call for setStatus
      * @param body Changed invoice status to given status. (required)
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1367,7 +1367,7 @@ public class VendorInvoicesApi {
      * Changes invoice status to given status.
      * Changes invoice status to given status.
      * @param body Changed invoice status to given status. (required)
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void setStatus(ProviderInvoiceCreateResultDTO body, Long invoiceId) throws ApiException {
@@ -1378,7 +1378,7 @@ public class VendorInvoicesApi {
      * Changes invoice status to given status.
      * Changes invoice status to given status.
      * @param body Changed invoice status to given status. (required)
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1391,7 +1391,7 @@ public class VendorInvoicesApi {
      * Changes invoice status to given status. (asynchronously)
      * Changes invoice status to given status.
      * @param body Changed invoice status to given status. (required)
-     * @param invoiceId provider invoice&#x27;s internal identifier (required)
+     * @param invoiceId provider invoices internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

@@ -314,7 +314,7 @@ public class ClientsApi {
     }
     /**
      * Build call for delete1
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -381,7 +381,7 @@ public class ClientsApi {
     /**
      * Removes a person.
      * Removes a person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete1(Long personId) throws ApiException {
@@ -391,7 +391,7 @@ public class ClientsApi {
     /**
      * Removes a person.
      * Removes a person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -403,7 +403,7 @@ public class ClientsApi {
     /**
      * Removes a person. (asynchronously)
      * Removes a person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -435,7 +435,7 @@ public class ClientsApi {
     }
     /**
      * Build call for delete1_0
-     * @param priceListId customer price list&#x27;s internal identifier (required)
+     * @param priceListId customer price lists internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -502,7 +502,7 @@ public class ClientsApi {
     /**
      * Removes a customer price list.
      * Removes a customer price list.
-     * @param priceListId customer price list&#x27;s internal identifier (required)
+     * @param priceListId customer price lists internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete1_0(Long priceListId) throws ApiException {
@@ -512,7 +512,7 @@ public class ClientsApi {
     /**
      * Removes a customer price list.
      * Removes a customer price list.
-     * @param priceListId customer price list&#x27;s internal identifier (required)
+     * @param priceListId customer price lists internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -524,7 +524,7 @@ public class ClientsApi {
     /**
      * Removes a customer price list. (asynchronously)
      * Removes a customer price list.
-     * @param priceListId customer price list&#x27;s internal identifier (required)
+     * @param priceListId customer price lists internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -556,7 +556,7 @@ public class ClientsApi {
     }
     /**
      * Build call for delete2
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -623,7 +623,7 @@ public class ClientsApi {
     /**
      * Removes a client.
      * Removes a client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete2(Long customerId) throws ApiException {
@@ -633,7 +633,7 @@ public class ClientsApi {
     /**
      * Removes a client.
      * Removes a client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -645,7 +645,7 @@ public class ClientsApi {
     /**
      * Removes a client. (asynchronously)
      * Removes a client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -742,7 +742,7 @@ public class ClientsApi {
 
     /**
      * Generates a single use sign-in token.
-     * Generates a single use sign-in token for the customer person found for given login or e-mail. Returns &#x27;url&#x27; and &#x27;token&#x27; which allows to sign-in to customer portal as this person. Token is valid for two minutes and can be used only once. To sign-in to customer portal you should post &#x27;token&#x27; provided as the &#x27;accessToken&#x27; form param to the &#x27;url&#x27; using POST method.Detailed description is available in the Customer API &lt;a href&#x3D;\&quot;/api-doc/customer-api/authentication\&quot;&gt;authentication&lt;/a&gt;.
+     * Generates a single use sign-in token for the customer person found for given login or e-mail. Returns url and token which allows to sign-in to customer portal as this person. Token is valid for two minutes and can be used only once. To sign-in to customer portal you should post token provided as the accessToken form param to the url using POST method.Detailed description is available in the Customer API &lt;a href&#x3D;\&quot;/api-doc/customer-api/authentication\&quot;&gt;authentication&lt;/a&gt;.
      * @param body Generated sign-in token. (required)
      * @return AccessTokenDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -754,7 +754,7 @@ public class ClientsApi {
 
     /**
      * Generates a single use sign-in token.
-     * Generates a single use sign-in token for the customer person found for given login or e-mail. Returns &#x27;url&#x27; and &#x27;token&#x27; which allows to sign-in to customer portal as this person. Token is valid for two minutes and can be used only once. To sign-in to customer portal you should post &#x27;token&#x27; provided as the &#x27;accessToken&#x27; form param to the &#x27;url&#x27; using POST method.Detailed description is available in the Customer API &lt;a href&#x3D;\&quot;/api-doc/customer-api/authentication\&quot;&gt;authentication&lt;/a&gt;.
+     * Generates a single use sign-in token for the customer person found for given login or e-mail. Returns url and token which allows to sign-in to customer portal as this person. Token is valid for two minutes and can be used only once. To sign-in to customer portal you should post token provided as the accessToken form param to the url using POST method.Detailed description is available in the Customer API &lt;a href&#x3D;\&quot;/api-doc/customer-api/authentication\&quot;&gt;authentication&lt;/a&gt;.
      * @param body Generated sign-in token. (required)
      * @return ApiResponse&lt;AccessTokenDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -767,7 +767,7 @@ public class ClientsApi {
 
     /**
      * Generates a single use sign-in token. (asynchronously)
-     * Generates a single use sign-in token for the customer person found for given login or e-mail. Returns &#x27;url&#x27; and &#x27;token&#x27; which allows to sign-in to customer portal as this person. Token is valid for two minutes and can be used only once. To sign-in to customer portal you should post &#x27;token&#x27; provided as the &#x27;accessToken&#x27; form param to the &#x27;url&#x27; using POST method.Detailed description is available in the Customer API &lt;a href&#x3D;\&quot;/api-doc/customer-api/authentication\&quot;&gt;authentication&lt;/a&gt;.
+     * Generates a single use sign-in token for the customer person found for given login or e-mail. Returns url and token which allows to sign-in to customer portal as this person. Token is valid for two minutes and can be used only once. To sign-in to customer portal you should post token provided as the accessToken form param to the url using POST method.Detailed description is available in the Customer API &lt;a href&#x3D;\&quot;/api-doc/customer-api/authentication\&quot;&gt;authentication&lt;/a&gt;.
      * @param body Generated sign-in token. (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -801,7 +801,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getAddress
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -868,7 +868,7 @@ public class ClientsApi {
     /**
      * Returns address of a given client.
      * Returns address of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return AddressDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -880,7 +880,7 @@ public class ClientsApi {
     /**
      * Returns address of a given client.
      * Returns address of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;AddressDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -893,7 +893,7 @@ public class ClientsApi {
     /**
      * Returns address of a given client. (asynchronously)
      * Returns address of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -988,8 +988,8 @@ public class ClientsApi {
     }
 
     /**
-     * Returns persons&#x27; internal identifiers.
-     * Returns persons&#x27; internal identifiers.
+     * Returns persons internal identifiers.
+     * Returns persons internal identifiers.
      * @param updatedSince only persons modified since this timestamp (optional)
      * @return List&lt;Integer&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1000,8 +1000,8 @@ public class ClientsApi {
     }
 
     /**
-     * Returns persons&#x27; internal identifiers.
-     * Returns persons&#x27; internal identifiers.
+     * Returns persons internal identifiers.
+     * Returns persons internal identifiers.
      * @param updatedSince only persons modified since this timestamp (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1013,8 +1013,8 @@ public class ClientsApi {
     }
 
     /**
-     * Returns persons&#x27; internal identifiers. (asynchronously)
-     * Returns persons&#x27; internal identifiers.
+     * Returns persons internal identifiers. (asynchronously)
+     * Returns persons internal identifiers.
      * @param updatedSince only persons modified since this timestamp (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -1113,8 +1113,8 @@ public class ClientsApi {
     }
 
     /**
-     * Returns clients&#x27; internal identifiers.
-     * Returns clients&#x27; internal identifiers.
+     * Returns clients internal identifiers.
+     * Returns clients internal identifiers.
      * @param updatedSince only clients modified since this timestamp (optional)
      * @param nameEquals exact name of client (optional)
      * @return List&lt;Integer&gt;
@@ -1126,8 +1126,8 @@ public class ClientsApi {
     }
 
     /**
-     * Returns clients&#x27; internal identifiers.
-     * Returns clients&#x27; internal identifiers.
+     * Returns clients internal identifiers.
+     * Returns clients internal identifiers.
      * @param updatedSince only clients modified since this timestamp (optional)
      * @param nameEquals exact name of client (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
@@ -1140,8 +1140,8 @@ public class ClientsApi {
     }
 
     /**
-     * Returns clients&#x27; internal identifiers. (asynchronously)
-     * Returns clients&#x27; internal identifiers.
+     * Returns clients internal identifiers. (asynchronously)
+     * Returns clients internal identifiers.
      * @param updatedSince only clients modified since this timestamp (optional)
      * @param nameEquals exact name of client (optional)
      * @param callback The callback to be executed when the API call finishes
@@ -1298,7 +1298,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getById1
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1365,7 +1365,7 @@ public class ClientsApi {
     /**
      * Returns person details.
      * Returns person details.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return CustomerPersonDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1377,7 +1377,7 @@ public class ClientsApi {
     /**
      * Returns person details.
      * Returns person details.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;CustomerPersonDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1390,7 +1390,7 @@ public class ClientsApi {
     /**
      * Returns person details. (asynchronously)
      * Returns person details.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1423,7 +1423,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getById2
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
@@ -1493,7 +1493,7 @@ public class ClientsApi {
     /**
      * Returns client details.
      * Returns client details.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @return CustomerDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1506,7 +1506,7 @@ public class ClientsApi {
     /**
      * Returns client details.
      * Returns client details.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @return ApiResponse&lt;CustomerDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1520,7 +1520,7 @@ public class ClientsApi {
     /**
      * Returns client details. (asynchronously)
      * Returns client details.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -1554,7 +1554,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getCategories
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1621,7 +1621,7 @@ public class ClientsApi {
     /**
      * Returns categories of a given client.
      * Returns categories of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return CategoriesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1633,7 +1633,7 @@ public class ClientsApi {
     /**
      * Returns categories of a given client.
      * Returns categories of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;CategoriesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1646,7 +1646,7 @@ public class ClientsApi {
     /**
      * Returns categories of a given client. (asynchronously)
      * Returns categories of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1679,7 +1679,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getContact
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1746,7 +1746,7 @@ public class ClientsApi {
     /**
      * Returns contact of a given person.
      * Returns contact of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return PersonContactDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1758,7 +1758,7 @@ public class ClientsApi {
     /**
      * Returns contact of a given person.
      * Returns contact of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;PersonContactDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1771,7 +1771,7 @@ public class ClientsApi {
     /**
      * Returns contact of a given person. (asynchronously)
      * Returns contact of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1804,7 +1804,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getContact1
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1871,7 +1871,7 @@ public class ClientsApi {
     /**
      * Returns contact of a given client.
      * Returns contact of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ContactDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1883,7 +1883,7 @@ public class ClientsApi {
     /**
      * Returns contact of a given client.
      * Returns contact of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;ContactDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1896,7 +1896,7 @@ public class ClientsApi {
     /**
      * Returns contact of a given client. (asynchronously)
      * Returns contact of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1929,7 +1929,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getCorrespondenceAddress
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1996,7 +1996,7 @@ public class ClientsApi {
     /**
      * Returns correspondence address of a given client.
      * Returns correspondence address of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return AddressDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2008,7 +2008,7 @@ public class ClientsApi {
     /**
      * Returns correspondence address of a given client.
      * Returns correspondence address of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;AddressDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2021,7 +2021,7 @@ public class ClientsApi {
     /**
      * Returns correspondence address of a given client. (asynchronously)
      * Returns correspondence address of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2054,8 +2054,8 @@ public class ClientsApi {
     }
     /**
      * Build call for getCustomField
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2127,8 +2127,8 @@ public class ClientsApi {
     /**
      * Returns custom field of a given client.
      * Returns custom field of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return CustomFieldDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2140,8 +2140,8 @@ public class ClientsApi {
     /**
      * Returns custom field of a given client.
      * Returns custom field of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return ApiResponse&lt;CustomFieldDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2154,8 +2154,8 @@ public class ClientsApi {
     /**
      * Returns custom field of a given client. (asynchronously)
      * Returns custom field of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2188,7 +2188,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getCustomFields
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2255,7 +2255,7 @@ public class ClientsApi {
     /**
      * Returns custom fields of a given person.
      * Returns custom fields of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2267,7 +2267,7 @@ public class ClientsApi {
     /**
      * Returns custom fields of a given person.
      * Returns custom fields of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2280,7 +2280,7 @@ public class ClientsApi {
     /**
      * Returns custom fields of a given person. (asynchronously)
      * Returns custom fields of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2313,7 +2313,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getCustomFields1
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2380,7 +2380,7 @@ public class ClientsApi {
     /**
      * Returns custom fields of a given client.
      * Returns custom fields of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2392,7 +2392,7 @@ public class ClientsApi {
     /**
      * Returns custom fields of a given client.
      * Returns custom fields of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2405,7 +2405,7 @@ public class ClientsApi {
     /**
      * Returns custom fields of a given client. (asynchronously)
      * Returns custom fields of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2438,7 +2438,7 @@ public class ClientsApi {
     }
     /**
      * Build call for getIndustries
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2505,7 +2505,7 @@ public class ClientsApi {
     /**
      * Returns industries of a given client.
      * Returns industries of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return IndustriesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2517,7 +2517,7 @@ public class ClientsApi {
     /**
      * Returns industries of a given client.
      * Returns industries of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;IndustriesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2530,7 +2530,7 @@ public class ClientsApi {
     /**
      * Returns industries of a given client. (asynchronously)
      * Returns industries of a given client.
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2564,7 +2564,7 @@ public class ClientsApi {
     /**
      * Build call for update
      * @param body Updated existing person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2636,7 +2636,7 @@ public class ClientsApi {
      * Updates an existing person.
      * Only specified fields will be changed. One may not specify embeddable fields here - use separate API calls for updating them.
      * @param body Updated existing person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return CustomerPersonDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2649,7 +2649,7 @@ public class ClientsApi {
      * Updates an existing person.
      * Only specified fields will be changed. One may not specify embeddable fields here - use separate API calls for updating them.
      * @param body Updated existing person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;CustomerPersonDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2663,7 +2663,7 @@ public class ClientsApi {
      * Updates an existing person. (asynchronously)
      * Only specified fields will be changed. One may not specify embeddable fields here - use separate API calls for updating them.
      * @param body Updated existing person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2697,7 +2697,7 @@ public class ClientsApi {
     /**
      * Build call for updateAddress
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2769,7 +2769,7 @@ public class ClientsApi {
      * Updates address of a given client.
      * Updates address of a given client.
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return AddressDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2782,7 +2782,7 @@ public class ClientsApi {
      * Updates address of a given client.
      * Updates address of a given client.
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;AddressDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2796,7 +2796,7 @@ public class ClientsApi {
      * Updates address of a given client. (asynchronously)
      * Updates address of a given client.
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2830,7 +2830,7 @@ public class ClientsApi {
     /**
      * Build call for updateCategories
      * @param body Updated categories of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -2902,7 +2902,7 @@ public class ClientsApi {
      * Updates categories of a given client.
      * Updates categories of a given client.
      * @param body Updated categories of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return CategoriesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2915,7 +2915,7 @@ public class ClientsApi {
      * Updates categories of a given client.
      * Updates categories of a given client.
      * @param body Updated categories of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;CategoriesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2929,7 +2929,7 @@ public class ClientsApi {
      * Updates categories of a given client. (asynchronously)
      * Updates categories of a given client.
      * @param body Updated categories of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2963,7 +2963,7 @@ public class ClientsApi {
     /**
      * Build call for updateContact
      * @param body Updated contact of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3035,7 +3035,7 @@ public class ClientsApi {
      * Updates contact of a given person.
      * Updates contact of a given person. Sets that this person uses specific address and contact (not the one from customer).
      * @param body Updated contact of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return PersonContactDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3048,7 +3048,7 @@ public class ClientsApi {
      * Updates contact of a given person.
      * Updates contact of a given person. Sets that this person uses specific address and contact (not the one from customer).
      * @param body Updated contact of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;PersonContactDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3062,7 +3062,7 @@ public class ClientsApi {
      * Updates contact of a given person. (asynchronously)
      * Updates contact of a given person. Sets that this person uses specific address and contact (not the one from customer).
      * @param body Updated contact of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3096,7 +3096,7 @@ public class ClientsApi {
     /**
      * Build call for updateContact_0
      * @param body Updated contact of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3168,7 +3168,7 @@ public class ClientsApi {
      * Updates contact of a given client.
      * Updates contact of a given client.
      * @param body Updated contact of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ContactDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3181,7 +3181,7 @@ public class ClientsApi {
      * Updates contact of a given client.
      * Updates contact of a given client.
      * @param body Updated contact of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;ContactDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3195,7 +3195,7 @@ public class ClientsApi {
      * Updates contact of a given client. (asynchronously)
      * Updates contact of a given client.
      * @param body Updated contact of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3229,7 +3229,7 @@ public class ClientsApi {
     /**
      * Build call for updateCorrespondenceAddress
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3301,7 +3301,7 @@ public class ClientsApi {
      * Updates correspondence address of a given client.
      * Updates correspondence address of a given client.
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return AddressDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3314,7 +3314,7 @@ public class ClientsApi {
      * Updates correspondence address of a given client.
      * Updates correspondence address of a given client.
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;AddressDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3328,7 +3328,7 @@ public class ClientsApi {
      * Updates correspondence address of a given client. (asynchronously)
      * Updates correspondence address of a given client.
      * @param body Updated address of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3362,8 +3362,8 @@ public class ClientsApi {
     /**
      * Build call for updateCustomField
      * @param body Updated custom field of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3440,8 +3440,8 @@ public class ClientsApi {
      * Updates given custom field of a given client.
      * Updates given custom field of a given client.
      * @param body Updated custom field of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return CustomFieldDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3454,8 +3454,8 @@ public class ClientsApi {
      * Updates given custom field of a given client.
      * Updates given custom field of a given client.
      * @param body Updated custom field of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @return ApiResponse&lt;CustomFieldDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3469,8 +3469,8 @@ public class ClientsApi {
      * Updates given custom field of a given client. (asynchronously)
      * Updates given custom field of a given client.
      * @param body Updated custom field of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
-     * @param customFieldKey custom field&#x27;s key (required)
+     * @param customerId clients internal identifier (required)
+     * @param customFieldKey custom fields key (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3504,7 +3504,7 @@ public class ClientsApi {
     /**
      * Build call for updateCustomFields
      * @param body Updated custom fields of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3576,7 +3576,7 @@ public class ClientsApi {
      * Updates custom fields of a given person.
      * Updates custom fields of a given person.
      * @param body Updated custom fields of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3589,7 +3589,7 @@ public class ClientsApi {
      * Updates custom fields of a given person.
      * Updates custom fields of a given person.
      * @param body Updated custom fields of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3603,7 +3603,7 @@ public class ClientsApi {
      * Updates custom fields of a given person. (asynchronously)
      * Updates custom fields of a given person.
      * @param body Updated custom fields of a given person. (required)
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3637,7 +3637,7 @@ public class ClientsApi {
     /**
      * Build call for updateCustomFields_0
      * @param body Updated custom fields of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3709,7 +3709,7 @@ public class ClientsApi {
      * Updates custom fields of a given client.
      * Updates custom fields of a given client.
      * @param body Updated custom fields of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3722,7 +3722,7 @@ public class ClientsApi {
      * Updates custom fields of a given client.
      * Updates custom fields of a given client.
      * @param body Updated custom fields of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3736,7 +3736,7 @@ public class ClientsApi {
      * Updates custom fields of a given client. (asynchronously)
      * Updates custom fields of a given client.
      * @param body Updated custom fields of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3770,7 +3770,7 @@ public class ClientsApi {
     /**
      * Build call for updateIndustries
      * @param body Updated industries of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3842,7 +3842,7 @@ public class ClientsApi {
      * Updates industries of a given client.
      * Updates industries of a given client.
      * @param body Updated industries of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return IndustriesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3855,7 +3855,7 @@ public class ClientsApi {
      * Updates industries of a given client.
      * Updates industries of a given client.
      * @param body Updated industries of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;IndustriesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3869,7 +3869,7 @@ public class ClientsApi {
      * Updates industries of a given client. (asynchronously)
      * Updates industries of a given client.
      * @param body Updated industries of a given client. (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3903,7 +3903,7 @@ public class ClientsApi {
     /**
      * Build call for update_0
      * @param body Updated client (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -3975,7 +3975,7 @@ public class ClientsApi {
      * Updates an existing client.
      * Only specified fields will be changed (id is required). One may not specify embeddable fields here - use separate API calls for updating them.
      * @param body Updated client (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return CustomerDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -3988,7 +3988,7 @@ public class ClientsApi {
      * Updates an existing client.
      * Only specified fields will be changed (id is required). One may not specify embeddable fields here - use separate API calls for updating them.
      * @param body Updated client (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @return ApiResponse&lt;CustomerDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -4002,7 +4002,7 @@ public class ClientsApi {
      * Updates an existing client. (asynchronously)
      * Only specified fields will be changed (id is required). One may not specify embeddable fields here - use separate API calls for updating them.
      * @param body Updated client (required)
-     * @param customerId client&#x27;s internal identifier (required)
+     * @param customerId clients internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

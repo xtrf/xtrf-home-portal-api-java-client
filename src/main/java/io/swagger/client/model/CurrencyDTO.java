@@ -25,7 +25,7 @@ import java.io.IOException;
  * medium of money exchange (ie. euro or dollar)
  */
 @Schema(description = "medium of money exchange (ie. euro or dollar)")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class CurrencyDTO {
   @SerializedName("id")
   private Long id = null;
@@ -72,7 +72,7 @@ public class CurrencyDTO {
   }
 
    /**
-   * localised name (formatted in the current user&#x27;s locale)
+   * localised name (formatted in the current users locale)
    * @return name
   **/
   @Schema(description = "localised name (formatted in the current user's locale)")

@@ -25,7 +25,7 @@ import java.io.IOException;
  * territorial unit within a country (ie. Nebraska)
  */
 @Schema(description = "territorial unit within a country (ie. Nebraska)")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class ProvinceDTO {
   @SerializedName("id")
   private Long id = null;
@@ -69,7 +69,7 @@ public class ProvinceDTO {
   }
 
    /**
-   * localised name (formatted in the current user&#x27;s locale)
+   * localised name (formatted in the current users locale)
    * @return name
   **/
   @Schema(description = "localised name (formatted in the current user's locale)")
@@ -123,7 +123,7 @@ public class ProvinceDTO {
   }
 
    /**
-   * country&#x27;s identifier
+   * countrys identifier
    * @return countryId
   **/
   @Schema(description = "country's identifier")

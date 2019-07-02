@@ -33,7 +33,7 @@ import java.util.List;
  * TaskDTO
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class TaskDTO {
   @SerializedName("id")
   private Long id = null;
@@ -113,7 +113,7 @@ public class TaskDTO {
   }
 
    /**
-   * project&#x27;s internal identifier
+   * projects internal identifier
    * @return projectId
   **/
   @Schema(description = "project's internal identifier")
@@ -131,7 +131,7 @@ public class TaskDTO {
   }
 
    /**
-   * quote&#x27;s internal identifier
+   * quotes internal identifier
    * @return quoteId
   **/
   @Schema(description = "quote's internal identifier")

@@ -189,7 +189,7 @@ public class ProjectsClassicApi {
     /**
      * Build call for createLanguageCombination
      * @param body Created language combination for a given project without creating a task. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -261,7 +261,7 @@ public class ProjectsClassicApi {
      * Creates a new language combination for a given project without creating a task.
      * Creates a new language combination for a given project without creating a task.
      * @param body Created language combination for a given project without creating a task. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return LanguageCombinationDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -274,7 +274,7 @@ public class ProjectsClassicApi {
      * Creates a new language combination for a given project without creating a task.
      * Creates a new language combination for a given project without creating a task.
      * @param body Created language combination for a given project without creating a task. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;LanguageCombinationDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -288,7 +288,7 @@ public class ProjectsClassicApi {
      * Creates a new language combination for a given project without creating a task. (asynchronously)
      * Creates a new language combination for a given project without creating a task.
      * @param body Created language combination for a given project without creating a task. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -322,7 +322,7 @@ public class ProjectsClassicApi {
     /**
      * Build call for createTask
      * @param body Created new task for a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -394,7 +394,7 @@ public class ProjectsClassicApi {
      * Creates a new task for a given project.
      * Creates a new task for a given project. Required fields are presented in the example.
      * @param body Created new task for a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return TaskDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -407,7 +407,7 @@ public class ProjectsClassicApi {
      * Creates a new task for a given project.
      * Creates a new task for a given project. Required fields are presented in the example.
      * @param body Created new task for a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;TaskDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -421,7 +421,7 @@ public class ProjectsClassicApi {
      * Creates a new task for a given project. (asynchronously)
      * Creates a new task for a given project. Required fields are presented in the example.
      * @param body Created new task for a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -454,7 +454,7 @@ public class ProjectsClassicApi {
     }
     /**
      * Build call for delete5
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -521,7 +521,7 @@ public class ProjectsClassicApi {
     /**
      * Removes a project.
      * Removes a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete5(String projectId) throws ApiException {
@@ -531,7 +531,7 @@ public class ProjectsClassicApi {
     /**
      * Removes a project.
      * Removes a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -543,7 +543,7 @@ public class ProjectsClassicApi {
     /**
      * Removes a project. (asynchronously)
      * Removes a project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -637,8 +637,8 @@ public class ProjectsClassicApi {
     }
 
     /**
-     * Returns projects&#x27; internal identifiers.
-     * Returns projects&#x27; internal identifiers.
+     * Returns projects internal identifiers.
+     * Returns projects internal identifiers.
      * @param updatedSince only projects modified since this timestamp (optional)
      * @return List&lt;Integer&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -649,8 +649,8 @@ public class ProjectsClassicApi {
     }
 
     /**
-     * Returns projects&#x27; internal identifiers.
-     * Returns projects&#x27; internal identifiers.
+     * Returns projects internal identifiers.
+     * Returns projects internal identifiers.
      * @param updatedSince only projects modified since this timestamp (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -662,8 +662,8 @@ public class ProjectsClassicApi {
     }
 
     /**
-     * Returns projects&#x27; internal identifiers. (asynchronously)
-     * Returns projects&#x27; internal identifiers.
+     * Returns projects internal identifiers. (asynchronously)
+     * Returns projects internal identifiers.
      * @param updatedSince only projects modified since this timestamp (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -697,7 +697,7 @@ public class ProjectsClassicApi {
     }
     /**
      * Build call for getById7
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
@@ -767,7 +767,7 @@ public class ProjectsClassicApi {
     /**
      * Returns project details.
      * Returns project details. If the specified project ID refers to Smart Project, 400 Bad Request is returned instead.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @return ProjectDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -780,7 +780,7 @@ public class ProjectsClassicApi {
     /**
      * Returns project details.
      * Returns project details. If the specified project ID refers to Smart Project, 400 Bad Request is returned instead.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @return ApiResponse&lt;ProjectDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -794,7 +794,7 @@ public class ProjectsClassicApi {
     /**
      * Returns project details. (asynchronously)
      * Returns project details. If the specified project ID refers to Smart Project, 400 Bad Request is returned instead.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. tasks) (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -828,7 +828,7 @@ public class ProjectsClassicApi {
     }
     /**
      * Build call for getContacts
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -895,7 +895,7 @@ public class ProjectsClassicApi {
     /**
      * Returns contacts of a given project.
      * Returns contacts of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -907,7 +907,7 @@ public class ProjectsClassicApi {
     /**
      * Returns contacts of a given project.
      * Returns contacts of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;ContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -920,7 +920,7 @@ public class ProjectsClassicApi {
     /**
      * Returns contacts of a given project. (asynchronously)
      * Returns contacts of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -953,7 +953,7 @@ public class ProjectsClassicApi {
     }
     /**
      * Build call for getCustomFields5
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1020,7 +1020,7 @@ public class ProjectsClassicApi {
     /**
      * Returns custom fields of a given project.
      * Returns custom fields of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1032,7 +1032,7 @@ public class ProjectsClassicApi {
     /**
      * Returns custom fields of a given project.
      * Returns custom fields of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1045,7 +1045,7 @@ public class ProjectsClassicApi {
     /**
      * Returns custom fields of a given project. (asynchronously)
      * Returns custom fields of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1078,7 +1078,7 @@ public class ProjectsClassicApi {
     }
     /**
      * Build call for getDates1
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1145,7 +1145,7 @@ public class ProjectsClassicApi {
     /**
      * Returns dates of a given project.
      * Returns dates of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ProjectDatesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1157,7 +1157,7 @@ public class ProjectsClassicApi {
     /**
      * Returns dates of a given project.
      * Returns dates of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;ProjectDatesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1170,7 +1170,7 @@ public class ProjectsClassicApi {
     /**
      * Returns dates of a given project. (asynchronously)
      * Returns dates of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1203,7 +1203,7 @@ public class ProjectsClassicApi {
     }
     /**
      * Build call for getFinance
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1270,7 +1270,7 @@ public class ProjectsClassicApi {
     /**
      * Returns finance of a given project.
      * Returns finance of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return FinanceDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1282,7 +1282,7 @@ public class ProjectsClassicApi {
     /**
      * Returns finance of a given project.
      * Returns finance of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;FinanceDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1295,7 +1295,7 @@ public class ProjectsClassicApi {
     /**
      * Returns finance of a given project. (asynchronously)
      * Returns finance of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1328,7 +1328,7 @@ public class ProjectsClassicApi {
     }
     /**
      * Build call for getInstructions
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1395,7 +1395,7 @@ public class ProjectsClassicApi {
     /**
      * Returns instructions of a given project.
      * Returns instructions of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return InstructionsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1407,7 +1407,7 @@ public class ProjectsClassicApi {
     /**
      * Returns instructions of a given project.
      * Returns instructions of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;InstructionsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1420,7 +1420,7 @@ public class ProjectsClassicApi {
     /**
      * Returns instructions of a given project. (asynchronously)
      * Returns instructions of a given project.
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1454,7 +1454,7 @@ public class ProjectsClassicApi {
     /**
      * Build call for updateContacts
      * @param body Updated contacts of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1526,7 +1526,7 @@ public class ProjectsClassicApi {
      * Updates contacts of a given project.
      * Updates contacts of a given project.
      * @param body Updated contacts of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ContactsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1539,7 +1539,7 @@ public class ProjectsClassicApi {
      * Updates contacts of a given project.
      * Updates contacts of a given project.
      * @param body Updated contacts of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;ContactsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1553,7 +1553,7 @@ public class ProjectsClassicApi {
      * Updates contacts of a given project. (asynchronously)
      * Updates contacts of a given project.
      * @param body Updated contacts of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1587,7 +1587,7 @@ public class ProjectsClassicApi {
     /**
      * Build call for updateCustomFields
      * @param body Updated custom fields of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1659,7 +1659,7 @@ public class ProjectsClassicApi {
      * Updates custom fields of a given project.
      * Updates custom fields of a given project.
      * @param body Updated custom fields of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1672,7 +1672,7 @@ public class ProjectsClassicApi {
      * Updates custom fields of a given project.
      * Updates custom fields of a given project.
      * @param body Updated custom fields of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1686,7 +1686,7 @@ public class ProjectsClassicApi {
      * Updates custom fields of a given project. (asynchronously)
      * Updates custom fields of a given project.
      * @param body Updated custom fields of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1720,7 +1720,7 @@ public class ProjectsClassicApi {
     /**
      * Build call for updateDates
      * @param body Updated dates of a given project.. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1792,7 +1792,7 @@ public class ProjectsClassicApi {
      * Updates dates of a given project.
      * Updates dates of a given project.
      * @param body Updated dates of a given project.. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ProjectDatesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1805,7 +1805,7 @@ public class ProjectsClassicApi {
      * Updates dates of a given project.
      * Updates dates of a given project.
      * @param body Updated dates of a given project.. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;ProjectDatesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1819,7 +1819,7 @@ public class ProjectsClassicApi {
      * Updates dates of a given project. (asynchronously)
      * Updates dates of a given project.
      * @param body Updated dates of a given project.. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1853,7 +1853,7 @@ public class ProjectsClassicApi {
     /**
      * Build call for updateInstructions
      * @param body Updated instructions of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1925,7 +1925,7 @@ public class ProjectsClassicApi {
      * Updates instructions of a given project.
      * Updates instructions of a given project.
      * @param body Updated instructions of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return InstructionsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1938,7 +1938,7 @@ public class ProjectsClassicApi {
      * Updates instructions of a given project.
      * Updates instructions of a given project.
      * @param body Updated instructions of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @return ApiResponse&lt;InstructionsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1952,7 +1952,7 @@ public class ProjectsClassicApi {
      * Updates instructions of a given project. (asynchronously)
      * Updates instructions of a given project.
      * @param body Updated instructions of a given project. (required)
-     * @param projectId project&#x27;s internal identifier (required)
+     * @param projectId projects internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

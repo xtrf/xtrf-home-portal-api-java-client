@@ -62,7 +62,7 @@ public class VendorsApi {
 
     /**
      * Build call for delete3
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -129,7 +129,7 @@ public class VendorsApi {
     /**
      * Removes a person.
      * Removes a person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete3(Long personId) throws ApiException {
@@ -139,7 +139,7 @@ public class VendorsApi {
     /**
      * Removes a person.
      * Removes a person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -151,7 +151,7 @@ public class VendorsApi {
     /**
      * Removes a person. (asynchronously)
      * Removes a person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -183,7 +183,7 @@ public class VendorsApi {
     }
     /**
      * Build call for delete3_0
-     * @param priceListId provider price list&#x27;s internal identifier (required)
+     * @param priceListId provider price lists internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -250,7 +250,7 @@ public class VendorsApi {
     /**
      * Removes a provider price list.
      * Removes a provider price list.
-     * @param priceListId provider price list&#x27;s internal identifier (required)
+     * @param priceListId provider price lists internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete3_0(Long priceListId) throws ApiException {
@@ -260,7 +260,7 @@ public class VendorsApi {
     /**
      * Removes a provider price list.
      * Removes a provider price list.
-     * @param priceListId provider price list&#x27;s internal identifier (required)
+     * @param priceListId provider price lists internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -272,7 +272,7 @@ public class VendorsApi {
     /**
      * Removes a provider price list. (asynchronously)
      * Removes a provider price list.
-     * @param priceListId provider price list&#x27;s internal identifier (required)
+     * @param priceListId provider price lists internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -304,7 +304,7 @@ public class VendorsApi {
     }
     /**
      * Build call for delete4
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -371,7 +371,7 @@ public class VendorsApi {
     /**
      * Removes a provider.
      * Removes a provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete4(Long providerId) throws ApiException {
@@ -381,7 +381,7 @@ public class VendorsApi {
     /**
      * Removes a provider.
      * Removes a provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -393,7 +393,7 @@ public class VendorsApi {
     /**
      * Removes a provider. (asynchronously)
      * Removes a provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -425,7 +425,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getAddress1
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -492,7 +492,7 @@ public class VendorsApi {
     /**
      * Returns address of a given provider.
      * Returns address of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return AddressDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -504,7 +504,7 @@ public class VendorsApi {
     /**
      * Returns address of a given provider.
      * Returns address of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ApiResponse&lt;AddressDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -517,7 +517,7 @@ public class VendorsApi {
     /**
      * Returns address of a given provider. (asynchronously)
      * Returns address of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -612,8 +612,8 @@ public class VendorsApi {
     }
 
     /**
-     * Returns persons&#x27; internal identifiers.
-     * Returns persons&#x27; internal identifiers.
+     * Returns persons internal identifiers.
+     * Returns persons internal identifiers.
      * @param updatedSince only persons modified since this timestamp (optional)
      * @return List&lt;Integer&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -624,8 +624,8 @@ public class VendorsApi {
     }
 
     /**
-     * Returns persons&#x27; internal identifiers.
-     * Returns persons&#x27; internal identifiers.
+     * Returns persons internal identifiers.
+     * Returns persons internal identifiers.
      * @param updatedSince only persons modified since this timestamp (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -637,8 +637,8 @@ public class VendorsApi {
     }
 
     /**
-     * Returns persons&#x27; internal identifiers. (asynchronously)
-     * Returns persons&#x27; internal identifiers.
+     * Returns persons internal identifiers. (asynchronously)
+     * Returns persons internal identifiers.
      * @param updatedSince only persons modified since this timestamp (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -734,8 +734,8 @@ public class VendorsApi {
     }
 
     /**
-     * Returns providers&#x27; internal identifiers.
-     * Returns providers&#x27; internal identifiers.
+     * Returns providers internal identifiers.
+     * Returns providers internal identifiers.
      * @param updatedSince only providers modified since this timestamp (optional)
      * @return List&lt;Integer&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -746,8 +746,8 @@ public class VendorsApi {
     }
 
     /**
-     * Returns providers&#x27; internal identifiers.
-     * Returns providers&#x27; internal identifiers.
+     * Returns providers internal identifiers.
+     * Returns providers internal identifiers.
      * @param updatedSince only providers modified since this timestamp (optional)
      * @return ApiResponse&lt;List&lt;Integer&gt;&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -759,8 +759,8 @@ public class VendorsApi {
     }
 
     /**
-     * Returns providers&#x27; internal identifiers. (asynchronously)
-     * Returns providers&#x27; internal identifiers.
+     * Returns providers internal identifiers. (asynchronously)
+     * Returns providers internal identifiers.
      * @param updatedSince only providers modified since this timestamp (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -794,7 +794,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getById4
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -861,7 +861,7 @@ public class VendorsApi {
     /**
      * Returns person details.
      * Returns person details.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ProviderPersonDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -873,7 +873,7 @@ public class VendorsApi {
     /**
      * Returns person details.
      * Returns person details.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;ProviderPersonDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -886,7 +886,7 @@ public class VendorsApi {
     /**
      * Returns person details. (asynchronously)
      * Returns person details.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -919,7 +919,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getById5
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
@@ -989,7 +989,7 @@ public class VendorsApi {
     /**
      * Returns provider details.
      * Returns provider details.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @return ProviderDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1002,7 +1002,7 @@ public class VendorsApi {
     /**
      * Returns provider details.
      * Returns provider details.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @return ApiResponse&lt;ProviderDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -1016,7 +1016,7 @@ public class VendorsApi {
     /**
      * Returns provider details. (asynchronously)
      * Returns provider details.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param embed list of adittional fields which should be embedded in the response (ie. persons) (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
@@ -1050,7 +1050,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getCompetencies
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1117,7 +1117,7 @@ public class VendorsApi {
     /**
      * Returns competencies of a given provider.
      * Returns competencies of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return CompetenciesDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1129,7 +1129,7 @@ public class VendorsApi {
     /**
      * Returns competencies of a given provider.
      * Returns competencies of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ApiResponse&lt;CompetenciesDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1142,7 +1142,7 @@ public class VendorsApi {
     /**
      * Returns competencies of a given provider. (asynchronously)
      * Returns competencies of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1175,7 +1175,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getContact2
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1242,7 +1242,7 @@ public class VendorsApi {
     /**
      * Returns contact of a given person.
      * Returns contact of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return PersonContactDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1254,7 +1254,7 @@ public class VendorsApi {
     /**
      * Returns contact of a given person.
      * Returns contact of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;PersonContactDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1267,7 +1267,7 @@ public class VendorsApi {
     /**
      * Returns contact of a given person. (asynchronously)
      * Returns contact of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1300,7 +1300,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getContact3
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1367,7 +1367,7 @@ public class VendorsApi {
     /**
      * Returns contact of a given provider.
      * Returns contact of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ContactDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1379,7 +1379,7 @@ public class VendorsApi {
     /**
      * Returns contact of a given provider.
      * Returns contact of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ApiResponse&lt;ContactDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1392,7 +1392,7 @@ public class VendorsApi {
     /**
      * Returns contact of a given provider. (asynchronously)
      * Returns contact of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1425,7 +1425,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getCorrespondenceAddress1
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1492,7 +1492,7 @@ public class VendorsApi {
     /**
      * Returns correspondence address of a given provider.
      * Returns correspondence address of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return AddressDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1504,7 +1504,7 @@ public class VendorsApi {
     /**
      * Returns correspondence address of a given provider.
      * Returns correspondence address of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ApiResponse&lt;AddressDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1517,7 +1517,7 @@ public class VendorsApi {
     /**
      * Returns correspondence address of a given provider. (asynchronously)
      * Returns correspondence address of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1550,7 +1550,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getCustomFields2
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1617,7 +1617,7 @@ public class VendorsApi {
     /**
      * Returns custom fields of a given person.
      * Returns custom fields of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1629,7 +1629,7 @@ public class VendorsApi {
     /**
      * Returns custom fields of a given person.
      * Returns custom fields of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1642,7 +1642,7 @@ public class VendorsApi {
     /**
      * Returns custom fields of a given person. (asynchronously)
      * Returns custom fields of a given person.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1675,7 +1675,7 @@ public class VendorsApi {
     }
     /**
      * Build call for getCustomFields3
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1742,7 +1742,7 @@ public class VendorsApi {
     /**
      * Returns custom fields of a given provider.
      * Returns custom fields of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return CustomFieldsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1754,7 +1754,7 @@ public class VendorsApi {
     /**
      * Returns custom fields of a given provider.
      * Returns custom fields of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ApiResponse&lt;CustomFieldsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1767,7 +1767,7 @@ public class VendorsApi {
     /**
      * Returns custom fields of a given provider. (asynchronously)
      * Returns custom fields of a given provider.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1800,7 +1800,7 @@ public class VendorsApi {
     }
     /**
      * Build call for sendInvitations
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1867,7 +1867,7 @@ public class VendorsApi {
     /**
      * Sends invitation to Vendor Portal.
      * Sends invitation to Vendor Portal.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return InvitationStatisticsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1879,7 +1879,7 @@ public class VendorsApi {
     /**
      * Sends invitation to Vendor Portal.
      * Sends invitation to Vendor Portal.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @return ApiResponse&lt;InvitationStatisticsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -1892,7 +1892,7 @@ public class VendorsApi {
     /**
      * Sends invitation to Vendor Portal. (asynchronously)
      * Sends invitation to Vendor Portal.
-     * @param personId person&#x27;s internal identifier (required)
+     * @param personId persons internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -1925,7 +1925,7 @@ public class VendorsApi {
     }
     /**
      * Build call for sendInvitations1
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -1992,7 +1992,7 @@ public class VendorsApi {
     /**
      * Sends invitations to Vendor Portal.
      * Sends invitations to Vendor Portal.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return InvitationStatisticsDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2004,7 +2004,7 @@ public class VendorsApi {
     /**
      * Sends invitations to Vendor Portal.
      * Sends invitations to Vendor Portal.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @return ApiResponse&lt;InvitationStatisticsDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -2017,7 +2017,7 @@ public class VendorsApi {
     /**
      * Sends invitations to Vendor Portal. (asynchronously)
      * Sends invitations to Vendor Portal.
-     * @param providerId provider&#x27;s internal identifier (required)
+     * @param providerId providers internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object

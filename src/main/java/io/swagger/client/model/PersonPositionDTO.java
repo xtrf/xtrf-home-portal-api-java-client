@@ -22,10 +22,10 @@ import com.google.gson.stream.JsonWriter;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.io.IOException;
 /**
- * person&#x27;s position (ie. proofreader)
+ * persons position (ie. proofreader)
  */
 @Schema(description = "person's position (ie. proofreader)")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2019-07-02T16:14:58.802Z[GMT]")
+
 public class PersonPositionDTO {
   @SerializedName("id")
   private Long id = null;
@@ -66,7 +66,7 @@ public class PersonPositionDTO {
   }
 
    /**
-   * localised name (formatted in the current user&#x27;s locale)
+   * localised name (formatted in the current users locale)
    * @return name
   **/
   @Schema(description = "localised name (formatted in the current user's locale)")

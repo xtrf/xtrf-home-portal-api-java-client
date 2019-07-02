@@ -59,7 +59,7 @@ public class ReportsApi {
 
     /**
      * Build call for delete4
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -126,7 +126,7 @@ public class ReportsApi {
     /**
      * Removes a report.
      * Removes a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void delete4(Long reportId) throws ApiException {
@@ -136,7 +136,7 @@ public class ReportsApi {
     /**
      * Removes a report.
      * Removes a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -148,7 +148,7 @@ public class ReportsApi {
     /**
      * Removes a report. (asynchronously)
      * Removes a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -180,7 +180,7 @@ public class ReportsApi {
     }
     /**
      * Build call for duplicate1
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -247,7 +247,7 @@ public class ReportsApi {
     /**
      * Duplicates a report.
      * Duplicates a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void duplicate1(Long reportId) throws ApiException {
@@ -257,7 +257,7 @@ public class ReportsApi {
     /**
      * Duplicates a report.
      * Duplicates a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -269,7 +269,7 @@ public class ReportsApi {
     /**
      * Duplicates a report. (asynchronously)
      * Duplicates a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -425,7 +425,7 @@ public class ReportsApi {
     }
     /**
      * Build call for generateCSV
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -492,7 +492,7 @@ public class ReportsApi {
     /**
      * Generates CSV content for a report.
      * Generates CSV content for a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @return ReportResultDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -504,7 +504,7 @@ public class ReportsApi {
     /**
      * Generates CSV content for a report.
      * Generates CSV content for a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @return ApiResponse&lt;ReportResultDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -517,7 +517,7 @@ public class ReportsApi {
     /**
      * Generates CSV content for a report. (asynchronously)
      * Generates CSV content for a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -550,7 +550,7 @@ public class ReportsApi {
     }
     /**
      * Build call for generatePrinterFriendly
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -617,7 +617,7 @@ public class ReportsApi {
     /**
      * Generates printer friendly content for a report.
      * Generates printer friendly content for a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @return ReportResultDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -629,7 +629,7 @@ public class ReportsApi {
     /**
      * Generates printer friendly content for a report.
      * Generates printer friendly content for a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @return ApiResponse&lt;ReportResultDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -642,7 +642,7 @@ public class ReportsApi {
     /**
      * Generates printer friendly content for a report. (asynchronously)
      * Generates printer friendly content for a report.
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -800,7 +800,7 @@ public class ReportsApi {
     /**
      * Build call for setPreferred
      * @param body Marked report as preferred or not. (required)
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param progressListener Progress listener
      * @param progressRequestListener Progress request listener
      * @return Call to execute
@@ -872,7 +872,7 @@ public class ReportsApi {
      * Marks report as preferred or not.
      * Marks report as preferred or not.
      * @param body Marked report as preferred or not. (required)
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
     public void setPreferred(PreferredRequestDTO body, Long reportId) throws ApiException {
@@ -883,7 +883,7 @@ public class ReportsApi {
      * Marks report as preferred or not.
      * Marks report as preferred or not.
      * @param body Marked report as preferred or not. (required)
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
@@ -896,7 +896,7 @@ public class ReportsApi {
      * Marks report as preferred or not. (asynchronously)
      * Marks report as preferred or not.
      * @param body Marked report as preferred or not. (required)
-     * @param reportId report&#x27;s internal identifier (required)
+     * @param reportId reports internal identifier (required)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
