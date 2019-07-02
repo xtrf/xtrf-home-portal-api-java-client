@@ -4,14 +4,14 @@
   <artifactId>swagger-java-client</artifactId>
   <packaging>jar</packaging>
   <name>swagger-java-client</name>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <url>https://github.com/swagger-api/swagger-codegen</url>
   <description>Swagger Java</description>
     <scm>
         <connection>scm:git:ssh://10.111.5.114:29418/xtrf-rest-swagger-client</connection>
         <developerConnection>scm:git:ssh://10.111.5.114:29418/xtrf-rest-swagger-client
         </developerConnection>
-        <tag>swagger-java-client-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
