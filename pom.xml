@@ -15,18 +15,12 @@
     </scm>
 
     <distributionManagement>
-        <repository>
-            <id>euteCert-repo</id>
-            <name>euteCERT central repository</name>
-            <url>http://repo.dev.xtrf.eu/nexus/content/repositories/releases</url>
-            <uniqueVersion>false</uniqueVersion>
-        </repository>
-        <snapshotRepository>
-            <id>euteCert-snapshots</id>
-            <name>euteCERT development repository</name>
-            <url>http://repo.dev.xtrf.eu/nexus/content/repositories/snapshots</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
+		<repository>
+			<id>xtrf-libs-master</id>
+			<name>XTRF Libs </name>
+			<url>https://repo.dev.xtrf.eu/nexus/repository/xtrf-libs/</url>
+			<uniqueVersion>false</uniqueVersion>
+		</repository>
         <site>
             <id>euteCert</id>
             <url>file://${user.home}/sites/${project.artifactId}/${project.version}</url>
