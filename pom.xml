@@ -16,10 +16,6 @@
     </repository>
   </distributionManagement>
 	
-  <prerequisites>
-    <maven>2.2.0</maven>
-  </prerequisites>
-
   <licenses>
     <license>
       <name>Unlicense</name>
