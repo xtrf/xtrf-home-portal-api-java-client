@@ -7,6 +7,15 @@
   <version>1.0.1-SNAPSHOT</version>
   <url>https://github.com/swagger-api/swagger-codegen</url>
   <description>XTRF Home Portal API Client for Java</description>
+	
+    <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/xtrf/xtrf-api-java-client</url>
+    </repository>
+  </distributionManagement>
+	
   <prerequisites>
     <maven>2.2.0</maven>
   </prerequisites>
