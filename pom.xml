@@ -1,45 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.swagger</groupId>
-  <artifactId>swagger-java-client</artifactId>
+  <groupId>eu.xtrf</groupId>
+  <artifactId>xtrf-api-java-client</artifactId>
   <packaging>jar</packaging>
-  <name>swagger-java-client</name>
+  <name>xtrf-api-java-client</name>
   <version>1.0.1-SNAPSHOT</version>
   <url>https://github.com/swagger-api/swagger-codegen</url>
-  <description>Swagger Java</description>
-    <scm>
-        <connection>scm:git:ssh://10.111.5.114:29418/xtrf-rest-swagger-client</connection>
-        <developerConnection>scm:git:ssh://10.111.5.114:29418/xtrf-rest-swagger-client
-        </developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
-    <distributionManagement>
-		<repository>
-			<id>xtrf-libs-master</id>
-			<name>XTRF Libs </name>
-			<url>https://repo.dev.xtrf.eu/nexus/repository/xtrf-libs/</url>
-			<uniqueVersion>false</uniqueVersion>
-		</repository>
-        <site>
-            <id>euteCert</id>
-            <url>file://${user.home}/sites/${project.artifactId}/${project.version}</url>
-        </site>
-    </distributionManagement>
-
-        <repositories>
-        <repository>
-            <id>euteCert-repo</id>
-            <name>euteCert release repository</name>
-            <url>http://repo.dev.xtrf.eu/nexus/content/groups/public</url>
-            <releases>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            <snapshots>
-                <updatePolicy>never</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
+  <description>XTRF Home Portal API Client for Java</description>
   <prerequisites>
     <maven>2.2.0</maven>
   </prerequisites>
@@ -58,6 +25,12 @@
       <email>apiteam@swagger.io</email>
       <organization>Swagger</organization>
       <organizationUrl>http://swagger.io</organizationUrl>
+    </developer>
+    <developer>
+     <name>XTRF Management Systems S.A.</name>
+     <email>xtrf@xtrf.eu</email>
+     <organization>XTRF Management System S.A.</organization>
+     <organizationUrl>https://www.xtrf.eu</organizationUrl>
     </developer>
   </developers>
 
@@ -185,19 +158,6 @@
           </execution>
         </executions>
       </plugin>
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-javadoc-plugin</artifactId>-->
-<!--        <version>2.10.4</version>-->
-<!--        <executions>-->
-<!--          <execution>-->
-<!--            <id>attach-javadocs</id>-->
-<!--            <goals>-->
-<!--              <goal>jar</goal>-->
-<!--            </goals>-->
-<!--          </execution>-->
-<!--        </executions>-->
-<!--      </plugin>-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
