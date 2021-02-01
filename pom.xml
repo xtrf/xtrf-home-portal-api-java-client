@@ -5,7 +5,7 @@
     <artifactId>xtrf-home-portal-api-java-client</artifactId>
     <packaging>jar</packaging>
     <name>xtrf-home-portal-api-java-client</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <url>https://github.com/swagger-api/swagger-codegen</url>
     <description>XTRF Home Portal API Client for Java</description>
     <repositories>
